@@ -1,0 +1,7 @@
+[Added Associations]
+application/pdf=zathura-2.desktop;zathura.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-2.desktop;libreoffice.desktop;
+
+[Default Applications]
+application/pdf=zathura-2.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-2.desktop;

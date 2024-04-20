@@ -1,0 +1,6 @@
+2024/04/15-23:09:55.876 4c0f Reusing MANIFEST /home/amy/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/04/15-23:09:55.877 4c0f Recovering log #4
+2024/04/15-23:09:55.877 4c0f Reusing old log /home/amy/.config/discord/Local Storage/leveldb/000004.log 
+2024/04/15-23:12:30.860 4c10 Level-0 table #8: started
+2024/04/15-23:12:30.872 4c10 Level-0 table #8: 767906 bytes OK
+2024/04/15-23:12:30.875 4c10 Delete type=0 #4

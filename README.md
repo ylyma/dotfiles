@@ -2,18 +2,18 @@
 
 ## to use on new machine
 
-- clone repo into home directory
+1. clone repo into home directory
 ```
 git clone https://github.com/ylyma/dotfiles.git
 ```
 
-- go into `dotfiles`
+2. go into `dotfiles`
 ```
 cd ~/dotfiles/
 ```
-- make `symlinks.sh` executable
+3. make `makesymlinks.sh` executable
 ```
-chmod u+x symlinks.sh
+chmod u+x makesymlinks.sh
 ./symlinks.sh
 ```
 

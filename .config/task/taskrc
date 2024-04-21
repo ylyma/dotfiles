@@ -38,36 +38,93 @@ include dark-16.theme
 #include solarized-dark-256.theme
 #include solarized-light-256.theme
 #include no-color.theme
-uda.taskwarrior-tui.keyconfig.quit=q
-uda.taskwarrior-tui.keyconfig.refresh=r
-uda.taskwarrior-tui.keyconfig.go-to-bottom=G
-uda.taskwarrior-tui.keyconfig.go-to-top=g
-uda.taskwarrior-tui.keyconfig.down=j
-uda.taskwarrior-tui.keyconfig.up=k
-uda.taskwarrior-tui.keyconfig.page-down=J
-uda.taskwarrior-tui.keyconfig.page-up=K
-uda.taskwarrior-tui.keyconfig.delete=x
-uda.taskwarrior-tui.keyconfig.done=d
-uda.taskwarrior-tui.keyconfig.start-stop=s
-uda.taskwarrior-tui.keyconfig.quick-tag=t
-uda.taskwarrior-tui.keyconfig.undo=u
-uda.taskwarrior-tui.keyconfig.edit=e
-uda.taskwarrior-tui.keyconfig.modify=m
-uda.taskwarrior-tui.keyconfig.shell=!
-uda.taskwarrior-tui.keyconfig.log=l
-uda.taskwarrior-tui.keyconfig.add=a
-uda.taskwarrior-tui.keyconfig.annotate=A
-uda.taskwarrior-tui.keyconfig.filter=/
-uda.taskwarrior-tui.keyconfig.zoom=z
-uda.taskwarrior-tui.keyconfig.context-menu=c
-uda.taskwarrior-tui.keyconfig.next-tab=]
-uda.taskwarrior-tui.keyconfig.previous-tab=[
+
+alias.W=project:work
+alias.S=project:school
+alias.P=project:personal
+alias.I=project:idea
+alias.G=project:github
+
+urgency.uda.project.idea.coefficient=-3.0
+
+alias.rr=recur: until: 
+
+alias.ne=priority:N # none, non-essential, negligible, etc.
+alias.lo=priority:L
+alias.md=priority:M
+alias.hi=priority:H
+
+uda.priority.values=H,M,,L,N
+recurrence.limit=0
+urgency.uda.priority.H.coefficient=4.2
+urgency.uda.priority.M.coefficient=2.1
+urgency.uda.priority.L.coefficient=-1.8
+urgency.uda.priority.N.coefficient=-3.6
+
+include ~/dotfiles/.config/task/task.theme
+color.uda.priority.H=rgb450
+color.uda.priority.M=rgb520
+color.uda.priority.L=rgb040
+color.due=rgb420
+color.due.today=rgb430
+color.overdue=rgb440
+color.scheduled=rgb033
+
+report.brief.columns=due.relative,id,description.truncated,urgency
+report.brief.filter=+READY
+report.brief.sort=urgency-
+
+report.next.description=List of tasks that could be started
+report.next.columns=id,depends,priority,project,tags,recur.indicator,scheduled.remaining,due.relative,until.remaining,description,urgency
+report.next.labels=ID,Deps,P,Project,Tag,R,S,Due,Until,Description,Urg
+
+report.ready.columns=id,start.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.remaining,due.relative,until.remaining,description,urgency
+report.ready.labels=ID,Act,D,P,Project,Tags,R,S,Due,Until,Description,Urg
+
+report.recurring.columns=id,start.age,entry.age,depends.indicator,priority,parent.short,project,recur,due,until,description,urgency
+report.recurring.labels=ID,Active,Age,D,P,Parent,Project,Recur,Due,Until,Description,Urg
+report.recurring.sort=until-,parent,recur-,due
+
+report.undone.description=List of tasks that are not done
+report.undone.filter=status:pending or status:waiting
+report.undone.columns=id,wait.remaining,scheduled.remaining,due.relative,depends,description,urgency,priority,project,tags
+report.undone.labels=ID,Wait,Schd,Due,Dep,Description,Urgent,P,Proj,Tag
+report.undone.sort=urgency-
+
 news.version=2.6.0
 
 weekstart=Monday
-displayweeknumber=0
+displayweeknumber=1
 editor=nvim
-include holidays.en-US.rc
 calendar.details=full
 calendar.holidays=full
+
+# Bugwarrior UDAs
+uda.githubtitle.type=string
+uda.githubtitle.label=Github Title
+uda.githubbody.type=string
+uda.githubbody.label=Github Body
+uda.githubcreatedon.type=date
+uda.githubcreatedon.label=Github Created
+uda.githubupdatedat.type=date
+uda.githubupdatedat.label=Github Updated
+uda.githubclosedon.type=date
+uda.githubclosedon.label=GitHub Closed
+uda.githubmilestone.type=string
+uda.githubmilestone.label=Github Milestone
+uda.githubrepo.type=string
+uda.githubrepo.label=Github Repo Slug
+uda.githuburl.type=string
+uda.githuburl.label=Github URL
+uda.githubtype.type=string
+uda.githubtype.label=Github Type
+uda.githubnumber.type=numeric
+uda.githubnumber.label=Github Issue/PR #
+uda.githubuser.type=string
+uda.githubuser.label=Github User
+uda.githubnamespace.type=string
+uda.githubnamespace.label=Github Namespace
+uda.githubstate.type=string
+uda.githubstate.label=GitHub State
+# END Bugwarrior UDAs
 

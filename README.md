@@ -1,6 +1,7 @@
 # dotfiles
+my backup
 
-## to use on new machine
+## to use
 
 1. clone repo into home directory
 ```
@@ -13,7 +14,7 @@ cd ~/dotfiles/
 ```
 3. make `makesymlinks.sh` executable
 ```
-chmod u+x makesymlinks.sh
+chmod +x makesymlinks.sh
 ./symlinks.sh
 ```
 

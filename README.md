@@ -12,9 +12,9 @@ git clone https://github.com/ylyma/dotfiles.git
 ```
 cd ~/dotfiles/
 ```
-3. make `makesymlinks.sh` executable
+3. make `init.sh` executable & execute
 ```
 chmod +x makesymlinks.sh
-./symlinks.sh
+./init.sh
 ```
 

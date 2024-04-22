@@ -1,17 +1,17 @@
 ## qutebrowser config.py
 
 from typing import TYPE_CHECKING, Any
-
+import catppuccin
 from qutebrowser.api import interceptor
 
 if TYPE_CHECKING:
     c: Any = object
     config: Any = object
 
-config.load_autoconfig(False)
+config.load_autoconfig()
 
 # ui
-config.source("gruvbox.py")
+catppuccin.setup(c, 'mocha', True)
 c.colors.webpage.preferred_color_scheme = "dark"
 c.completion.shrink = True
 c.completion.use_best_match = True
@@ -104,6 +104,5 @@ def filter_youtube(info: interceptor.Request):
         and "&adformat=" in url.query()
     ):
         info.block
-
 
 interceptor.register(filter_youtube)

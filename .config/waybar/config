@@ -2,7 +2,7 @@
     "position": "top", 
     //"height": 30,
     "modules-left": ["hyprland/workspaces"],
-    "modules-right": ["network", "pulseaudio", "battery", "custom/date", "clock", "custom/power"],
+    "modules-right": ["network", "pulseaudio", "battery", "custom/date", "clock", "custom/reboot", "custom/power"],
     // Modules configuration
 	"hyprland/workspaces": {
 		"disable-scroll": true,
@@ -19,25 +19,22 @@
 	 		"8": [],
 	 		"9": [],
 	 		"10": []
+		},
 	},
-         	"format-icons": {
-             		"1": "󰋜",
-             		"2": "󰖟",
-             		"3": "󰠮",
-             		"4": "󰭹",
-             		"5": "󱓷",
-             		"6": "󱇧",
-             		"7": "󰊢",
-             		"8": "󰖲",
-             		"9": "󰕧",
-             		"10": "󰝚"
-         }
-     },
 	"custom/date": {
     		"format": "󰸗 {}",
 		"interval": 3600,
 		"exec": "$HOME/.config/waybar/scripts/date.sh"
 	},
+	"custom/reboot": {
+		"format": "󰜉",
+		"on-click": "$HOME/.config/waybar/scripts/reboot.sh"
+	},
+	"custom/power": {
+		"format": "󰐥",
+		"on-click": "$HOME/.config/waybar/scripts/poweroff.sh"
+	},
+
 	"clock": {
 		"format": "󰅐 {:%H:%M}",
         	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",

@@ -89,7 +89,7 @@ P.S. You can delete this when you're done too. It's your config now! :)
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-
+vim.opt.hidden = true
 -- Set to true if you have a Nerd Font installed
 vim.g.have_nerd_font = true
 
@@ -159,10 +159,22 @@ vim.opt.scrolloff = 10
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
+--  Open mini.files
+vim.keymap.set('n', '<leader>pv', ':lua MiniFiles.open()<Return>')
+--  Switch between buffers
+vim.keymap.set('n', '<leader>bn', ':bn<Return>')
+vim.keymap.set('n', '<leader>bp', ':bp<Return>')
+--  'Tab' tabs the entire line
+vim.keymap.set('n', '<S-Tab>', '<<')
+vim.keymap.set('n', '<Tab>', '>>')
+vim.keymap.set('i', '<S-Tab>', '<C-d>')
+vim.keymap.set('i', '<Tab>', '<C-t>')
+-- [T]oggle debug [p]rints
+vim.keymap.set('n', '<leader>td', ':ToggleCommentDebugPrints<Return>')
+-- [D]elete debug [p]rints
+vim.keymap.set('n', '<leader>dp', ':DeleteDebugPrints<Return>')
 -- Keybind for :Explore
-vim.keymap.set('n', '<leader>pv', ':Explore<Return>')
--- Toggle Neotree
-vim.keymap.set('n', '<C-b>', ':Neotree toggle<Return>')
+-- vim.keymap.set('n', '<leader>pv', ':Explore<Return>')
 -- Set kj to change modes
 vim.keymap.set({ 'i', 'v' }, 'kj', '<esc>')
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
@@ -647,11 +659,11 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
-        -- python = { "isort", "black" },
+        python = { 'isort', 'black' },
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.
-        -- javascript = { { "prettierd", "prettier" } },
+        javascript = { { 'prettierd', 'prettier' } },
       },
     },
   },
@@ -784,6 +796,7 @@ require('lazy').setup({
   { -- Collection of various small independent plugins/modules
     'echasnovski/mini.nvim',
     config = function()
+      require('mini.files').setup()
       -- Better Around/Inside textobjects
       --
       -- Examples:
@@ -858,9 +871,9 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  -- require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
-  -- require 'kickstart.plugins.lint',
+  require 'kickstart.plugins.debug',
+  require 'kickstart.plugins.indent_line',
+  require 'kickstart.plugins.lint',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

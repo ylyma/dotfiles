@@ -8,6 +8,17 @@ config_version: 2
 settings:
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
+  fileselect.folder.command:
+    global:
+    - thunar
+  fileselect.handler:
+    global: default
+  fileselect.multiple_files.command:
+    global:
+    - thunar
+  fileselect.single_file.command:
+    global:
+    - thunar
   statusbar.show:
     global: always
   tabs.show:

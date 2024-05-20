@@ -157,18 +157,35 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+vim.api.nvim_create_autocmd({ 'FIleType' }, { pattern = 'tex', group = optional_group, command = 'TSBufDisable highlight' })
+
+vim.cmd [[
+" Use Tab to expand and jump through snippets
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+smap <silent><expr> <Tab> luasnip#jumpable(1) ? '<Plug>luasnip-jump-next' : '<Tab>'
+
+" Use Shift-Tab to jump backwards through snippets
+imap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
+smap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
+
+" Cycle forward through choice nodes with Control-f (for example)
+imap <silent><expr> <C-f> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-f>'
+smap <silent><expr> <C-f> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-f>'
+]]
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
+--  Traverse quickfix list
+vim.keymap.set('n', ']q', ':cn<Return>')
+vim.keymap.set('n', '[q', ':cp<Return>')
 --  Open mini.files
 vim.keymap.set('n', '<leader>pv', ':lua MiniFiles.open()<Return>')
 --  Switch between buffers
 vim.keymap.set('n', '<leader>bn', ':bn<Return>')
 vim.keymap.set('n', '<leader>bp', ':bp<Return>')
+vim.keymap.set('n', '<leader>bd', ':bd<Return>')
 --  'Tab' tabs the entire line
 vim.keymap.set('n', '<S-Tab>', '<<')
 vim.keymap.set('n', '<Tab>', '>>')
-vim.keymap.set('i', '<S-Tab>', '<C-d>')
-vim.keymap.set('i', '<Tab>', '<C-t>')
 -- [T]oggle debug [p]rints
 vim.keymap.set('n', '<leader>td', ':ToggleCommentDebugPrints<Return>')
 -- [D]elete debug [p]rints
@@ -176,7 +193,7 @@ vim.keymap.set('n', '<leader>dp', ':DeleteDebugPrints<Return>')
 -- Keybind for :Explore
 -- vim.keymap.set('n', '<leader>pv', ':Explore<Return>')
 -- Set kj to change modes
-vim.keymap.set({ 'i', 'v' }, 'kj', '<esc>')
+vim.keymap.set({ 'i', 'v', 'x' }, 'kj', '<esc>')
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
@@ -212,7 +229,6 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
-
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
 --  See `:help vim.highlight.on_yank()`
@@ -574,7 +590,7 @@ require('lazy').setup({
             },
           },
         },
-        -- rust_analyzer = {},
+        rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -688,16 +704,15 @@ require('lazy').setup({
           -- `friendly-snippets` contains a variety of premade snippets.
           --    See the README about individual language/framework/plugin snippets:
           --    https://github.com/rafamadriz/friendly-snippets
-          -- {
-          --   'rafamadriz/friendly-snippets',
-          --   config = function()
-          --     require('luasnip.loaders.from_vscode').lazy_load()
-          --   end,
-          -- },
+          {
+            'rafamadriz/friendly-snippets',
+            config = function()
+              require('luasnip.loaders.from_vscode').lazy_load()
+            end,
+          },
         },
       },
       'saadparwaiz1/cmp_luasnip',
-
       -- Adds other completion capabilities.
       --  nvim-cmp does not ship with all sources by default. They are split
       --  into multiple repos for maintenance purposes.
@@ -835,17 +850,19 @@ require('lazy').setup({
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     opts = {
-      ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc' },
+      ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'vim', 'vimdoc' },
       -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
         enable = true,
+        disable = { 'latex' },
         -- Some languages depend on vim's regex highlighting system (such as Ruby) for indent rules.
         --  If you are experiencing weird indenting issues, add the language to
         --  the list of additional_vim_regex_highlighting and disabled languages for indent.
-        additional_vim_regex_highlighting = { 'ruby' },
+        additional_vim_regex_highlighting = { 'ruby', 'latex' },
       },
-      indent = { enable = true, disable = { 'ruby' } },
+      indent = { enable = true, disable = { 'ruby', 'latex' } },
+      autotag = { enable = true },
     },
     config = function(_, opts)
       -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
@@ -873,7 +890,7 @@ require('lazy').setup({
   --
   require 'kickstart.plugins.debug',
   require 'kickstart.plugins.indent_line',
-  require 'kickstart.plugins.lint',
+  -- require 'kickstart.plugins.lint',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

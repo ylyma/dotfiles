@@ -12,7 +12,8 @@ git clone https://github.com/ylyma/dotfiles.git
 ```
 cd ~/dotfiles/
 ```
-3. make `init.sh` executable & execute
+3. go into `init.sh` and replace [password] with actual password
+4. make `init.sh` executable & execute
 ```
 chmod +x init.sh
 ./init.sh

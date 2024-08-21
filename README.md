@@ -14,7 +14,7 @@ cd ~/dotfiles/
 ```
 3. make `init.sh` executable & execute
 ```
-chmod +x makesymlinks.sh
+chmod +x init.sh
 ./init.sh
 ```
 

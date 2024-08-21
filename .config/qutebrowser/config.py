@@ -11,8 +11,8 @@ if TYPE_CHECKING:
 config.load_autoconfig()
 
 # ui
-catppuccin.setup(c, 'mocha', True)
-c.colors.webpage.preferred_color_scheme = "dark"
+catppuccin.setup(c, 'latte', True)
+c.colors.webpage.preferred_color_scheme = "light"
 c.completion.shrink = True
 c.completion.use_best_match = True
 c.downloads.position = "bottom"

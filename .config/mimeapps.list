@@ -1,5 +1,7 @@
-
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
 application/x-xdg-protocol-tg=org.telegram.desktop.desktop
 x-scheme-handler/tg=org.telegram.desktop.desktop
+
+[Added Associations]
+image/png=firefox.desktop;

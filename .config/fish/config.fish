@@ -8,6 +8,8 @@ alias icat="kitten icat"
 alias s="kitten ssh"
 alias d="kitten diff"
 
+alias vim="nvim"
+
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'

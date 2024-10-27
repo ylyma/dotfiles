@@ -1,0 +1,952 @@
+[2473:2473:1026/162428.839280:INFO:log_encrypt.cc(101)] ReadEncryptConfigFromShm: try to get encrypt_data by base::SharedMemory
+[2473:2473:1026/162428.839887:INFO:log_encrypt.cc(113)] ReadEncryptConfigFromShm: failed to get encrypt key info in SHM_LOG_ENCRYPTION_CONFIG bucket
+[2504:2504:1026/162428.922192:INFO:log_encrypt.cc(101)] ReadEncryptConfigFromShm: try to get encrypt_data by base::SharedMemory
+[2504:2504:1026/162428.923286:INFO:log_encrypt.cc(128)] ReadEncryptConfigFromShm: success to read encrypt key info
+[2504:2509:1026/162428.930615:INFO:log_encrypt.cc(101)] ReadEncryptConfigFromShm: try to get encrypt_data by base::SharedMemory
+[2504:2509:1026/162428.930628:INFO:log_encrypt.cc(128)] ReadEncryptConfigFromShm: success to read encrypt key info
+[2528:2528:1026/162429.166215:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:gpu-process,sever_name:12,retry_count=0
+[2528:2528:1026/162429.166943:INFO:crash_monitor.cc(128)] InitializeClient service name:12
+[2528:2528:1026/162429.166981:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:gpu-process,sever_name:12
+[2528:2528:1026/162429.166991:WARNING:lark_monitor.cc(1157)] process_type = gpu-process, report_delegate_ is not set, can't report ProcessLaunched
+[2528:2528:1026/162429.167049:INFO:frame_host.cc(1160)] #### Lark (gpu-process) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=gpu-process
+[2528:2528:1026/162429.167055:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2528:2528:1026/162429.167328:INFO:gpu_main.cc(202)] AppendCommandLine lark.pc.enable_report_gl_error 0
+[2528:2528:1026/162429.167336:INFO:gpu_main.cc(202)] AppendCommandLine lark.pc.skia_shader_cache_corruption_report 1
+[2528:2528:1026/162429.167439:INFO:gpu_histogram_report_provider.cc(51)] feature disabled: kEnableScrollingMetricsReporting
+[2528:2528:1026/162429.167937:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2528:2528:1026/162429.169945:INFO:gpu_init.cc(400)] gpu block detect enable:0
+[2535:2535:1026/162429.215537:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:utility,sever_name:14,retry_count=0
+[2535:2535:1026/162429.215652:INFO:crash_monitor.cc(128)] InitializeClient service name:14
+[2535:2535:1026/162429.215681:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:utility,sever_name:14
+[2535:2535:1026/162429.215686:WARNING:lark_monitor.cc(1157)] process_type = utility, report_delegate_ is not set, can't report ProcessLaunched
+[2535:2535:1026/162429.215750:INFO:frame_host.cc(1160)] #### Lark (utility) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=utility
+[2535:2535:1026/162429.215756:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2551:2551:1026/162429.240098:INFO:log_encrypt.cc(101)] ReadEncryptConfigFromShm: try to get encrypt_data by base::SharedMemory
+[2551:2551:1026/162429.240117:INFO:log_encrypt.cc(128)] ReadEncryptConfigFromShm: success to read encrypt key info
+[2473:2546:1026/162429.370364:INFO:log_encrypt.cc(101)] ReadEncryptConfigFromShm: try to get encrypt_data by base::SharedMemory
+[2473:2546:1026/162429.370382:INFO:log_encrypt.cc(128)] ReadEncryptConfigFromShm: success to read encrypt key info
+[2528:2528:1026/162429.399308:INFO:gpu_init.cc(544)] GLImplementationParts is (gl=egl-angle,angle=opengl)
+[2528:2528:1026/162429.403800:INFO:skia_utils.cc(119)] SharpenMipmappedTextures enable 0
+[2528:2528:1026/162429.404461:INFO:facade_chrome_gpu_client.cc(22)] Expose gpu interfaces to browser.
+[2528:2528:1026/162429.404516:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2551:2568:1026/162429.406530:INFO:log_encrypt.cc(101)] ReadEncryptConfigFromShm: try to get encrypt_data by base::SharedMemory
+[2551:2568:1026/162429.406549:INFO:log_encrypt.cc(128)] ReadEncryptConfigFromShm: success to read encrypt key info
+[2528:2528:1026/162429.407084:INFO:skia_utils.cc(119)] SharpenMipmappedTextures enable 0
+[2528:2528:1026/162429.437268:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 1 is_gpu_host: 1 gpu channel: 0x5623096043c0
+[2528:2528:1026/162429.512512:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162429.512619:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 4 is_gpu_host: 0 gpu channel: 0x76a9a803a9b0
+[2670:2670:1026/162429.586087:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:20,retry_count=0
+[2670:2670:1026/162429.586150:INFO:crash_monitor.cc(128)] InitializeClient service name:20
+[2670:2670:1026/162429.586178:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:20
+[2670:2670:1026/162429.586224:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2670:2670:1026/162429.586243:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2670:2670:1026/162429.586310:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2670:2670:1026/162429.586316:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2670:2670:1026/162429.602906:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2670:2670:1026/162429.602928:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2670:2670:1026/162429.602937:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2670:2676:1026/162429.603415:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2670:2676:1026/162429.603737:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 4 channel_handle: 1 finished: 0
+[2670:2679:1026/162429.616243:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2670:2679:1026/162429.616875:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2670:2670:1026/162429.619287:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2670:2670:1026/162429.627917:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2670:2670:1026/162429.635229:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2670:2670:1026/162429.635246:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2670:2670:1026/162429.635253:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2670:2670:1026/162429.635258:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2670:2670:1026/162429.635292:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2670:2670:1026/162429.635299:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2670:2670:1026/162429.635303:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2670:2670:1026/162429.635310:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2670:2670:1026/162429.635315:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2670:2670:1026/162429.635319:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2670:2670:1026/162429.635322:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2670:2670:1026/162429.635326:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2670:2670:1026/162429.635367:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2670:2670:1026/162429.639309:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2670:2670:1026/162429.639345:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2670:2670:1026/162429.642837:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2670:2670:1026/162429.642905:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2670:2670:1026/162429.642914:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2670:2670:1026/162429.649086:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2670:2670:1026/162429.649125:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2670:2670:1026/162429.657127:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2670:2670:1026/162429.660875:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2670:2670:1026/162429.660915:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2670:2670:1026/162429.660921:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2670:2670:1026/162429.660925:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2670:2670:1026/162429.660928:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2670:2670:1026/162429.660932:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2670:2670:1026/162429.660936:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2670:2670:1026/162429.660940:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2670:2670:1026/162429.660947:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2670:2670:1026/162429.660958:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2670:2670:1026/162429.660963:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2670:2670:1026/162429.660968:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2670:2670:1026/162429.664425:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2670:2670:1026/162429.676403:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2670:2670:1026/162429.676440:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2670:2670:1026/162429.709901:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2670:2670:1026/162429.743122:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.193350:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.193467:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.204826:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2679:1026/162430.234004:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2670:2670:1026/162430.252055:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.725526:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2670:2670:1026/162430.727871:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,1073,408 299x24,kScript"ud__native-input uly5x3f u11u7vat"
+[2670:2670:1026/162430.733632:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[2670:2670:1026/162430.735481:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.735638:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.735736:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2670:2670:1026/162430.736701:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=1,flags=512,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=0,always_hide_ime=0,edit_context_control_bounds=1072,408 300x24
+[2670:2670:1026/162432.644207:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,1061,690 320x40,kMouse"ud__button ud__button--outlined ud__button--outlined-default ud__button--size-lg web-lark-sso-login-idp-button _pp-ud-btn-inline-block"
+[2670:2670:1026/162432.644271:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=5,enable-state=1
+[2670:2670:1026/162434.327716:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,1088,574 90x32,kMouse"ud__button ud__button--filled ud__button--filled-default ud__button--size-md pp-modal-btn-confirm primary _pp-ud-btn-inline-block"
+[2670:2670:1026/162434.522163:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2528:2528:1026/162435.779643:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162435.779877:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 5 is_gpu_host: 0 gpu channel: 0x76a9a806e6d0
+[2717:2717:1026/162435.849364:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:22,retry_count=0
+[2717:2717:1026/162435.849430:INFO:crash_monitor.cc(128)] InitializeClient service name:22
+[2717:2717:1026/162435.849456:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:22
+[2717:2717:1026/162435.849486:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2717:2717:1026/162435.849496:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2717:2717:1026/162435.849573:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2717:2717:1026/162435.849579:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2717:2717:1026/162435.858585:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2717:2717:1026/162435.858624:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2717:2717:1026/162435.858638:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2717:2723:1026/162435.858859:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2717:2723:1026/162435.859187:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 5 channel_handle: 1 finished: 0
+[2717:2726:1026/162435.862347:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2717:2726:1026/162435.862529:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2717:2717:1026/162435.862671:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2717:2717:1026/162435.862929:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2717:2717:1026/162435.862937:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2717:2717:1026/162435.862943:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2717:2717:1026/162435.862948:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2717:2717:1026/162435.862953:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2717:2717:1026/162435.862958:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2717:2717:1026/162435.862970:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2717:2717:1026/162435.862974:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2717:2717:1026/162435.862978:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2717:2717:1026/162435.862988:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2717:2717:1026/162435.862992:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2717:2717:1026/162435.862996:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2717:2717:1026/162436.005187:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2717:2717:1026/162436.008031:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2717:2717:1026/162436.008049:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2717:2717:1026/162436.008056:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2717:2717:1026/162436.008061:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2717:2717:1026/162436.008089:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2717:2717:1026/162436.008095:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2717:2717:1026/162436.008100:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2717:2717:1026/162436.008106:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2717:2717:1026/162436.008111:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2717:2717:1026/162436.008115:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2717:2717:1026/162436.008119:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2717:2717:1026/162436.008123:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2717:2717:1026/162436.008178:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2717:2717:1026/162436.011812:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2717:2717:1026/162436.011826:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2717:2717:1026/162436.014725:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2717:2717:1026/162436.014794:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2717:2717:1026/162436.014804:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2717:2717:1026/162436.020911:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2717:2717:1026/162436.020928:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2717:2717:1026/162436.029774:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2717:2717:1026/162436.031143:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2717:2717:1026/162436.567889:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2726:1026/162436.599514:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2717:2717:1026/162436.642695:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2726:1026/162436.649661:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2717:2726:1026/162436.649848:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2717:2717:1026/162436.766845:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2717:1026/162436.828796:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2717:2717:1026/162436.828819:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2717:2717:1026/162436.828825:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2717:2717:1026/162436.828843:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2717:2717:1026/162436.828849:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2717:2717:1026/162436.828854:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2717:2717:1026/162436.828861:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2717:2717:1026/162436.828866:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2717:2717:1026/162436.828870:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2717:2717:1026/162436.828874:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2717:2717:1026/162436.828879:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2717:2717:1026/162436.828909:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2717:2717:1026/162436.832297:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2717:2717:1026/162436.832378:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2717:2717:1026/162436.832388:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2717:2717:1026/162436.842083:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2717:2717:1026/162436.843064:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2717:2717:1026/162436.862416:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2717:2717:1026/162436.862439:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2717:2717:1026/162436.862445:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2717:2717:1026/162436.862465:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2717:2717:1026/162436.862472:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2717:2717:1026/162436.862478:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2717:2717:1026/162436.862483:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2717:2717:1026/162436.862488:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2717:2717:1026/162436.862493:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2717:2717:1026/162436.862505:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2717:2717:1026/162436.862510:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2717:2717:1026/162436.862530:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2717:2717:1026/162436.865795:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2717:2717:1026/162436.865859:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2717:2717:1026/162436.865866:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2717:2717:1026/162436.870882:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2717:2717:1026/162436.872042:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2717:1026/162437.094209:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2717:2717:1026/162437.095641:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2717:2717:1026/162437.095663:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2717:2717:1026/162437.095668:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2717:2717:1026/162437.095686:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2717:2717:1026/162437.095692:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2717:2717:1026/162437.095697:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2717:2717:1026/162437.095702:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2717:2717:1026/162437.095706:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2717:2717:1026/162437.095710:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2717:2717:1026/162437.095714:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2717:2717:1026/162437.095718:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2717:2717:1026/162437.095736:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2717:2717:1026/162437.098973:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2717:2717:1026/162437.099048:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2717:2717:1026/162437.099055:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2717:2717:1026/162437.106353:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2717:2717:1026/162437.107719:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2717:2717:1026/162437.113849:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2717:1026/162438.005797:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,965,430 492x68,kMouse"VV3oRb YZVTmd SmR8"
+[2717:2717:1026/162438.005901:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[12], extent: @offsetInAnchor[12]),0
+[2717:2717:1026/162438.007238:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2670:2670:1026/162438.008760:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2717:1026/162438.188069:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,0,0 1914x1092,kScript"nyGuVb"
+[2717:2717:1026/162439.505419:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2717:2717:1026/162439.506635:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2717:2717:1026/162439.506649:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2717:2717:1026/162439.506654:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2717:2717:1026/162439.506674:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2717:2717:1026/162439.506680:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2717:2717:1026/162439.506685:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2717:2717:1026/162439.506690:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2717:2717:1026/162439.506694:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2717:2717:1026/162439.506698:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2717:2717:1026/162439.506702:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2717:2717:1026/162439.506706:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2717:2717:1026/162439.506729:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2717:2717:1026/162439.510175:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2717:2717:1026/162439.510254:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2717:2717:1026/162439.510260:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2717:2717:1026/162439.516154:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2717:2717:1026/162439.521159:INFO:client_impl.cc(85)] [ShellAPI][ClientImpl::OnServerDisconnect] reason 0, message 
+[2717:2717:1026/162439.521203:INFO:shellapi_render_frame_extension.cc(95)] [ShellAPI][ShellAPIRenderFrameExtension::OnServerDisconnect] reconnect host start
+[2717:2717:1026/162439.521215:INFO:shellapi_render_frame_extension.cc(109)] [ShellAPI][ShellAPIRenderFrameExtension::OnServerDisconnect] reconnect end
+[2717:2717:1026/162439.525892:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2717:2726:1026/162439.526247:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2717:2717:1026/162439.553912:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2528:2528:1026/162442.558291:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[2717:2717:1026/162443.253742:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,1217,630 224x40,kMouse"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 BqKGqe pIzcPc TrZEUc lw1w4b VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc"
+[2717:2717:1026/162443.436797:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,0,0 1914x1092,kScript"kPY6ve"
+[2717:2726:1026/162445.525637:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2717:2726:1026/162445.525766:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2717:2717:1026/162445.797611:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2717:2717:1026/162445.798807:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2717:2717:1026/162445.798829:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2717:2717:1026/162445.798835:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2717:2717:1026/162445.798859:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2717:2717:1026/162445.798866:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2717:2717:1026/162445.798870:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2717:2717:1026/162445.798875:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2717:2717:1026/162445.798879:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2717:2717:1026/162445.798883:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2717:2717:1026/162445.798887:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2717:2717:1026/162445.798902:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2717:2717:1026/162445.798975:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2717:2717:1026/162445.802512:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2717:2717:1026/162445.802580:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2717:2717:1026/162445.802587:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2717:2717:1026/162445.807700:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2717:2717:1026/162445.816806:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2717:2717:1026/162445.819937:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2717:2717:1026/162445.837351:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2717:2717:1026/162445.837388:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2717:2717:1026/162445.849944:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2717:2726:1026/162445.854323:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2528:2528:1026/162453.221659:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162453.221893:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 7 is_gpu_host: 0 gpu channel: 0x76a9a80694e0
+[2528:2528:1026/162453.221938:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162453.221952:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 6 is_gpu_host: 0 gpu channel: 0x76a9a80a0c20
+[2809:2809:1026/162453.300656:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:24,retry_count=0
+[2809:2809:1026/162453.300748:INFO:crash_monitor.cc(128)] InitializeClient service name:24
+[2809:2809:1026/162453.300782:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:24
+[2809:2809:1026/162453.300852:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2809:2809:1026/162453.300872:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2809:2809:1026/162453.300989:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2809:2809:1026/162453.300997:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2810:2810:1026/162453.307142:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:26,retry_count=0
+[2810:2810:1026/162453.307226:INFO:crash_monitor.cc(128)] InitializeClient service name:26
+[2810:2810:1026/162453.307256:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:26
+[2810:2810:1026/162453.307301:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2810:2810:1026/162453.307311:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2810:2810:1026/162453.307409:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2810:2810:1026/162453.307415:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2809:2809:1026/162453.311252:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2809:2809:1026/162453.311276:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2809:2809:1026/162453.311287:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2809:2816:1026/162453.311462:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2810:2810:1026/162453.318297:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2810:2810:1026/162453.318328:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2810:2810:1026/162453.318341:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2810:2824:1026/162453.318576:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2810:2829:1026/162453.322871:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2810:2829:1026/162453.323078:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2810:2810:1026/162453.323306:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2809:2809:1026/162453.376034:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2809:2809:1026/162453.376066:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2809:2809:1026/162453.376077:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2809:2809:1026/162453.376084:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2809:2809:1026/162453.376091:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2809:2809:1026/162453.376099:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2809:2809:1026/162453.376106:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2809:2809:1026/162453.376114:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2809:2809:1026/162453.376122:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2809:2809:1026/162453.376141:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2809:2809:1026/162453.376150:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2809:2809:1026/162453.376158:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2809:2816:1026/162453.400267:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 7 channel_handle: 1 finished: 0
+[2810:2824:1026/162453.407006:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 6 channel_handle: 1 finished: 0
+[2810:2810:1026/162453.408520:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2810:2810:1026/162453.408550:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2810:2810:1026/162453.408561:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2810:2810:1026/162453.408569:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2810:2810:1026/162453.408577:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2810:2810:1026/162453.408585:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2810:2810:1026/162453.408593:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2810:2810:1026/162453.408602:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2810:2810:1026/162453.408611:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2810:2810:1026/162453.408625:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2810:2810:1026/162453.408635:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2810:2810:1026/162453.408644:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2810:2810:1026/162453.410341:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2810:2810:1026/162453.412934:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2810:2810:1026/162453.412959:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2810:2810:1026/162453.412965:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2810:2810:1026/162453.412971:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2810:2810:1026/162453.413003:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2810:2810:1026/162453.413009:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2810:2810:1026/162453.413013:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2810:2810:1026/162453.413020:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2810:2810:1026/162453.413024:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2810:2810:1026/162453.413028:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2810:2810:1026/162453.413032:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2810:2810:1026/162453.413036:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2810:2810:1026/162453.413081:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2810:2810:1026/162453.417246:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2810:2810:1026/162453.417294:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2810:2810:1026/162453.426725:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2810:2810:1026/162453.426816:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2810:2810:1026/162453.426834:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2810:2810:1026/162453.436674:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2810:2810:1026/162453.436699:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2810:2810:1026/162453.445278:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2810:2810:1026/162453.456020:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2810:2810:1026/162453.465765:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2810:2810:1026/162453.465813:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2810:2810:1026/162453.508448:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2810:2829:1026/162454.001790:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2810:2829:1026/162454.001868:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2810:2810:1026/162454.014327:INFO:ap_impl.h(194)] [TOWEL][APImpl::APImpl] create ap, id is RoutingId(-1, 1663788219)
+[2810:2810:1026/162454.014355:INFO:ap_impl.h(199)] [TOWEL][APImpl] register to master, current id is RoutingId(-1, 1663788219)
+[2810:2810:1026/162454.014381:INFO:ap_impl.h(217)] [TOWEL][APImpl] register to host, current id is RoutingId(-1, 1663788219)
+[2810:2810:1026/162454.014405:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[2810:2810:1026/162454.017150:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2810:2810:1026/162454.018208:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2810:2810:1026/162454.018227:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2810:2810:1026/162454.018232:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2810:2810:1026/162454.018246:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2810:2810:1026/162454.018253:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2810:2810:1026/162454.018257:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2810:2810:1026/162454.018262:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2810:2810:1026/162454.018267:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2810:2810:1026/162454.018271:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2810:2810:1026/162454.018275:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2810:2810:1026/162454.018279:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2810:2810:1026/162454.018292:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2810:2810:1026/162454.024656:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2810:2810:1026/162454.024756:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2810:2810:1026/162454.024763:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2810:2810:1026/162454.034918:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2810:2810:1026/162454.065003:INFO:ap_impl.h(617)] [TOWEL][APImpl::OnAddToMaster] real_id is RoutingId(2473, 3), fake_id is 1663788219
+[2810:2810:1026/162454.065030:INFO:ap_impl.h(840)] [TOWEL][APImpl::ListensEvents] start, RoutingId(2473, 3)
+[2810:2810:1026/162454.065043:INFO:ap_impl.h(842)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[2810:2810:1026/162454.065058:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 7
+[2810:2810:1026/162454.083426:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2810:2810:1026/162454.139157:INFO:render_frame_impl.cc(2388)] [MOR_Shell] RenderFrameImpl::GetAPFromHost, bind ap for RenderFrameHost
+[2810:2810:1026/162454.139215:INFO:ap_impl.h(194)] [TOWEL][APImpl::APImpl] create ap, id is RoutingId(-1, 1219389682)
+[2810:2810:1026/162454.139221:INFO:ap_impl.h(199)] [TOWEL][APImpl] register to master, current id is RoutingId(-1, 1219389682)
+[2810:2810:1026/162454.139241:INFO:ap_impl.h(217)] [TOWEL][APImpl] register to host, current id is RoutingId(-1, 1219389682)
+[2810:2810:1026/162454.139256:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[2810:2810:1026/162454.139269:INFO:ap_impl.h(552)] [TOWEL][APImpl::CreateConnection] for source_id 1
+[2810:2810:1026/162454.157924:INFO:ap_impl.h(730)] [TOWEL][APImpl::OnGetAllProviders]: RoutingId(2473, 3) provider size 3
+[2810:2810:1026/162454.157967:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[2810:2810:1026/162454.157980:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[2810:2810:1026/162454.157989:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider preference
+[2810:2810:1026/162454.165704:INFO:ap_impl.h(617)] [TOWEL][APImpl::OnAddToMaster] real_id is RoutingId(2473, 4), fake_id is 1219389682
+[2810:2810:1026/162454.165730:INFO:ap_impl.h(840)] [TOWEL][APImpl::ListensEvents] start, RoutingId(2473, 4)
+[2810:2810:1026/162454.165737:INFO:ap_impl.h(842)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[2810:2829:1026/162454.220041:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2810:2810:1026/162454.231589:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 19
+[2810:2810:1026/162454.238912:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 7, target_apollo_id 19, target_ap_id 1219389682
+[2810:2810:1026/162454.238991:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 3) provider backend
+[2810:2810:1026/162454.238998:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is postgateway|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC|backend::GET_NOTIFICATION_USER_LIST, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PASSPORT_NOTIFICATION_USER_LIST_UPDATED
+[2810:2810:1026/162454.239015:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 3) provider preference
+[2810:2810:1026/162454.239020:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for preference method_list is preference::GetPreference, event_list is preference::UPDATE
+[2810:2810:1026/162454.239031:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 3) provider monitor
+[2810:2810:1026/162454.239036:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|monitor::REPORT_DUMP_UTILITY|monitor::MONITOR_EVENT_UTILITY|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[2810:2810:1026/162454.243554:INFO:ap_impl.h(730)] [TOWEL][APImpl::OnGetAllProviders]: RoutingId(2473, 4) provider size 3
+[2810:2810:1026/162454.243596:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[2810:2810:1026/162454.243614:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[2810:2810:1026/162454.243627:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider preference
+[2810:2810:1026/162454.266440:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2810:2810:1026/162454.267192:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 4) provider monitor
+[2810:2810:1026/162454.267205:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|monitor::REPORT_DUMP_UTILITY|monitor::MONITOR_EVENT_UTILITY|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[2810:2810:1026/162454.267222:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 4) provider backend
+[2810:2810:1026/162454.267227:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is postgateway|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC|backend::GET_NOTIFICATION_USER_LIST, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PASSPORT_NOTIFICATION_USER_LIST_UPDATED
+[2810:2810:1026/162454.267328:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 4) provider preference
+[2810:2810:1026/162454.267334:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for preference method_list is preference::GetPreference, event_list is preference::UPDATE
+[2810:2810:1026/162455.374865:INFO:ap_impl.h(552)] [TOWEL][APImpl::CreateConnection] for source_id 19
+[2810:2829:1026/162455.375162:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2810:2810:1026/162455.376887:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 19, target_apollo_id 7, target_ap_id 3
+[2528:2528:1026/162457.354421:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162457.354533:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 8 is_gpu_host: 0 gpu channel: 0x76a9a806c120
+[2809:2827:1026/162457.366687:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2809:2827:1026/162457.366825:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2809:2809:1026/162457.366998:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2809:2809:1026/162457.368695:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2809:2809:1026/162457.382021:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2809:2809:1026/162457.384758:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2809:2809:1026/162457.384778:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2809:2809:1026/162457.384784:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2809:2809:1026/162457.384789:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2809:2809:1026/162457.384821:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2809:2809:1026/162457.384827:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2809:2809:1026/162457.384831:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2809:2809:1026/162457.384838:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2809:2809:1026/162457.384842:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2809:2809:1026/162457.384846:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2809:2809:1026/162457.384850:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2809:2809:1026/162457.384854:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2809:2809:1026/162457.384904:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2809:2809:1026/162457.388640:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2809:2809:1026/162457.388659:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2809:2809:1026/162457.395497:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2809:2809:1026/162457.395606:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2809:2809:1026/162457.395623:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2809:2809:1026/162457.404970:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2809:2809:1026/162457.405006:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2809:2809:1026/162457.413254:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2809:2809:1026/162457.422686:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2809:2809:1026/162457.425344:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2809:2809:1026/162457.425378:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2856:2856:1026/162457.434364:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:28,retry_count=0
+[2856:2856:1026/162457.434426:INFO:crash_monitor.cc(128)] InitializeClient service name:28
+[2856:2856:1026/162457.434453:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:28
+[2856:2856:1026/162457.434486:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2856:2856:1026/162457.434495:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2856:2856:1026/162457.434558:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2856:2856:1026/162457.434564:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2856:2856:1026/162457.451443:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2856:2856:1026/162457.451483:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2856:2856:1026/162457.451496:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2856:2869:1026/162457.452279:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2856:2869:1026/162457.452488:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 8 channel_handle: 1 finished: 0
+[2856:2856:1026/162457.453932:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2856:2856:1026/162457.453944:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2856:2856:1026/162457.453952:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2856:2856:1026/162457.453958:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2856:2856:1026/162457.453965:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2856:2856:1026/162457.453972:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2856:2856:1026/162457.453978:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2856:2856:1026/162457.453985:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2856:2856:1026/162457.453992:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2856:2856:1026/162457.454015:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2856:2856:1026/162457.454024:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2856:2856:1026/162457.454031:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2809:2827:1026/162457.840659:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2809:2809:1026/162500.880390:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2809:2809:1026/162500.880683:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2809:2809:1026/162501.062689:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2528:2528:1026/162504.112378:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162504.112427:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 9 is_gpu_host: 0 gpu channel: 0x76a9a806be20
+[2856:2874:1026/162504.124620:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2856:2874:1026/162504.124770:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2856:2856:1026/162504.124897:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2856:2856:1026/162504.127027:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2856:2856:1026/162504.132854:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2856:2856:1026/162504.135311:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2856:2856:1026/162504.135322:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2856:2856:1026/162504.135328:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2856:2856:1026/162504.135333:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2856:2856:1026/162504.135361:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2856:2856:1026/162504.135367:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2856:2856:1026/162504.135371:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2856:2856:1026/162504.135378:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2856:2856:1026/162504.135382:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2856:2856:1026/162504.135385:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2856:2856:1026/162504.135389:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2856:2856:1026/162504.135393:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2856:2856:1026/162504.135435:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2856:2856:1026/162504.139221:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2856:2856:1026/162504.139245:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2856:2856:1026/162504.147283:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2856:2856:1026/162504.147387:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2856:2856:1026/162504.147408:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2856:2856:1026/162504.156970:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2856:2856:1026/162504.157003:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2856:2856:1026/162504.165128:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2856:2856:1026/162504.172717:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2856:2856:1026/162504.175069:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2856:2856:1026/162504.175099:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2893:2893:1026/162504.193580:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:20,retry_count=0
+[2893:2893:1026/162504.193655:INFO:crash_monitor.cc(128)] InitializeClient service name:20
+[2893:2893:1026/162504.193680:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:20
+[2893:2893:1026/162504.193720:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2893:2893:1026/162504.193729:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2893:2893:1026/162504.193789:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2893:2893:1026/162504.193795:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2893:2893:1026/162504.202955:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2893:2893:1026/162504.202984:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2893:2893:1026/162504.202993:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2893:2904:1026/162504.203195:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2893:2904:1026/162504.203492:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 9 channel_handle: 1 finished: 0
+[2893:2893:1026/162504.204626:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2893:2893:1026/162504.204637:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2893:2893:1026/162504.204644:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2893:2893:1026/162504.204651:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2893:2893:1026/162504.204657:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2893:2893:1026/162504.204663:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2893:2893:1026/162504.204670:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2893:2893:1026/162504.204676:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2893:2893:1026/162504.204683:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2893:2893:1026/162504.204696:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2893:2893:1026/162504.204704:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2893:2893:1026/162504.204710:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2856:2874:1026/162504.558241:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2528:2528:1026/162514.054977:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[2528:2528:1026/162514.058158:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+[2856:2856:1026/162517.783195:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2856:2856:1026/162517.783549:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2528:2528:1026/162520.791234:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162520.791283:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 10 is_gpu_host: 0 gpu channel: 0x56230ac13820
+[2893:2907:1026/162520.802551:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2893:2907:1026/162520.802681:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2893:2893:1026/162520.802837:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2893:2893:1026/162520.804567:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[2893:2893:1026/162520.809827:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2893:2893:1026/162520.812431:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2893:2893:1026/162520.812450:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2893:2893:1026/162520.812457:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2893:2893:1026/162520.812462:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2893:2893:1026/162520.812491:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2893:2893:1026/162520.812498:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2893:2893:1026/162520.812503:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2893:2893:1026/162520.812510:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2893:2893:1026/162520.812515:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2893:2893:1026/162520.812520:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2893:2893:1026/162520.812524:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2893:2893:1026/162520.812529:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2893:2893:1026/162520.812571:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2893:2893:1026/162520.816152:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2893:2893:1026/162520.816165:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2893:2893:1026/162520.822986:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2893:2893:1026/162520.823091:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2893:2893:1026/162520.823108:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2893:2893:1026/162520.832727:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2893:2893:1026/162520.832761:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2893:2893:1026/162520.841091:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2893:2893:1026/162520.849207:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2893:2893:1026/162520.851883:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2893:2893:1026/162520.851914:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2933:2933:1026/162520.870443:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:22,retry_count=0
+[2933:2933:1026/162520.870521:INFO:crash_monitor.cc(128)] InitializeClient service name:22
+[2933:2933:1026/162520.870554:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:22
+[2933:2933:1026/162520.870588:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2933:2933:1026/162520.870596:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2933:2933:1026/162520.870656:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2933:2933:1026/162520.870662:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2933:2933:1026/162520.879917:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2933:2933:1026/162520.879957:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2933:2933:1026/162520.879973:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2933:2946:1026/162520.880212:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2933:2946:1026/162520.880486:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 10 channel_handle: 1 finished: 0
+[2933:2933:1026/162520.881769:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2933:2933:1026/162520.881777:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2933:2933:1026/162520.881782:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2933:2933:1026/162520.881785:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2933:2933:1026/162520.881789:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2933:2933:1026/162520.881793:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2933:2933:1026/162520.881796:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2933:2933:1026/162520.881800:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2933:2933:1026/162520.881804:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2933:2933:1026/162520.881812:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2933:2933:1026/162520.881817:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2933:2933:1026/162520.881821:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2893:2907:1026/162521.234473:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2893:2893:1026/162523.173967:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[11], extent: @offsetInAnchor[11]),0
+[2893:2893:1026/162523.174233:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2528:2528:1026/162523.360930:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162523.361044:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 11 is_gpu_host: 0 gpu channel: 0x56230a58a240
+[2893:2893:1026/162523.373485:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2965:2965:1026/162523.435085:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:24,retry_count=0
+[2965:2965:1026/162523.435155:INFO:crash_monitor.cc(128)] InitializeClient service name:24
+[2965:2965:1026/162523.435179:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:24
+[2965:2965:1026/162523.435218:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[2965:2965:1026/162523.435226:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[2965:2965:1026/162523.435285:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[2965:2965:1026/162523.435291:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[2965:2965:1026/162523.443680:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[2965:2965:1026/162523.443693:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[2965:2965:1026/162523.443701:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[2965:2971:1026/162523.443833:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[2965:2971:1026/162523.444065:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 11 channel_handle: 1 finished: 0
+[2965:2974:1026/162523.446961:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[2965:2974:1026/162523.447121:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[2965:2965:1026/162523.447228:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[2965:2965:1026/162523.447994:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2965:2965:1026/162523.448670:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[2965:2965:1026/162523.451258:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[2965:2965:1026/162523.451285:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[2965:2965:1026/162523.451291:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[2965:2965:1026/162523.451296:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[2965:2965:1026/162523.451328:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[2965:2965:1026/162523.451334:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[2965:2965:1026/162523.451338:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[2965:2965:1026/162523.451345:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[2965:2965:1026/162523.451349:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[2965:2965:1026/162523.451353:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[2965:2965:1026/162523.451357:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[2965:2965:1026/162523.451361:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[2965:2965:1026/162523.451408:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[2965:2965:1026/162523.455075:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[2965:2965:1026/162523.455095:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[2965:2965:1026/162523.461699:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[2965:2965:1026/162523.461773:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[2965:2965:1026/162523.461791:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[2965:2965:1026/162523.471274:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[2965:2965:1026/162523.471293:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[2965:2965:1026/162523.479837:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[2965:2965:1026/162523.482761:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[2965:2965:1026/162523.482808:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[2965:2965:1026/162523.482816:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[2965:2965:1026/162523.482824:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[2965:2965:1026/162523.482838:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[2965:2965:1026/162523.482854:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[2965:2965:1026/162523.482872:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[2965:2965:1026/162523.482888:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[2965:2965:1026/162523.482907:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[2965:2965:1026/162523.482939:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[2965:2965:1026/162523.482963:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[2965:2965:1026/162523.482980:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[2965:2965:1026/162523.486227:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[2965:2965:1026/162523.487887:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[2965:2965:1026/162523.487908:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[2965:2974:1026/162523.858713:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[2965:2965:1026/162523.867714:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2965:2965:1026/162525.330867:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2965:2965:1026/162526.664175:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[3], extent: @offsetInAnchor[3]),0
+[2965:2965:1026/162526.680285:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2965:2965:1026/162531.411041:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2965:2965:1026/162531.411312:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,771,556 40x40,kScript"base-code-box-input"
+[2965:2965:1026/162531.411481:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=6,flags=106,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=772,564 38x23
+[2965:2965:1026/162531.425110:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[2965:2965:1026/162532.231583:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2965:2965:1026/162544.417761:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[2965:2965:1026/162546.016658:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[1], extent: @offsetInAnchor[1]),0
+[2965:2965:1026/162546.028501:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2965:2965:1026/162546.028683:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,832,545 40x40,kScript"base-code-box-input"
+[2965:2965:1026/162546.028834:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=6,flags=106,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=832,553 39x23
+[2965:2965:1026/162546.493312:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[1], extent: @offsetInAnchor[1]),0
+[2965:2965:1026/162546.495738:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2965:2965:1026/162546.495847:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,893,545 40x40,kScript"base-code-box-input"
+[2965:2965:1026/162546.495965:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=6,flags=106,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=893,553 39x23
+[2965:2965:1026/162546.750760:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[1], extent: @offsetInAnchor[1]),0
+[2965:2965:1026/162546.752844:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2965:2965:1026/162546.752979:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,981,545 40x40,kScript"base-code-box-input"
+[2965:2965:1026/162546.753083:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=6,flags=106,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=982,553 39x23
+[2965:2965:1026/162547.631486:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[1], extent: @offsetInAnchor[1]),0
+[2965:2965:1026/162547.634352:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2965:2965:1026/162547.634470:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,1042,545 40x40,kScript"base-code-box-input"
+[2965:2965:1026/162547.634566:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=6,flags=106,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=1043,553 39x23
+[2965:2965:1026/162547.949481:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[1], extent: @offsetInAnchor[1]),0
+[2965:2965:1026/162547.951533:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[2965:2965:1026/162547.951692:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,1103,545 40x40,kScript"base-code-box-input"
+[2965:2965:1026/162547.951802:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=6,flags=106,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=1103,553 39x23
+[2965:2965:1026/162548.522047:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[1], extent: @offsetInAnchor[1]),0
+[2965:2965:1026/162548.527723:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=2,enable-state=1
+[2893:2893:1026/162551.110124:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[2528:2528:1026/162552.040742:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162552.040877:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 13 is_gpu_host: 0 gpu channel: 0x76a9a801c950
+[2528:2528:1026/162552.041321:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162552.041386:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 12 is_gpu_host: 0 gpu channel: 0x56230ad2f980
+[3102:3102:1026/162552.133084:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:20,retry_count=0
+[3102:3102:1026/162552.133165:INFO:crash_monitor.cc(128)] InitializeClient service name:20
+[3102:3102:1026/162552.133206:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:20
+[3102:3102:1026/162552.133264:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[3102:3102:1026/162552.133279:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[3102:3102:1026/162552.133380:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[3102:3102:1026/162552.133389:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[3103:3103:1026/162552.143511:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:24,retry_count=0
+[3103:3103:1026/162552.143577:INFO:crash_monitor.cc(128)] InitializeClient service name:24
+[3103:3103:1026/162552.143603:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:24
+[3103:3103:1026/162552.143638:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[3103:3103:1026/162552.143648:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[3103:3103:1026/162552.143717:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[3103:3103:1026/162552.143723:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[3102:3102:1026/162552.146587:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[3102:3102:1026/162552.146613:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[3102:3102:1026/162552.146626:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[3102:3109:1026/162552.146846:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[3103:3103:1026/162552.154476:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[3103:3103:1026/162552.154502:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[3103:3103:1026/162552.154515:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[3103:3117:1026/162552.154713:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[3103:3122:1026/162552.158814:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[3103:3122:1026/162552.159029:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[3103:3103:1026/162552.159228:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[3102:3102:1026/162552.169029:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[3102:3102:1026/162552.169056:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[3102:3102:1026/162552.169062:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[3102:3102:1026/162552.169066:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[3102:3102:1026/162552.169069:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[3102:3102:1026/162552.169082:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[3102:3102:1026/162552.169086:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[3102:3102:1026/162552.169091:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[3102:3102:1026/162552.169099:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[3102:3102:1026/162552.169111:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[3102:3102:1026/162552.169119:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[3102:3102:1026/162552.169125:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[3102:3109:1026/162552.171859:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 13 channel_handle: 1 finished: 0
+[3103:3117:1026/162552.172001:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 12 channel_handle: 1 finished: 0
+[3103:3103:1026/162552.173598:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[3103:3103:1026/162552.173629:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[3103:3103:1026/162552.173634:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[3103:3103:1026/162552.173638:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[3103:3103:1026/162552.173642:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[3103:3103:1026/162552.173646:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[3103:3103:1026/162552.173650:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[3103:3103:1026/162552.173654:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[3103:3103:1026/162552.173658:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[3103:3103:1026/162552.173666:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[3103:3103:1026/162552.173672:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[3103:3103:1026/162552.173676:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[3103:3103:1026/162552.174690:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[3103:3103:1026/162552.177698:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[3103:3103:1026/162552.177722:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[3103:3103:1026/162552.177729:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[3103:3103:1026/162552.177734:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[3103:3103:1026/162552.177765:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[3103:3103:1026/162552.177771:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[3103:3103:1026/162552.177784:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[3103:3103:1026/162552.177791:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[3103:3103:1026/162552.177796:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[3103:3103:1026/162552.177800:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[3103:3103:1026/162552.177804:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[3103:3103:1026/162552.177808:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[3103:3103:1026/162552.177854:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[3103:3103:1026/162552.182401:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[3103:3103:1026/162552.182423:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[3103:3103:1026/162552.191191:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[3103:3103:1026/162552.191309:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[3103:3103:1026/162552.191321:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[3103:3103:1026/162552.203574:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[3103:3103:1026/162552.203618:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[3103:3103:1026/162552.212965:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[3103:3103:1026/162552.222377:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[3103:3103:1026/162552.233987:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[3103:3103:1026/162552.234026:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[3103:3103:1026/162552.275946:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[3103:3122:1026/162552.859848:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[3103:3122:1026/162552.859953:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[3103:3103:1026/162552.871543:INFO:ap_impl.h(194)] [TOWEL][APImpl::APImpl] create ap, id is RoutingId(-1, 1996500793)
+[3103:3103:1026/162552.871567:INFO:ap_impl.h(199)] [TOWEL][APImpl] register to master, current id is RoutingId(-1, 1996500793)
+[3103:3103:1026/162552.871611:INFO:ap_impl.h(217)] [TOWEL][APImpl] register to host, current id is RoutingId(-1, 1996500793)
+[3103:3103:1026/162552.871649:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[3103:3103:1026/162552.874361:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[3103:3103:1026/162552.875440:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[3103:3103:1026/162552.875452:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[3103:3103:1026/162552.875457:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[3103:3103:1026/162552.875474:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[3103:3103:1026/162552.875480:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[3103:3103:1026/162552.875485:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[3103:3103:1026/162552.875489:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[3103:3103:1026/162552.875500:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[3103:3103:1026/162552.875504:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[3103:3103:1026/162552.875508:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[3103:3103:1026/162552.875512:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[3103:3103:1026/162552.875525:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[3103:3103:1026/162552.881995:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[3103:3103:1026/162552.882075:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[3103:3103:1026/162552.882082:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[3103:3103:1026/162552.891394:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[3103:3103:1026/162552.917094:INFO:ap_impl.h(617)] [TOWEL][APImpl::OnAddToMaster] real_id is RoutingId(2473, 5), fake_id is 1996500793
+[3103:3103:1026/162552.917117:INFO:ap_impl.h(840)] [TOWEL][APImpl::ListensEvents] start, RoutingId(2473, 5)
+[3103:3103:1026/162552.917122:INFO:ap_impl.h(842)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[3103:3103:1026/162552.917134:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 29
+[3103:3103:1026/162552.918200:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[3103:3103:1026/162552.932957:INFO:render_frame_impl.cc(2388)] [MOR_Shell] RenderFrameImpl::GetAPFromHost, bind ap for RenderFrameHost
+[3103:3103:1026/162552.933050:INFO:ap_impl.h(194)] [TOWEL][APImpl::APImpl] create ap, id is RoutingId(-1, 1393596852)
+[3103:3103:1026/162552.933062:INFO:ap_impl.h(199)] [TOWEL][APImpl] register to master, current id is RoutingId(-1, 1393596852)
+[3103:3103:1026/162552.933099:INFO:ap_impl.h(217)] [TOWEL][APImpl] register to host, current id is RoutingId(-1, 1393596852)
+[3103:3103:1026/162552.933131:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[3103:3103:1026/162552.933157:INFO:ap_impl.h(552)] [TOWEL][APImpl::CreateConnection] for source_id 1
+[3103:3103:1026/162552.952148:INFO:ap_impl.h(730)] [TOWEL][APImpl::OnGetAllProviders]: RoutingId(2473, 5) provider size 3
+[3103:3103:1026/162552.952202:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[3103:3103:1026/162552.952228:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[3103:3103:1026/162552.952242:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider preference
+[3103:3103:1026/162553.015297:INFO:ap_impl.h(617)] [TOWEL][APImpl::OnAddToMaster] real_id is RoutingId(2473, 6), fake_id is 1393596852
+[3103:3103:1026/162553.015315:INFO:ap_impl.h(840)] [TOWEL][APImpl::ListensEvents] start, RoutingId(2473, 6)
+[3103:3103:1026/162553.015320:INFO:ap_impl.h(842)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[3103:3103:1026/162553.015388:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 40
+[3103:3103:1026/162553.020978:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 29, target_apollo_id 40, target_ap_id 1393596852
+[3103:3103:1026/162553.021027:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 5) provider backend
+[3103:3103:1026/162553.021033:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is postgateway|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC|backend::GET_NOTIFICATION_USER_LIST, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PASSPORT_NOTIFICATION_USER_LIST_UPDATED
+[3103:3103:1026/162553.021061:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 5) provider monitor
+[3103:3103:1026/162553.021069:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|monitor::REPORT_DUMP_UTILITY|monitor::MONITOR_EVENT_UTILITY|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[3103:3122:1026/162553.023935:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[3103:3103:1026/162553.034719:INFO:ap_impl.h(730)] [TOWEL][APImpl::OnGetAllProviders]: RoutingId(2473, 6) provider size 3
+[3103:3103:1026/162553.034759:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[3103:3103:1026/162553.034773:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[3103:3103:1026/162553.034785:INFO:ap_impl.h(739)] [TOWEL][APImpl::OnGetAllProviders] add provider preference
+[3103:3103:1026/162553.037398:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 5) provider preference
+[3103:3103:1026/162553.037416:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for preference method_list is preference::GetPreference, event_list is preference::UPDATE
+[3103:3103:1026/162553.044530:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[3103:3103:1026/162553.050032:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 6) provider backend
+[3103:3103:1026/162553.050055:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is postgateway|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC|backend::GET_NOTIFICATION_USER_LIST, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PASSPORT_NOTIFICATION_USER_LIST_UPDATED
+[3103:3103:1026/162553.050072:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 6) provider preference
+[3103:3103:1026/162553.050077:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for preference method_list is preference::GetPreference, event_list is preference::UPDATE
+[3103:3103:1026/162553.050087:INFO:ap_impl.h(750)] [TOWEL][APImpl::OnGetProviderMetaInfo]: RoutingId(2473, 6) provider monitor
+[3103:3103:1026/162553.050092:INFO:ap_impl.h(760)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|monitor::REPORT_DUMP_UTILITY|monitor::MONITOR_EVENT_UTILITY|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[3103:3103:1026/162554.098445:INFO:ap_impl.h(552)] [TOWEL][APImpl::CreateConnection] for source_id 40
+[3103:3122:1026/162554.099414:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[3103:3103:1026/162554.101674:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 40, target_apollo_id 29, target_ap_id 5
+[3103:3103:1026/162558.356821:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[3103:3103:1026/162558.357424:INFO:dom_selection.cc(259)] [ime-renderer] Selection.collapse:1
+[3103:3103:1026/162558.365312:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,33,1067 1119x22,kScript"zone-container editor-kit-container innerdocbody notranslate chrome chrome88"
+[3103:3103:1026/162558.365739:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[3103:3103:1026/162558.367001:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=15,flags=544,selection={18,18},composition=,can_compose_inline=1,show_ime_if_needed=0,always_hide_ime=0,edit_context_control_bounds=33,1067 1119x22
+[3103:3103:1026/162601.709119:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[2528:2528:1026/162601.893181:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162601.893345:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 15 is_gpu_host: 0 gpu channel: 0x56230aaf2f10
+[2528:2528:1026/162601.893413:INFO:gpu_channel_manager.cc(482)] EstablishChannel gpu_channel_optimization 1
+[2528:2528:1026/162601.893432:INFO:gpu_service_impl.cc(1083)] GpuServiceImpl::EstablishGpuChannel client id: 14 is_gpu_host: 0 gpu channel: 0x56230adfb500
+[3156:3156:1026/162601.985070:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:22,retry_count=0
+[3156:3156:1026/162601.985136:INFO:crash_monitor.cc(128)] InitializeClient service name:22
+[3156:3156:1026/162601.985161:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:22
+[3156:3156:1026/162601.985200:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[3156:3156:1026/162601.985209:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[3156:3156:1026/162601.985266:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[3156:3156:1026/162601.985272:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[3156:3156:1026/162601.994214:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[3156:3156:1026/162601.994245:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[3156:3156:1026/162601.994256:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[3156:3163:1026/162601.994482:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[3156:3163:1026/162601.995444:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 15 channel_handle: 1 finished: 0
+[3157:3157:1026/162601.995673:INFO:lark_monitor.cc(1068)] DoCrashpadClientInit init with process_name:renderer,sever_name:26,retry_count=0
+[3157:3157:1026/162601.995732:INFO:crash_monitor.cc(128)] InitializeClient service name:26
+[3157:3157:1026/162601.995764:INFO:lark_monitor.cc(1095)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:26
+[3157:3157:1026/162601.995801:ERROR:facade_chrome_renderer_client.cc(223)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[3157:3157:1026/162601.995818:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[3157:3157:1026/162601.995894:INFO:frame_host.cc(1160)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[3157:3157:1026/162601.995900:INFO:frame_host.cc(1162)] IsBrowserRuntime:1
+[3156:3156:1026/162601.996079:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[3156:3156:1026/162601.996088:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[3156:3156:1026/162601.996093:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[3156:3156:1026/162601.996097:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[3156:3156:1026/162601.996101:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[3156:3156:1026/162601.996105:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[3156:3156:1026/162601.996109:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[3156:3156:1026/162601.996112:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[3156:3156:1026/162601.996117:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[3156:3156:1026/162601.996126:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[3156:3156:1026/162601.996144:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[3156:3156:1026/162601.996148:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[3157:3157:1026/162602.004754:INFO:renderer_histogram_report_provider.cc(17)]  report memory cache hit feature disable
+[3157:3157:1026/162602.004771:INFO:renderer_histogram_report_provider.cc(97)] feature disabled: kEnableScrollingMetricsReporting
+[3157:3157:1026/162602.004780:INFO:histogram_signal_handler.cc(45)]  report uma feature disable
+[3157:3173:1026/162602.004899:INFO:gpu.cc(58)] EstablishGpuChannel gpu remote: 1
+[3157:3173:1026/162602.005142:INFO:gpu.cc(180)] OnEstablishedGpuChannel client id: 14 channel_handle: 1 finished: 0
+[3157:3176:1026/162602.008222:INFO:features.cc(18)] IsReportScrollMetricsEnabled: 0
+[3157:3176:1026/162602.008369:WARNING:compositor_service_impl.cc(45)] Scroll metrics reporter is not enabled.
+[3157:3157:1026/162602.008498:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[3157:3157:1026/162602.008758:INFO:frame_facade_renderer_client.cc(242)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[3157:3157:1026/162602.008765:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 0
+[3157:3157:1026/162602.008770:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 4
+[3157:3157:1026/162602.008773:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[3157:3157:1026/162602.008777:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[3157:3157:1026/162602.008783:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[3157:3157:1026/162602.008790:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[3157:3157:1026/162602.008797:INFO:frame_facade_renderer_client.cc(245)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[3157:3157:1026/162602.008803:INFO:frame_facade_renderer_client.cc(258)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[3157:3157:1026/162602.008810:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larksuite.com/space
+[3157:3157:1026/162602.008814:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[3157:3157:1026/162602.008818:INFO:frame_facade_renderer_client.cc(273)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkenterprise.com
+[3157:3157:1026/162602.024751:INFO:render_frame_impl.cc(4147)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[3157:3157:1026/162602.027457:INFO:features.cc(55)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[3157:3157:1026/162602.027477:INFO:frame_facade_renderer_client.cc(108)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[3157:3157:1026/162602.027483:INFO:permission_manager_impl.cc(27)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 6
+[3157:3157:1026/162602.027488:INFO:shellapi_render_frame_extension.cc(172)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge, world= 0, level=6
+[3157:3157:1026/162602.027514:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Connect
+[3157:3157:1026/162602.027520:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Disconnect
+[3157:3157:1026/162602.027530:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifest
+[3157:3157:1026/162602.027537:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= GetManifestV2
+[3157:3157:1026/162602.027541:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= Invoke
+[3157:3157:1026/162602.027545:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNative
+[3157:3157:1026/162602.027549:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= JSCallNativeV2
+[3157:3157:1026/162602.027553:INFO:shellapi_render_frame_extension.cc(197)] [ShellAPI]InjectNativeFunctions, func_name= SendMessage
+[3157:3157:1026/162602.027617:INFO:shellapi_render_frame_extension.cc(216)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[3157:3157:1026/162602.031329:INFO:utils.cc(184)] [InitManifestSharedMemoryReadRetrySwitch] Has kEnable switch
+[3157:3157:1026/162602.031341:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 1
+[3157:3157:1026/162602.038564:INFO:bindings.cc(25)] [ShellAPI]FiltMethodsInManifest, level=6
+[3157:3157:1026/162602.038663:INFO:utils.cc(72)] [ShellAPI]SetV8Value:complete result=1
+[3157:3157:1026/162602.038671:INFO:utils.cc(109)] [ShellAPI]DeleteV8Value:complete result=1
+[3157:3157:1026/162602.048060:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[3157:3157:1026/162602.048082:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[3157:3157:1026/162602.056935:INFO:neotix_shell_api_extension.cc(186)] [InjectExternalCode] execute script result: 1
+[3157:3157:1026/162602.060449:ERROR:utils.cc(161)] [ShellAPI][CallJSFunction] failed, execute func failed, func_name=larkExternal.NativeCallJS
+[3157:3157:1026/162602.541051:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[3157:3176:1026/162602.546970:INFO:tree_paint_watcher_impl.cc(47)] [blank paint check]: SetNeedProcess: 0
+[3157:3157:1026/162602.803055:INFO:features.cc(74)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIDirectCall is 0
+[3157:3157:1026/162602.803154:INFO:features.cc(68)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[3157:3157:1026/162604.101101:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[3157:3157:1026/162605.206333:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[3157:3157:1026/162606.094735:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[3157:3157:1026/162606.094833:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,628,464 168x36,kScript"b-select-search"
+[3157:3157:1026/162606.157441:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=1,flags=512,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=0,always_hide_ime=0,edit_context_control_bounds=640,472 144x20
+[3157:3157:1026/162607.102043:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[3157:3157:1026/162607.118011:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[3157:3157:1026/162607.118271:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:0,328,415 0x0,kScript"hidden-input"
+[3157:3157:1026/162607.132584:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[3157:3157:1026/162607.286726:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[3157:3157:1026/162607.286816:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=15,flags=512,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=0,always_hide_ime=0,edit_context_control_bounds=328,415 16x10
+[3157:3157:1026/162607.287935:INFO:dom_selection.cc(259)] [ime-renderer] Selection.collapse:1
+[3157:3157:1026/162607.288244:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,321,405 16x10,kScript"zone-container editor-kit-container b-small-scrollbar bitable-text-editor-content BITABLE_EDITOR_CONTAINER_tblkH9nhAV38aP0s notranslate chrome chrome88"
+[3157:3157:1026/162607.288275:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=15,flags=512,selection={0,0},composition=,can_compose_inline=1,show_ime_if_needed=1,always_hide_ime=0,edit_context_control_bounds=321,405 16x10
+[3157:3157:1026/162607.289110:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[3157:3157:1026/162607.364686:INFO:dom_websocket.cc(329)] DOMWebSocket connect "ccm-frontier-sg.larksuite.com", context /online_page:rsgot96c1rj0.sg.larksuite.com
+[3157:3157:1026/162607.364904:INFO:websocket_channel_impl.cc(244)] create websocket "lf-scm-sg.larksuitecdn.com", protocol "https"
+[3157:3157:1026/162607.364941:INFO:websocket_channel_impl.cc(295)] websocket connect "ccm-frontier-sg.larksuite.com", protocol "wss", id 659
+[3157:3157:1026/162613.891954:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[3157:3157:1026/162641.875567:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[3157:3157:1026/162643.149083:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[3157:3157:1026/162732.902919:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1

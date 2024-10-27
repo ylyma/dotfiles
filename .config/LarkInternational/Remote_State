@@ -1,0 +1,186 @@
+{
+   "DisableBackgroundingOccludedWindows": 2,
+   "DisableGetThreadCpuUsage": 2,
+   "HttpDns": 0,
+   "LogJsConsoleMessages": 0,
+   "StorageServiceOutOfProcess": 0,
+   "UrgentPageDiscarding": 1,
+   "aha_blank_paint_check": {
+      "check_interval": 10
+   },
+   "aha_ms_fetch_data_hosts": {
+      "hosts": [  ]
+   },
+   "bytedance_sso_url_config": {
+      "cookie_name": "bd_sso_sid_c4f15a",
+      "domain": "sso.bytedance.com",
+      "url": "https://sso.bytedance.com/api/v1/lark/oauth?next=/"
+   },
+   "ccm_preload": 1,
+   "core_clear_controlcode": "8|11",
+   "core_net_select_client_certificate": 1,
+   "device_id": "7426300204694962181",
+   "doctor_domain_filtering_list": {
+      "domain_list": [ "ccm-frontier.larkoffice.com", "ccm-frontier-hl.larkoffice.com", "appbeta-bd.feishu.cn", "pay-bd.feishu.cn", "applink.feishu.cn", "device-bd.feishu.cn", "sf6-scmcdn-cn.feishucdn.com", "smb.feishu.cn", "weboffice.feishu-3rd-party-services.com", "msg-frontier-pro.feishu.cn", "imap.larkoffice.com", "smtp.larkoffice.com", "helpdesk.feishu.cn", "dig.feishu.cn", "slardar-bd.feishu.cn", "msg-frontier.feishu.cn", "tns.feishu.cn", "abtest-bd.feishu.cn", "mcs-bd.feishu.cn", "ttnet-log-bd.feishu.cn", "dm.feishu.cn", "dm-lf.feishu.cn", "dm-hl.feishu.cn", "push-bd.feishu.cn", "settings-bd.feishu.cn", "linkchat.feishu.cn", "feishu.net", "sf3-ccm1-cn.feishucdn.com", "gecko-bd.feishu.cn", "sf6-scmcdn2-cn.feishucdn.com", "m1.feishu.cn", "api-eeft-mail.feishu.cn", "meetings.feishu.cn", "activity.feishu.cn", "vc-us.feishu.cn", "vc-us.feishu.cn", "vc-sg.feishu.cn", "vc-jp.feishu.cn", "vc-us.feishu.net", "vc-sg.feishu.net", "vc-jp.feishu.net", "vc-us.larkoffice.com", "vc-sg.larkoffice.com", "vc-jp.larkoffice.com", "vc-cn.larksuite.com", "vc-sg.larksuite.com", "vc-jp.larksuite.com", "imap.feishu.cn", "smtp.feishu.cn" ]
+   },
+   "ebus_enable_auth": 2,
+   "ebus_ipc_feature": 2,
+   "http_dns_whitelist": [ "test.cn" ],
+   "lark_app_block_detect": {
+      "block_assert_millisecond": 6000,
+      "suspend_border_milliseconds": 20000
+   },
+   "lark_app_enable_devtools": 0,
+   "lark_app_memory_config": {
+      "inactiveTimeLimit": {
+         "calendar": 3600,
+         "default": 5,
+         "mail": 3600,
+         "messenger": 21600,
+         "miniprogram:miniprogram-fusion:preload": 300,
+         "moments": 300,
+         "openplatform": 43200,
+         "search": 10800,
+         "search:search:default": 10800,
+         "space": 3600,
+         "todo": 300
+      }
+   },
+   "lark_app_memory_limit": {
+      "all_webview_limit": 786432000,
+      "enable": true,
+      "limit": 838860800
+   },
+   "lark_app_modal_delay_close_time": {
+      "default": 500
+   },
+   "lark_app_push_limit": {
+      "cpu_limit": [ 150, 100, 80, 50 ]
+   },
+   "lark_ccm_initialization_delay": {
+      "init_delay_in_seconds": 0
+   },
+   "lark_disable_d3d11_for_windows": 1,
+   "lark_enable_gpu_dump": 2,
+   "lark_enable_mac_power_monitor_platformInit_back_off": 2,
+   "lark_enable_not_consume_mouse_down_event_app_inactive": 1,
+   "lark_fulldump": {
+      "mods": [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+   },
+   "lark_gpu_block_detect": {
+      "detect_interval": 30
+   },
+   "lark_gpu_disable_d3d11": [ {
+      "derive_versions": [  ],
+      "device_id": 39745
+   }, {
+      "derive_versions": [  ],
+      "device_id": 16032
+   } ],
+   "lark_gpu_hang_detect": {
+      "detect_interval": 5,
+      "terminate_process_threshold": 20
+   },
+   "lark_http_dns": 0,
+   "lark_ime_get_rect_timeout": {
+      "gfrfr_timeout": 100
+   },
+   "lark_pc_sync_disk_entry": 1,
+   "lark_process_exit_code": {
+      "exit_code_list": [  ]
+   },
+   "lark_shellapi_database_sqlite": {
+      "abnormalTimeLimit": 20
+   },
+   "lark_shellapi_stat_upload": {
+      "len_size_intervals": [ [ 0, 1 ], [ 1, 1000000 ], [ 1000000, 10000000 ], [ 10000000, 100000000 ], [ 100000000, 1000000000 ] ],
+      "record_pack_size": 50,
+      "upload_interval_secs": 480
+   },
+   "lark_shellapi_url_denylist": {
+      "shellApiDenylist": [ "ShellAPI::app::process::setEnv", "ShellAPI::system::unzipper::unzip", "ShellAPI::app::passport::getAuthInfo", "ShellAPI::app::sdk::invokeAsync", "ShellAPI::app::sdk::invokeAsyncFast", "ShellAPI::app::webview", "ShellAPI::app::screenshot::take" ],
+      "urlDenylist": [ "getfeishu.cn", "internal-api-space.feishu.cn", "open.feishu.cn", "meetings.feishu.cn", "meego.feishu.cn", "project.feishu.cn", "oa.feishu.cn", "jobs.feishu.cn", "anycross.feishu.cn", "wenjuan.feishu.cn", "approval-rules.feishu.cn", "apaas.feishu.cn", "login.feishu.cn", "elearning.feishu.cn", "internal-api-drive-stream.feishu.cn" ]
+   },
+   "lark_tea_down_sample": {
+      "event_upload_monitor_dev": 0.01,
+      "net_monitor_dev": 0.01
+   },
+   "lark_use_vulcan_as_fallback_browser": 2,
+   "mojito_update": {
+      "packages": [ {
+         "location": {
+            "mac": "http://tosv.byted.org/obj/box-staging/mojito_install_test_1_0_0_mac",
+            "windows": "http://tosv.byted.org/obj/box-staging/mojito_install_test_1_0_0_win.exe"
+         },
+         "md5": {
+            "mac": "0b086eae123d400735a01acf5bc1c982",
+            "windows": "9cb58b09676c7627001a12feca98712c"
+         },
+         "version": "1.0.0"
+      }, {
+         "location": {
+            "mac": "http://tosv.byted.org/obj/box-staging/mojito_install_test_2_0_0_mac",
+            "windows": "http://tosv.byted.org/obj/box-staging/mojito_install_test_2_0_0_win.exe"
+         },
+         "md5": {
+            "mac": "559cba3015e29bda6a4405ad5501f58b",
+            "windows": "f377eacae2e690c2502b1fd9c7e55b4b"
+         },
+         "version": "2.0.0"
+      } ],
+      "version": "1.0.0"
+   },
+   "net_event_domain_sample": {
+      "common_sample": 1.0,
+      "mcs-bd.feishu.cn": 0.1
+   },
+   "nf_ipc_feature": 2,
+   "nf_ipc_mach_port": 1,
+   "nf_ipc_refactor_enable": 2,
+   "tenant_id": "7418799223494672416",
+   "use_crypted_auth_info": 2,
+   "user_id": "7426294227069452320",
+   "vulcan_bookmark_sync_v1": 2,
+   "vulcan_download_address": {
+      "linux_md5": "",
+      "linux_url": "",
+      "mac_arm_md5": "3fae96f45f491b4c41a886212d27402f",
+      "mac_arm_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/3fae96/vulcan-mac-arm64-0.4.0-beta109.zip",
+      "mac_md5": "ce8ebd1e180b89fb47dbf2e3178e9fb8",
+      "mac_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/ce8ebd/vulcan-mac-x64-0.4.0-beta109.zip",
+      "win_md5": "beee722e4fb02b3d815d10b031affd44",
+      "win_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/beee72/vulcan-win-x86-0.4.0-beta109.zip",
+      "win_x64_md5": "a76c8e2284b095589e1d32075c3a7a28",
+      "win_x64_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/a76c8e/vulcan-win-x64-0.4.0-beta109.zip"
+   },
+   "vulcan_frontier_switch": 2,
+   "vulcan_morpheus_switch": 1,
+   "vulcan_selection_translate_enable": 2,
+   "vulcan_storage_partition_config": {
+      "disable_vulcan_storage_partition": 0
+   },
+   "vulcan_translate_config": {
+      "translate_api_url": "https://cloudapi.bytedance.net/faas/services/tt4s4j/invoke/translate",
+      "translate_script_url": "https://tt4s4j.web.bytedance.net/element.js",
+      "translate_script_url_v2": "https://vulcan.web.bytedance.net/translator.ee65d2.js"
+   },
+   "vulcan_translate_enable": 2,
+   "vulcan_update_address": {
+      "force_version": "0.4.0-beta317",
+      "mac_arm_md5": "a7eeef8774641fe55dfa669c0ea8c714",
+      "mac_arm_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/a7eeef/vulcan-mac-arm64-0.4.0-beta317.zip",
+      "mac_md5": "9066fcfe3601ef93f562f076fa51b254",
+      "mac_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/9066fc/vulcan-mac-x64-0.4.0-beta317.zip",
+      "release_note": "云同步服务切换，需升级到最新版本",
+      "version": "0.4.0-beta317",
+      "win_md5": "de0635646b7048838e986081a7103873",
+      "win_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/de0635/vulcan-win-x86-0.4.0-beta317.zip",
+      "win_x64_md5": "b8cda2ebfb32042731a8978269f28493",
+      "win_x64_url": "https://lf-aha.feishucdn.com/obj/ee-appcenter/b8cda2/vulcan-win-x64-0.4.0-beta317.zip"
+   },
+   "vulcan_url_dispatcher": 1,
+   "watermark": {
+      "domains": [  ],
+      "enable": false
+   }
+}

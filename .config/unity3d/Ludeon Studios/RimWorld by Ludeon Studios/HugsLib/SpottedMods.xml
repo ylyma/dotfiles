@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mods>
+  <mod packageId="zetrith.prepatcher" />
+  <mod packageId="brrainz.harmony" />
+  <mod packageId="brrainz.achtung" />
+  <mod packageId="Murmur.WallLight" />
+  <mod packageId="Jaxe.RimHUD" />
+  <mod packageId="Ludeon.RimWorld" />
+  <mod packageId="hatti.qualitybuilder" />
+  <mod packageId="Ludeon.RimWorld.Biotech" />
+  <mod packageId="UnlimitedHugs.HugsLib" />
+  <mod packageId="UnlimitedHugs.AllowTool" />
+  <mod packageId="Mehni.PickUpAndHaul" />
+  <mod packageId="Dubwise.DubsMintMenus" />
+  <mod packageId="Jaxe.Bubbles" />
+  <mod packageId="avilmask.CommonSense" />
+  <mod packageId="Uuugggg.ReplaceStuff" />
+  <mod packageId="OskarPotocki.VanillaFactionsExpanded.Core" />
+  <mod packageId="Orion.Hospitality" />
+</Mods>

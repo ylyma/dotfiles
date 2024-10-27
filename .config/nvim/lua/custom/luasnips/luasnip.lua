@@ -71,9 +71,85 @@ ls.add_snippets('tex', {
 })
 
 ls.add_snippets('tex', {
-  s('code', {
-    t { '\\begin{lstlisting}', ' ' },
+  s('und', {
+    t '\\underline{',
     i(1),
+    t '}',
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('code', {
+    t { '\\begin{lstlisting}[style=' },
+    i(1),
+    t { ']', '' },
+    i(2),
     t { ' ', '\\end{lstlisting}' },
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('sec', {
+    t '\\section{',
+    i(1),
+    t '}',
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('sub', {
+    t '\\subsection{',
+    i(1),
+    t '}',
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('subs', {
+    t '\\subsubsection{',
+    i(1),
+    t '}',
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('subss', {
+    t '\\subsubsubsection{',
+    i(1),
+    t '}',
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('tab', {
+    t '\\begin{tabular}{',
+    i(1),
+    t { '}', '' },
+    i(2),
+    t { ' ', '\\end{tabular}' },
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('tabx', {
+    t { '\\begin{tabular}{\\textwidth}{ | >{\\raggedright\\arraybackslash}X | >{\\raggedright\\arraybackslash}X | }', '' },
+    i(1),
+    t { ' ', '\\end{tabular}' },
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('math', {
+    t { '\\begin{align*}', '' },
+    i(1),
+    t { ' ', '\\end{align*}' },
+  }),
+})
+
+ls.add_snippets('tex', {
+  s('eqn', {
+    t { '\\[', '' },
+    i(1),
+    t { ' ', '\\]' },
   }),
 })

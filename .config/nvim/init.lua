@@ -112,6 +112,9 @@ vim.opt.relativenumber = true
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
 
@@ -165,19 +168,6 @@ vim.opt.scrolloff = 10
 
 vim.api.nvim_create_autocmd({ 'FIleType' }, { pattern = 'tex', group = optional_group, command = 'TSBufDisable highlight' })
 
-vim.cmd [[
-" Use Tab to expand and jump through snippets
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
-smap <silent><expr> <Tab> luasnip#jumpable(1) ? '<Plug>luasnip-jump-next' : '<Tab>'
-
-" Use Shift-Tab to jump backwards through snippets
-imap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
-smap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
-
-" Cycle forward through choice nodes with Control-f (for example)
-imap <silent><expr> <C-f> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-f>'
-smap <silent><expr> <C-f> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-f>'
-]]
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 --  Traverse quickfix list
@@ -203,7 +193,8 @@ vim.keymap.set({ 'i', 'v', 'x' }, 'kj', '<esc>')
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
-
+-- markdown-preview keymaps
+vim.keymap.set('n', '<leader>mp', ':MarkdownPreviewToggle<CR>')
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next [D]iagnostic message' })
@@ -268,7 +259,6 @@ vim.opt.rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
-  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
@@ -596,6 +586,7 @@ require('lazy').setup({
             },
           },
         },
+        sqlls = {},
         rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
@@ -603,7 +594,8 @@ require('lazy').setup({
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`tsserver`) will work just fine
-        -- tsserver = {},
+        tsserver = {},
+        eslint = {},
         --
 
         lua_ls = {
@@ -685,7 +677,8 @@ require('lazy').setup({
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.
-        javascript = { { 'prettierd', 'prettier' } },
+        javascript = { { 'prettierd', 'prettier', 'eslint' } },
+        typescript = { 'prettierd', 'prettier', 'eslint' },
       },
     },
   },
@@ -709,12 +702,12 @@ require('lazy').setup({
           -- `friendly-snippets` contains a variety of premade snippets.
           --    See the README about individual language/framework/plugin snippets:
           --    https://github.com/rafamadriz/friendly-snippets
-          {
-            'rafamadriz/friendly-snippets',
-            config = function()
-              require('luasnip.loaders.from_vscode').lazy_load()
-            end,
-          },
+          -- {
+          --   'rafamadriz/friendly-snippets',
+          --   config = function()
+          --     require('luasnip.loaders.from_vscode').lazy_load()
+          --   end,
+          -- },
         },
       },
       'saadparwaiz1/cmp_luasnip',

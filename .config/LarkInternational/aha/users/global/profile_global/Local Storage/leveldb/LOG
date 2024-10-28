@@ -1,6 +1,0 @@
-2024/10/27-13:21:03.455 656 Reusing MANIFEST /home/amy/dotfiles/.config/LarkInternational/aha/users/global/profile_global/Local Storage/leveldb/MANIFEST-000001
-2024/10/27-13:21:03.456 656 Recovering log #8
-2024/10/27-13:21:03.456 656 Reusing old log /home/amy/dotfiles/.config/LarkInternational/aha/users/global/profile_global/Local Storage/leveldb/000008.log 
-2024/10/27-13:23:11.138 7a2 Level-0 table #11: started
-2024/10/27-13:23:11.142 7a2 Level-0 table #11: 20043 bytes OK
-2024/10/27-13:23:11.147 7a2 Delete type=0 #8

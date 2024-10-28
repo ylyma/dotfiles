@@ -10,11 +10,15 @@ alias d="kitten diff"
 
 alias vim="nvim"
 
+alias cln="latexmk -c"
+
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias unmount='udisksctl unmount -b /dev/sdc1'
 alias mount='udisksctl mount -b /dev/sdc1'
+
+starship init fish | source
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

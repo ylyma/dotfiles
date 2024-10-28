@@ -5,4 +5,7 @@
 .config/pulse/
 .config/QtProject.conf
 .config/libreoffice/4
-
+.config/LarkInternational/
+.config/unity3D/
+.config/htop/
+.config/FortiClient/

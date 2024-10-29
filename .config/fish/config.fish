@@ -11,7 +11,7 @@ alias d="kitten diff"
 alias vim="nvim"
 
 alias cln="latexmk -c"
-
+alias forti="sudo openfortivpn webvpn.comp.nus.edu.sg --username=e0969284"
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'

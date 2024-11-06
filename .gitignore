@@ -10,3 +10,6 @@
 .config/htop/
 .config/FortiClient/
 .config/nnn/
+.config/mimeapps.list
+.config/pavucontrol.ini
+.config/xfce4/

@@ -1,0 +1,54 @@
+2025-05-22 00:54:18.768 [info] Extension host with pid 14534 started
+2025-05-22 00:54:18.779 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-22 00:54:18.786 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-22 00:54:18.848 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-22 00:54:18.936 [info] Eager extensions activated
+2025-05-22 00:54:18.949 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.057 [info] Extension host with pid 14563 started
+2025-05-22 00:54:19.057 [info] Eager extensions activated
+2025-05-22 00:54:19.057 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.149 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.191 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.371 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.433 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.578 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:19.581 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:27.215 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-22 00:54:27.216 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-22 00:54:27.217 [info] Extension host with pid 14563 exiting with code 0
+2025-05-22 00:54:27.225 [error] Error: Channel has been closed
+	at n (file:///tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+	at Object.appendLine (file:///tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+	at c (/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1570937)
+	at t.deactivate (/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1572593)
+	at /tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:298717
+	at t.deactivate (/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:298776)
+	at async Promise.all (index 0)
+	at async Ioe.$ (file:///tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-22 00:54:27.225 [info] Extension host with pid 14534 exiting with code 0
+2025-05-22 00:54:29.009 [info] Extension host with pid 14662 started
+2025-05-22 00:54:29.009 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/95eccb7843f81b72c1bb775bc2c967f4.
+2025-05-22 00:54:29.019 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-22 00:54:29.025 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-22 00:54:29.089 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-22 00:54:29.177 [info] Eager extensions activated
+2025-05-22 00:54:29.209 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.327 [info] Extension host with pid 14685 started
+2025-05-22 00:54:29.327 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/95eccb7843f81b72c1bb775bc2c967f4.
+2025-05-22 00:54:29.327 [info] Eager extensions activated
+2025-05-22 00:54:29.327 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.422 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.474 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.645 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.711 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.858 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:29.861 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 00:54:30.073 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-22 00:54:31.009 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4398
+2025-05-22 00:54:31.413 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-22 00:54:32.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2025-05-22 00:54:34.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2025-05-22 00:54:35.766 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2025-05-22 00:55:08.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4403
+2025-05-22 00:55:19.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4403
+2025-05-22 00:55:58.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4403

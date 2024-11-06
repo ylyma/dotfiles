@@ -16,6 +16,8 @@ vim.keymap.set({ 'i', 's' }, '<C-j>', function()
   end
 end, { silent = true })
 
+-- latex
+
 ls.add_snippets('tex', {
   s('img', {
     t '\\includegraphics[scale=',

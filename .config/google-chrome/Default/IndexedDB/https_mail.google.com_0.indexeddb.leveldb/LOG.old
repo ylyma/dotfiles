@@ -1,0 +1,9 @@
+2025/02/24-12:19:16.687 9ba Reusing MANIFEST /home/amy/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/24-12:19:16.688 9ba Recovering log #6
+2025/02/24-12:19:16.689 9ba Reusing old log /home/amy/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000006.log 
+2025/02/24-12:19:17.696 9b9 Compacting 1@1 + 1@2 files
+2025/02/24-12:19:17.706 9b9 Generated table #9@1: 73 keys, 133971 bytes
+2025/02/24-12:19:17.706 9b9 Compacted 1@1 + 1@2 files => 133971 bytes
+2025/02/24-12:19:17.708 9b9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/24-12:19:17.708 9b9 Delete type=2 #7
+2025/02/24-12:19:17.708 9b9 Delete type=2 #5

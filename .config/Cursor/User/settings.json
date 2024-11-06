@@ -1,0 +1,9 @@
+{
+<<<<<<< HEAD
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Cursor Dark Midnight",
+    "cursor.composer.collapsePaneInputBoxPills": true
+=======
+    "window.commandCenter": 1
+>>>>>>> 3000f69 (add)
+}

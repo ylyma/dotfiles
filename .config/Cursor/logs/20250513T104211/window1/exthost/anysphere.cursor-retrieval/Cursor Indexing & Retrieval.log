@@ -1,0 +1,14 @@
+2025-05-13 10:42:16.093 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-05-13 10:52:13.646 [info] Get user commits took 173.99929700000212ms for 10 commits
+2025-05-13 11:02:13.655 [info] Get user commits took 183.98466899991035ms for 10 commits
+2025-05-13 11:12:13.646 [info] Get user commits took 174.95226500020362ms for 10 commits
+2025-05-13 11:22:13.656 [info] Get user commits took 183.0396230001934ms for 10 commits
+2025-05-13 11:32:13.649 [info] Get user commits took 177.91727300034836ms for 10 commits
+2025-05-13 11:42:13.639 [info] Get user commits took 168.08204399980605ms for 10 commits
+2025-05-13 11:52:13.641 [info] Get user commits took 170.28626499976963ms for 10 commits
+2025-05-13 12:02:13.642 [info] Get user commits took 170.46508300025016ms for 10 commits
+2025-05-13 12:12:13.643 [info] Get user commits took 171.68857000023127ms for 10 commits
+2025-05-13 12:22:13.656 [info] Get user commits took 172.93578100018203ms for 10 commits
+2025-05-13 12:32:13.632 [info] Get user commits took 161.45483500044793ms for 10 commits
+2025-05-13 12:42:13.720 [info] Get user commits took 246.2692529996857ms for 10 commits
+2025-05-13 12:52:13.683 [info] Get user commits took 211.60158099979162ms for 10 commits

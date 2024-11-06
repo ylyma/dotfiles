@@ -1,0 +1,6 @@
+2025/05/09-11:18:21.993 10625 Creating DB /home/amy/.config/google-chrome/Default/IndexedDB/https_fundnel.atlassian.net_0.indexeddb.leveldb since it was missing.
+2025/05/09-11:18:22.003 10625 Reusing MANIFEST /home/amy/.config/google-chrome/Default/IndexedDB/https_fundnel.atlassian.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/09-14:46:46.993 10626 Level-0 table #5: started
+2025/05/09-14:46:47.079 10626 Level-0 table #5: 1272719 bytes OK
+2025/05/09-14:46:47.086 10626 Delete type=0 #3
+2025/05/09-14:46:47.087 10626 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

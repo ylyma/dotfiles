@@ -1,0 +1,87 @@
+2025-05-20 10:05:58.493 [info] Extension host with pid 8222 started
+2025-05-20 10:05:58.493 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/cf8c776c5c57f82d8690d28874202f31.
+2025-05-20 10:05:58.543 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-20 10:05:58.594 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2025-05-20 10:05:58.600 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-05-20 10:05:58.770 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2025-05-20 10:05:58.928 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-20 10:05:58.984 [info] Eager extensions activated
+2025-05-20 10:05:59.045 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.083 [info] Extension host with pid 8272 started
+2025-05-20 10:05:59.083 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/cf8c776c5c57f82d8690d28874202f31.
+2025-05-20 10:05:59.083 [info] Eager extensions activated
+2025-05-20 10:05:59.087 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.292 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.360 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.574 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.641 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.850 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:05:59.853 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 10:06:00.223 [error] Error: ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-20 10:06:00.266 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-20 15:16:56.456 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:17:16.106 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:18:04.102 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:19:09.048 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:19:28.167 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:20:40.409 [error] Error: Unexpected ref: :3
+	at d._updateTextEditorBlameInformation (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:808226)
+	at d.o (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:906744)
+	at d._onDidRunGitStatus (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:807156)
+	at d.<anonymous> (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:806620)
+	at C.B (file:///tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+	at C (file:///tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+	at C.fire (file:///tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+	at O._updateModelState (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1065929)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async O.updateModelState (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1064449)
+	at async O.run (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063500)
+	at async O.status (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1043902)
+2025-05-20 15:20:55.713 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:22:03.169 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:22:41.153 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorQwq9n8/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-20 15:23:45.531 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:6,$model20)
+2025-05-20 15:23:45.531 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:6,$model20)
+2025-05-20 15:23:45.531 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:6,$model20)
+2025-05-20 15:23:45.531 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:6,$model20)
+2025-05-20 15:23:45.531 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:6,$model20)

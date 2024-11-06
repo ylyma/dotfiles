@@ -1,0 +1,83 @@
+2025-05-21 14:17:46.643 [error] Failed to check if file sync is enabled for user {}
+2025-05-21 14:17:46.643 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-21 14:17:46.643 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-21 14:17:46.711 [info] [registerEventListeners] Registering event listeners
+2025-05-21 14:17:48.209 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-21 14:17:48.209 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-21 14:17:48.209 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-21 14:17:49.629 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-21 14:17:50.178 [info] Starting sync of visible tabs
+2025-05-21 14:17:50.363 [info] Uploaded file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=1 in 183.5479060000007ms
+2025-05-21 14:17:50.364 [info] Synced all visible tabs in 186.7742900000003ms
+2025-05-21 14:17:50.417 [info] Fetched fsConfig in 787.8132519999999ms
+2025-05-21 14:17:50.417 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-21 14:17:50.417 [info] File sync enabled status: true
+2025-05-21 14:17:50.417 [info] Starting sync of visible tabs
+2025-05-21 14:17:50.417 [info] Synced all visible tabs in 0.20371200000045064ms
+2025-05-21 14:17:50.578 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-21 14:17:50.977 [info] Fetched fsConfig in 398.72407699999985ms
+2025-05-21 14:17:50.977 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-21 14:18:29.221 [info] Synced file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=2 in 494.5011339999983ms
+2025-05-21 14:18:53.071 [info] Synced file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=3 in 183.76086399999622ms
+2025-05-21 14:18:53.713 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-21 14:18:54.119 [info] Fetched fsConfig in 405.67112199999974ms
+2025-05-21 14:18:54.119 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-21 14:18:54.119 [info] File sync enabled status: true
+2025-05-21 14:18:54.119 [info] Starting sync of visible tabs
+2025-05-21 14:18:54.119 [info] Synced all visible tabs in 0.24358599999686703ms
+2025-05-21 14:18:54.803 [info] Synced file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=4 in 178.1999860000069ms
+2025-05-21 14:18:57.125 [info] Synced file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=5 in 180.23935699999856ms
+2025-05-21 14:18:59.264 [info] Synced file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=9 in 179.41707700000552ms
+2025-05-21 14:19:11.463 [info] Handled visible editors change in 0.22079400000802707ms
+2025-05-21 14:19:11.468 [info] Handled visible editors change in 0.3821460000035586ms
+2025-05-21 14:19:11.488 [info] Handled visible editors change in 0.24252400000113994ms
+2025-05-21 14:48:09.178 [info] Handled visible editors change in 0.3422709999140352ms
+2025-05-21 14:48:10.126 [info] Uploaded file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=1 in 772.1315039999317ms
+2025-05-21 14:48:10.126 [info] Handled visible editors change in 912.9164740000851ms
+2025-05-21 14:48:11.748 [info] Handled visible editors change in 0.1750680000986904ms
+2025-05-21 14:48:11.916 [info] Handled visible editors change in 0.08541000005789101ms
+2025-05-21 14:48:11.924 [info] Handled visible editors change in 0.13117600022815168ms
+2025-05-21 14:48:12.174 [info] Uploaded file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=2 in 182.52302600000985ms
+2025-05-21 14:48:12.174 [info] Handled visible editors change in 244.71243699989282ms
+2025-05-21 14:48:12.339 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=2 in 185.05552100017667ms
+2025-05-21 14:48:18.546 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=3 in 203.19769899989478ms
+2025-05-21 14:48:20.792 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-21 14:48:21.192 [info] Fetched fsConfig in 400.07503800000995ms
+2025-05-21 14:48:21.192 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-21 14:48:21.192 [info] File sync enabled status: true
+2025-05-21 14:48:21.192 [info] Starting sync of visible tabs
+2025-05-21 14:48:21.192 [info] Synced all visible tabs in 0.09599000005982816ms
+2025-05-21 14:48:21.916 [info] Handled visible editors change in 0.17371500004082918ms
+2025-05-21 14:48:21.920 [info] Handled visible editors change in 0.18626900017261505ms
+2025-05-21 14:48:21.922 [info] Handled visible editors change in 0.09370599989779294ms
+2025-05-21 14:48:22.218 [info] Uploaded file a-prime/app/features/dealroom/(prime)/OrderDetails/InvestmentAmount.tsx modelVersion=9 in 214.73485499992967ms
+2025-05-21 14:48:22.218 [info] Handled visible editors change in 273.8257210000884ms
+2025-05-21 14:48:47.966 [info] Handled visible editors change in 0.09818400000222027ms
+2025-05-21 14:48:48.255 [info] Uploaded file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=1 in 200.8385699999053ms
+2025-05-21 14:48:48.255 [info] Handled visible editors change in 260.05089400010183ms
+2025-05-21 14:48:50.060 [info] Handled visible editors change in 0.09534900006838143ms
+2025-05-21 14:48:50.191 [info] Handled visible editors change in 0.1320980000309646ms
+2025-05-21 14:48:50.196 [info] Handled visible editors change in 0.13890000013634562ms
+2025-05-21 14:48:50.434 [info] Uploaded file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=2 in 183.41482599987648ms
+2025-05-21 14:48:50.434 [info] Handled visible editors change in 231.9914750000462ms
+2025-05-21 14:48:50.615 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=2 in 182.9699430000037ms
+2025-05-21 14:48:58.508 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=3 in 180.39495899993926ms
+2025-05-21 14:49:05.027 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=4 in 196.25885999994352ms
+2025-05-21 14:49:23.710 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=6 in 184.8103710000869ms
+2025-05-21 14:49:25.053 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-21 14:49:25.460 [info] Fetched fsConfig in 406.30840600002557ms
+2025-05-21 14:49:25.460 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-21 14:49:25.460 [info] File sync enabled status: true
+2025-05-21 14:49:25.460 [info] Starting sync of visible tabs
+2025-05-21 14:49:25.460 [info] Synced all visible tabs in 0.13304900005459785ms
+2025-05-21 14:49:32.074 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=8 in 181.4241879999172ms
+2025-05-21 14:49:38.936 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=10 in 181.4231350000482ms
+2025-05-21 14:49:46.314 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=12 in 180.03697799984366ms
+2025-05-21 14:49:48.525 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=13 in 181.44074900005944ms
+2025-05-21 14:49:50.178 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=15 in 180.22196500003338ms
+2025-05-21 14:49:51.319 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=16 in 180.67379099992104ms
+2025-05-21 14:50:18.717 [info] Synced file exchange-monolith/app/src/modules/notices/notices.controller.ts modelVersion=17 in 180.90565499989316ms
+2025-05-21 14:50:23.137 [info] Handled visible editors change in 0.1751780000049621ms
+2025-05-21 14:50:23.141 [info] Handled visible editors change in 0.34501699986867607ms
+2025-05-21 14:50:23.143 [info] Handled visible editors change in 0.12393200001679361ms
+2025-05-21 14:50:23.166 [info] Handled visible editors change in 0.33192199980840087ms

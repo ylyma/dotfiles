@@ -1,0 +1,13 @@
+2025-05-22 00:50:32.864 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.50.2/8ab2a3ea10be69fd7c81b0267721e361ae4cebdf6ef1231519f9d8f6acf8f5a5/stable
+2025-05-22 00:50:32.864 [info] update#setState idle
+2025-05-22 00:50:34.230 [error] vscode-file: Refused to load resource /tmp/.mount_cursoreIVOMC/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursoreIVOMC/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-05-22 00:51:02.754 [info] update#setState checking for updates
+2025-05-22 00:51:03.090 [info] update#setState ready
+2025-05-22 00:51:06.523 [info] Extension host with pid 12996 exited with code: 0, signal: unknown.
+2025-05-22 00:51:06.597 [info] Extension host with pid 12946 exited with code: 0, signal: unknown.
+2025-05-22 00:51:06.609 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 12957]: crashed with code 15 and reason 'killed'
+2025-05-22 00:54:01.380 [error] CodeWindow: renderer process gone (reason: crashed, code: 139)
+2025-05-22 00:54:01.389 [info] Extension host with pid 13301 exited with code: 0, signal: unknown.
+2025-05-22 00:54:01.400 [info] Extension host with pid 13278 exited with code: 0, signal: unknown.
+2025-05-22 00:54:03.837 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 13268]: crashed with code 139 and reason 'crashed'
+2025-05-22 00:54:04.012 [error] [uncaught exception in main]: TypeError: Object has been destroyed Object has been destroyed

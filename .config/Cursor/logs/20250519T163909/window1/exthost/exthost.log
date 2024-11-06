@@ -1,0 +1,214 @@
+2025-05-19 16:39:13.862 [info] Extension host with pid 110585 started
+2025-05-19 16:39:13.862 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/f360765736085538303e2b3588207ab5.
+2025-05-19 16:39:14.146 [info] Extension host with pid 110635 started
+2025-05-19 16:39:14.147 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/f360765736085538303e2b3588207ab5.
+2025-05-19 16:39:14.155 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-19 16:39:14.176 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-05-19 16:39:14.176 [info] Eager extensions activated
+2025-05-19 16:39:14.276 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:14.452 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-19 16:39:14.547 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-19 16:39:14.613 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-19 16:39:14.755 [info] Eager extensions activated
+2025-05-19 16:39:14.831 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:15.107 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:15.166 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:15.396 [error] Error: ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-19 16:39:15.411 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:15.480 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:15.643 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:15.645 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 16:39:16.411 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-19 16:42:03.745 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-19 16:42:03.757 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-19 16:42:03.769 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-05-19 16:42:03.832 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-05-19 17:51:14.547 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 17:58:44.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2353
+2025-05-19 17:58:49.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2353
+2025-05-19 17:59:17.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2353
+2025-05-19 17:59:21.800 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 17:59:31.063 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2353
+2025-05-19 17:59:32.264 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2353
+2025-05-19 18:02:07.089 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2353
+2025-05-19 18:02:16.375 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-19 18:02:16.381 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-19 18:02:16.432 [error] TypeError: r.some is not a function
+	at h.saveToDisk (/home/amy/.cursor/extensions/vscodevim.vim-1.29.2/out/extension.js:2:641673)
+	at t.deactivate (/home/amy/.cursor/extensions/vscodevim.vim-1.29.2/out/extension.js:2:767872)
+	at Ioe.eb (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:11978)
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10127
+	at Array.map (<anonymous>)
+	at Ioe.$ (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10115)
+	at Ioe.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10358)
+	at uyt.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Xr (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-05-19 18:02:16.433 [info] Extension host with pid 110635 exiting with code 0
+2025-05-19 18:02:16.506 [error] Canceled: Canceled
+	at Wu (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:9:1125)
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113140
+	at Array.forEach (<anonymous>)
+	at det.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113080)
+	at Ioe.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10335)
+	at uyt.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Xr (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-19 18:02:16.508 [error] Canceled: Canceled
+	at new eJt (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+	at det.U (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+	at mK.g (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at mK.executeCommand (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at mK.g (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at mK.executeCommand (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42605)
+	at h2.N [as value] (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:978108)
+	at C.B (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+	at C (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+	at C.fire (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+	at Object.f [as dispose] (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at RY.<anonymous> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at RY.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at RY.<anonymous> (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at RY.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Gs (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15392
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+	at Object.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at Ioe.eb (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12173)
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10127
+	at Array.map (<anonymous>)
+	at Ioe.$ (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10115)
+	at Ioe.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10358)
+	at uyt.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Xr (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-19 18:02:16.508 [error] Canceled: Canceled
+	at new eJt (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+	at det.U (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+	at mK.g (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at mK.executeCommand (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at mK.g (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at mK.executeCommand (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42605)
+	at set hasGitHubRepositories (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:328629)
+	at /tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:329588
+	at h2.value (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1096223)
+	at C.B (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+	at C (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+	at C.fire (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+	at Object.f [as dispose] (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at RY.<anonymous> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at RY.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at RY.<anonymous> (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at RY.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Gs (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15392
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+	at Object.dispose (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at Ioe.eb (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12173)
+	at file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10127
+	at Array.map (<anonymous>)
+	at Ioe.$ (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10115)
+	at Ioe.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10358)
+	at uyt.terminate (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Xr (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-19 18:02:16.508 [error] Error: Channel has been closed
+	at n (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+	at Object.appendLine (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+	at c (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1570937)
+	at t.deactivate (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1572593)
+	at /tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:298717
+	at t.deactivate (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:298776)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 1)
+	at async Ioe.$ (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-19 18:02:16.515 [info] Extension host with pid 110585 exiting with code 0
+2025-05-19 18:02:19.303 [info] Extension host with pid 132687 started
+2025-05-19 18:02:19.303 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/cf8c776c5c57f82d8690d28874202f31.
+2025-05-19 18:02:19.316 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-19 18:02:19.325 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-19 18:02:19.395 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-19 18:02:19.491 [info] Eager extensions activated
+2025-05-19 18:02:19.515 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:19.567 [info] Extension host with pid 132719 started
+2025-05-19 18:02:19.567 [info] Skipping acquiring lock for /home/amy/.config/Cursor/User/workspaceStorage/cf8c776c5c57f82d8690d28874202f31.
+2025-05-19 18:02:19.567 [info] Eager extensions activated
+2025-05-19 18:02:19.568 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:19.731 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:19.779 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:19.955 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:20.017 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:20.169 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:20.172 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-19 18:02:20.344 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-19 18:02:20.681 [error] Error: ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-19 18:02:20.739 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-19 18:02:58.149 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-05-19 18:03:49.206 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 18:13:03.619 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 18:13:20.750 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 18:13:29.436 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 18:13:37.486 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)
+2025-05-19 18:18:59.182 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:961158)
+	at async O.getCommit (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1055020)

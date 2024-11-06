@@ -1,0 +1,234 @@
+2025-05-19 16:39:11.729 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.729 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.729 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.729 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.730 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.730 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.730 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.730 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.730 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 16:39:11.764 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 16:39:11.765 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 16:39:11.765 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 16:39:11.765 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 16:39:11.765 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 16:39:12.221 [info] Started local extension host with pid 110585.
+2025-05-19 16:39:12.674 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-19 16:39:12.873 [info] Started local extension host with pid 110635.
+2025-05-19 16:39:13.282 [warning] No search provider registered for scheme: file, waiting
+2025-05-19 16:39:14.069 [error] [Extension Host] (node:110585) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-19 16:39:14.257 [error] [Extension Host] (node:110635) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-19 16:39:14.897 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-19 16:39:14.897 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-19 16:39:14.897 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-19 16:39:15.402 [error] ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-19 16:39:15.857 [info] [perf] Render performance baseline is 20ms
+2025-05-19 17:15:29.615 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 17:27:10.425 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 17:39:27.839 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 17:40:58.789 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 17:50:58.400 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 17:51:13.547 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 17:51:13.548 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 17:57:15.108 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 17:59:20.801 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 17:59:20.801 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 18:01:31.281 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at JI.getLineMaxColumn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:284:112)
+    at gh.getBottomForLineNumber (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:1594)
+    at vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:79401
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177960)
+    at Ydr.s (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78826)
+    at Tpe._runFn (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:78460)
+    at Tpe.k (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:183933)
+    at Tpe.endUpdate (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:184304)
+    at Jj.finish (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:179834)
+    at Io (vscode-file://vscode-app/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:94:177975) Illegal value for lineNumber
+2025-05-19 18:02:17.822 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.822 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.823 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.823 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.823 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.823 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.823 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.824 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.824 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-19 18:02:17.846 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.847 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.847 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.847 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.847 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.847 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.847 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:17.848 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-19 18:02:18.098 [info] Started local extension host with pid 132687.
+2025-05-19 18:02:18.411 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-19 18:02:18.501 [info] Started local extension host with pid 132719.
+2025-05-19 18:02:19.286 [error] [Extension Host] (node:132687) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-19 18:02:19.541 [error] [Extension Host] (node:132719) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-19 18:02:20.733 [error] ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-19 18:02:20.769 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-19 18:02:20.769 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-19 18:02:20.770 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-19 18:02:21.730 [info] Project layout directory limit (500) reached
+2025-05-19 18:02:22.299 [info] [perf] Render performance baseline is 21ms
+2025-05-19 18:02:22.305 [info] Project layout directory limit (500) reached
+2025-05-19 18:03:48.207 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 18:03:48.207 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 18:13:02.620 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 18:13:02.620 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 18:13:19.750 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 18:13:19.751 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 18:13:28.437 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 18:13:28.438 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 18:13:36.488 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 18:13:36.488 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)
+2025-05-19 18:18:58.183 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2025-05-19 18:18:58.184 [error] [Extension Host] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:929508)
+	at async W.exec (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:935036)
+	at async W.diffFiles (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:941638)
+	at async W.diffBetween (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:939774)
+	at async O.retryRun (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063852)
+	at async O.run (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1063456)
+	at async te.openMergeEditor (/tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:824826)
+	at async mK.h (file:///tmp/.mount_cursorfOPFyh/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33040)

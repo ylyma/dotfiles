@@ -1,0 +1,1107 @@
+2025-05-14 13:47:25.417 [error] Failed to check if file sync is enabled for user {}
+2025-05-14 13:47:25.417 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:47:25.417 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:47:25.538 [info] [registerEventListeners] Registering event listeners
+2025-05-14 13:47:26.783 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"Error","code":16,"metadata":{},"details":[{"type":"aiserver.v1.ErrorDetails","value":{"0":8,"1":2,"2":18,"3":85,"4":10,"5":14,"6":78,"7":111,"8":116,"9":32,"10":108,"11":111,"12":103,"13":103,"14":101,"15":100,"16":32,"17":105,"18":110,"19":46,"20":18,"21":65,"22":78,"23":111,"24":116,"25":32,"26":108,"27":111,"28":103,"29":103,"30":101,"31":100,"32":32,"33":105,"34":110,"35":46,"36":32,"37":73,"38":102,"39":32,"40":121,"41":111,"42":117,"43":32,"44":97,"45":114,"46":101,"47":32,"48":108,"49":111,"50":103,"51":103,"52":101,"53":100,"54":32,"55":105,"56":110,"57":44,"58":32,"59":116,"60":114,"61":121,"62":32,"63":108,"64":111,"65":103,"66":103,"67":105,"68":110,"69":103,"70":32,"71":111,"72":117,"73":116,"74":32,"75":97,"76":110,"77":100,"78":32,"79":98,"80":97,"81":99,"82":107,"83":32,"84":105,"85":110,"86":46,"87":32,"88":0,"89":24,"90":1},"debug":{"error":"ERROR_NOT_LOGGED_IN","details":{"title":"Not logged in.","detail":"Not logged in. If you are logged in, try logging out and back in.","isRetryable":false},"isExpected":true}}]}
+2025-05-14 13:47:26.783 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:47:26.783 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:47:51.991 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:47:51.991 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:47:51.991 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:52:59.700 [error] Failed to check if file sync is enabled for user {}
+2025-05-14 13:52:59.700 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:52:59.700 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:52:59.912 [info] [registerEventListeners] Registering event listeners
+2025-05-14 13:53:01.321 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:53:01.321 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:53:01.321 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 13:53:02.310 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:53:02.912 [info] Starting sync of visible tabs
+2025-05-14 13:53:02.912 [info] Synced all visible tabs in 0.16799499999979162ms
+2025-05-14 13:53:03.076 [info] Fetched fsConfig in 765.6975810000004ms
+2025-05-14 13:53:03.076 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 13:53:03.076 [info] File sync enabled status: true
+2025-05-14 13:53:03.076 [info] Starting sync of visible tabs
+2025-05-14 13:53:03.076 [info] Synced all visible tabs in 0.023594000000230153ms
+2025-05-14 13:53:03.312 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:53:03.726 [info] Fetched fsConfig in 413.24710700000014ms
+2025-05-14 13:53:03.726 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 13:53:05.539 [info] Uploaded file app/src/modules/auth/auth.module.ts modelVersion=1 in 272.5479949999999ms
+2025-05-14 13:53:05.540 [info] Handled visible editors change in 395.8217829999994ms
+2025-05-14 13:53:05.767 [info] Handled visible editors change in 0.3245489999999336ms
+2025-05-14 13:53:06.116 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=1 in 183.40439200000037ms
+2025-05-14 13:53:06.117 [info] Handled visible editors change in 306.60987100000057ms
+2025-05-14 13:53:09.193 [info] Handled visible editors change in 0.20275000000037835ms
+2025-05-14 13:53:14.785 [info] Handled visible editors change in 0.862568000000465ms
+2025-05-14 13:54:23.232 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=2 in 294.0766699999949ms
+2025-05-14 13:54:24.417 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:54:24.840 [info] Fetched fsConfig in 422.5896170000051ms
+2025-05-14 13:54:24.840 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 13:54:24.840 [info] File sync enabled status: true
+2025-05-14 13:54:24.840 [info] Starting sync of visible tabs
+2025-05-14 13:54:24.840 [info] Synced all visible tabs in 0.24873600000864826ms
+2025-05-14 13:54:25.907 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=3 in 180.27350200001092ms
+2025-05-14 13:54:31.030 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=4 in 180.64926600000763ms
+2025-05-14 13:54:32.527 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=5 in 181.76300300000003ms
+2025-05-14 13:54:33.408 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=8 in 183.66027000000759ms
+2025-05-14 13:54:33.731 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=9 in 182.1558500000101ms
+2025-05-14 13:54:34.466 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=10 in 184.14620100001048ms
+2025-05-14 13:54:39.592 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=11 in 185.14964099999634ms
+2025-05-14 13:54:40.276 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=12 in 180.9026579999918ms
+2025-05-14 13:54:52.239 [info] Handled visible editors change in 0.20682799999485724ms
+2025-05-14 13:54:52.548 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=1 in 195.55492699999013ms
+2025-05-14 13:54:52.548 [info] Handled visible editors change in 266.24957800000266ms
+2025-05-14 13:54:59.072 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=2 in 179.15847499998927ms
+2025-05-14 13:55:26.645 [info] Handled visible editors change in 0.1080319999891799ms
+2025-05-14 13:55:26.910 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.service.ts modelVersion=1 in 189.99728899999172ms
+2025-05-14 13:55:26.911 [info] Handled visible editors change in 241.9884229999734ms
+2025-05-14 13:55:28.535 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:55:29.041 [info] Fetched fsConfig in 506.0902829999977ms
+2025-05-14 13:55:29.041 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 13:55:29.041 [info] File sync enabled status: true
+2025-05-14 13:55:29.041 [info] Starting sync of visible tabs
+2025-05-14 13:55:29.041 [info] Synced all visible tabs in 0.08902699997997843ms
+2025-05-14 13:55:31.897 [info] Handled visible editors change in 0.2189409999991767ms
+2025-05-14 13:55:31.909 [info] Handled visible editors change in 0.9980309999955352ms
+2025-05-14 13:55:44.861 [info] Handled visible editors change in 0.23191500001121312ms
+2025-05-14 13:55:44.875 [info] Handled visible editors change in 0.8630180000036489ms
+2025-05-14 13:56:03.628 [info] Handled visible editors change in 0.1284299999824725ms
+2025-05-14 13:56:03.640 [info] Handled visible editors change in 0.8926229999924544ms
+2025-05-14 13:57:22.555 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=3 in 196.9423769999994ms
+2025-05-14 13:57:23.760 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:57:24.248 [info] Fetched fsConfig in 487.60222400003113ms
+2025-05-14 13:57:24.248 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 13:57:24.248 [info] File sync enabled status: true
+2025-05-14 13:57:24.248 [info] Starting sync of visible tabs
+2025-05-14 13:57:24.248 [info] Synced all visible tabs in 0.09392600000137463ms
+2025-05-14 13:58:42.994 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=4 in 408.30230500001926ms
+2025-05-14 13:58:43.383 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=5 in 181.06111199996667ms
+2025-05-14 13:58:44.142 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 13:58:44.541 [info] Fetched fsConfig in 398.0810840000049ms
+2025-05-14 13:58:44.541 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 13:58:44.541 [info] File sync enabled status: true
+2025-05-14 13:58:44.541 [info] Starting sync of visible tabs
+2025-05-14 13:58:44.590 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=6 in 211.29150299995672ms
+2025-05-14 13:58:44.723 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=6 in 181.97251099999994ms
+2025-05-14 13:58:44.723 [info] Synced all visible tabs in 182.50152300001355ms
+2025-05-14 13:58:46.995 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=7 in 187.72952200000873ms
+2025-05-14 13:58:47.533 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=8 in 182.80423899996094ms
+2025-05-14 13:58:49.304 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=9 in 181.37136300001293ms
+2025-05-14 13:58:53.347 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=11 in 432.9884580000071ms
+2025-05-14 13:58:53.751 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=12 in 261.7381789999781ms
+2025-05-14 13:58:53.893 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=31 in 207.97587600001134ms
+2025-05-14 13:58:54.253 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=48 in 201.13122500001919ms
+2025-05-14 13:58:56.323 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=68 in 198.24687699996866ms
+2025-05-14 13:58:56.604 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=84 in 185.05844400002388ms
+2025-05-14 13:58:57.684 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=85 in 189.01357800001279ms
+2025-05-14 13:58:58.132 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=86 in 178.6737950000097ms
+2025-05-14 13:58:58.579 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=87 in 178.66211199999088ms
+2025-05-14 13:59:00.252 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=88 in 179.20649400004186ms
+2025-05-14 13:59:00.601 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=89 in 196.5921940000262ms
+2025-05-14 13:59:04.203 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=90 in 180.25952700001653ms
+2025-05-14 13:59:04.708 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=91 in 200.53134899999714ms
+2025-05-14 13:59:05.645 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=92 in 181.15695899998536ms
+2025-05-14 14:00:03.912 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=94 in 191.76193099998636ms
+2025-05-14 14:00:05.193 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:00:05.631 [info] Fetched fsConfig in 437.26413200004026ms
+2025-05-14 14:00:05.631 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:00:05.631 [info] File sync enabled status: true
+2025-05-14 14:00:05.631 [info] Starting sync of visible tabs
+2025-05-14 14:00:05.631 [info] Synced all visible tabs in 0.10730099998181686ms
+2025-05-14 14:00:50.884 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=95 in 180.10976399999345ms
+2025-05-14 14:00:51.428 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=96 in 180.14763399999356ms
+2025-05-14 14:00:52.264 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=97 in 190.26274499995634ms
+2025-05-14 14:00:52.615 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=98 in 179.8841099999845ms
+2025-05-14 14:00:55.027 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=99 in 182.10982199996943ms
+2025-05-14 14:00:55.308 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=100 in 181.02647199999774ms
+2025-05-14 14:01:01.406 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=101 in 179.67027900001267ms
+2025-05-14 14:01:01.762 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=121 in 184.41271800000686ms
+2025-05-14 14:01:02.016 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=124 in 181.8309189999709ms
+2025-05-14 14:01:03.088 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=144 in 183.3476410000003ms
+2025-05-14 14:01:03.342 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=147 in 181.2203430000227ms
+2025-05-14 14:01:05.778 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=148 in 183.8998160000192ms
+2025-05-14 14:01:06.181 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=149 in 181.43290200002957ms
+2025-05-14 14:01:07.159 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:01:07.559 [info] Fetched fsConfig in 399.17124900000636ms
+2025-05-14 14:01:07.559 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:01:07.559 [info] File sync enabled status: true
+2025-05-14 14:01:07.559 [info] Starting sync of visible tabs
+2025-05-14 14:01:07.559 [info] Synced all visible tabs in 0.09431700001005083ms
+2025-05-14 14:01:37.532 [info] Handled visible editors change in 0.27713000000221655ms
+2025-05-14 14:01:37.822 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.service.ts modelVersion=1 in 180.83138099999633ms
+2025-05-14 14:01:37.822 [info] Handled visible editors change in 271.7438979999861ms
+2025-05-14 14:01:54.249 [info] Handled visible editors change in 0.2261339999968186ms
+2025-05-14 14:01:54.262 [info] Handled visible editors change in 0.8580889999866486ms
+2025-05-14 14:03:25.509 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:03:25.908 [info] Fetched fsConfig in 399.1011699999217ms
+2025-05-14 14:03:25.908 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:03:25.908 [info] File sync enabled status: true
+2025-05-14 14:03:25.908 [info] Starting sync of visible tabs
+2025-05-14 14:03:25.908 [info] Synced all visible tabs in 0.16978800005745143ms
+2025-05-14 14:07:02.773 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=149 in 407.23927299992647ms
+2025-05-14 14:07:02.942 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=149 in 574.8138420000905ms
+2025-05-14 14:07:03.719 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:07:04.121 [info] Fetched fsConfig in 402.2141340000089ms
+2025-05-14 14:07:04.121 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:07:04.121 [info] File sync enabled status: true
+2025-05-14 14:07:04.121 [info] Starting sync of visible tabs
+2025-05-14 14:07:04.121 [info] Synced all visible tabs in 0.09111100004520267ms
+2025-05-14 14:07:04.895 [info] Handled visible editors change in 0.18632900004740804ms
+2025-05-14 14:07:05.164 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=12 in 180.95262400002684ms
+2025-05-14 14:07:05.164 [info] Handled visible editors change in 253.43563600000925ms
+2025-05-14 14:08:30.732 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=14 in 182.10970999998972ms
+2025-05-14 14:08:31.872 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:08:32.271 [info] Fetched fsConfig in 398.69588000001386ms
+2025-05-14 14:08:32.271 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:08:32.271 [info] File sync enabled status: true
+2025-05-14 14:08:32.271 [info] Starting sync of visible tabs
+2025-05-14 14:08:32.271 [info] Synced all visible tabs in 0.14588399999774992ms
+2025-05-14 14:10:44.346 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=16 in 549.2125870001037ms
+2025-05-14 14:10:45.846 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=21 in 185.71838800003752ms
+2025-05-14 14:12:24.185 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=23 in 773.0767200000118ms
+2025-05-14 14:12:26.548 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=24 in 183.28385199978948ms
+2025-05-14 14:12:26.829 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=25 in 187.0958470001351ms
+2025-05-14 14:12:27.118 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=26 in 190.46806800016202ms
+2025-05-14 14:12:28.177 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=30 in 183.78688400005922ms
+2025-05-14 14:14:37.537 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=32 in 253.53404800011776ms
+2025-05-14 14:14:37.538 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=31 in 554.6765789999627ms
+2025-05-14 14:14:37.744 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=33 in 183.6745509998873ms
+2025-05-14 14:14:38.005 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=34 in 180.50576100009494ms
+2025-05-14 14:14:38.263 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=34 in 181.23533799988218ms
+2025-05-14 14:14:39.455 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:14:39.853 [info] Fetched fsConfig in 397.1596449997742ms
+2025-05-14 14:14:39.853 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:14:39.853 [info] File sync enabled status: true
+2025-05-14 14:14:39.853 [info] Starting sync of visible tabs
+2025-05-14 14:14:39.853 [info] Synced all visible tabs in 0.08228400000371039ms
+2025-05-14 14:18:32.638 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=35 in 782.9796389997937ms
+2025-05-14 14:18:32.639 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=36 in 470.32668100018054ms
+2025-05-14 14:18:32.711 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=37 in 180.59334199992009ms
+2025-05-14 14:18:33.062 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=38 in 182.70558000006713ms
+2025-05-14 14:18:33.313 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=38 in 180.81603899993934ms
+2025-05-14 14:18:34.419 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:18:34.828 [info] Fetched fsConfig in 408.89602400013246ms
+2025-05-14 14:18:34.828 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:18:34.828 [info] File sync enabled status: true
+2025-05-14 14:18:34.828 [info] Starting sync of visible tabs
+2025-05-14 14:18:34.828 [info] Synced all visible tabs in 0.07779599982313812ms
+2025-05-14 14:22:27.605 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=39 in 400.75547299999744ms
+2025-05-14 14:22:28.819 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:22:29.220 [info] Fetched fsConfig in 400.58925499999896ms
+2025-05-14 14:22:29.220 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:22:29.220 [info] File sync enabled status: true
+2025-05-14 14:22:29.220 [info] Starting sync of visible tabs
+2025-05-14 14:22:29.220 [info] Synced all visible tabs in 0.10147900017909706ms
+2025-05-14 14:22:37.253 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=58 in 182.78925599996ms
+2025-05-14 14:22:37.320 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=78 in 183.30386899993755ms
+2025-05-14 14:22:37.594 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=84 in 186.28575900010765ms
+2025-05-14 14:22:38.249 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=104 in 186.35540000000037ms
+2025-05-14 14:22:38.288 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=124 in 184.47639399999753ms
+2025-05-14 14:22:38.335 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=144 in 184.59073700010777ms
+2025-05-14 14:22:38.444 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=164 in 191.1480089998804ms
+2025-05-14 14:22:38.692 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=166 in 184.1894270000048ms
+2025-05-14 14:22:39.611 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=186 in 196.76335899997503ms
+2025-05-14 14:22:39.636 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=206 in 185.41085300012492ms
+2025-05-14 14:22:39.705 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=226 in 188.13523199991323ms
+2025-05-14 14:22:39.772 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=246 in 199.71089500002563ms
+2025-05-14 14:22:40.010 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=248 in 183.25340600009076ms
+2025-05-14 14:22:41.527 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=288 in 320.56661099987105ms
+2025-05-14 14:22:41.622 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=268 in 492.1806149999611ms
+2025-05-14 14:22:41.663 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=293 in 181.8242629999295ms
+2025-05-14 14:22:42.449 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=313 in 184.97525999997742ms
+2025-05-14 14:22:42.502 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=333 in 186.56897300016135ms
+2025-05-14 14:22:42.775 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=338 in 185.94986400008202ms
+2025-05-14 14:22:43.227 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=358 in 184.90971900010481ms
+2025-05-14 14:22:43.318 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=378 in 190.94682700000703ms
+2025-05-14 14:22:43.582 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=383 in 182.65814600000158ms
+2025-05-14 14:22:44.077 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=403 in 185.5374539999757ms
+2025-05-14 14:22:44.129 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=423 in 185.59565300005488ms
+2025-05-14 14:22:44.401 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=428 in 197.57893000007607ms
+2025-05-14 14:22:44.709 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=448 in 181.9888940001838ms
+2025-05-14 14:22:44.825 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=468 in 184.58186599984765ms
+2025-05-14 14:22:45.089 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=473 in 182.4749539999757ms
+2025-05-14 14:22:59.006 [info] Handled visible editors change in 0.13419099990278482ms
+2025-05-14 14:22:59.276 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=149 in 183.24250299995765ms
+2025-05-14 14:22:59.277 [info] Handled visible editors change in 255.36312799993902ms
+2025-05-14 14:23:33.628 [info] Handled visible editors change in 0.1500909999012947ms
+2025-05-14 14:23:34.170 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=1 in 410.4682510001585ms
+2025-05-14 14:23:34.170 [info] Handled visible editors change in 501.29857500013895ms
+2025-05-14 14:23:35.601 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:23:36.008 [info] Fetched fsConfig in 406.86965900007635ms
+2025-05-14 14:23:36.008 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:23:36.009 [info] File sync enabled status: true
+2025-05-14 14:23:36.009 [info] Starting sync of visible tabs
+2025-05-14 14:23:36.009 [info] Synced all visible tabs in 0.08163300016894937ms
+2025-05-14 14:24:26.547 [info] Handled visible editors change in 0.08868600009009242ms
+2025-05-14 14:25:13.594 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=2 in 542.7166819998529ms
+2025-05-14 14:25:13.725 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=3 in 181.07158499979414ms
+2025-05-14 14:25:14.294 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=4 in 191.13989400002174ms
+2025-05-14 14:25:14.670 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=5 in 180.47245400003158ms
+2025-05-14 14:25:15.080 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=6 in 180.85853599989787ms
+2025-05-14 14:25:15.660 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=7 in 185.04967399989255ms
+2025-05-14 14:25:16.351 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=9 in 185.47178400005214ms
+2025-05-14 14:25:24.270 [info] Handled visible editors change in 1.1798890000209212ms
+2025-05-14 14:25:25.023 [info] Handled visible editors change in 0.31760499998927116ms
+2025-05-14 14:25:25.035 [info] Handled visible editors change in 0.5193219999782741ms
+2025-05-14 14:25:26.168 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:25:26.568 [info] Fetched fsConfig in 399.0985699999146ms
+2025-05-14 14:25:26.568 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:25:26.568 [info] File sync enabled status: true
+2025-05-14 14:25:26.568 [info] Starting sync of visible tabs
+2025-05-14 14:25:26.568 [info] Synced all visible tabs in 0.07930799992755055ms
+2025-05-14 14:26:57.859 [info] Handled visible editors change in 0.14606299996376038ms
+2025-05-14 14:26:57.881 [info] Handled visible editors change in 0.8584380000829697ms
+2025-05-14 14:26:58.595 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=11 in 549.4184280000627ms
+2025-05-14 14:26:59.944 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=12 in 180.269672999857ms
+2025-05-14 14:27:00.408 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=13 in 180.17349399998784ms
+2025-05-14 14:27:00.797 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=14 in 185.19252099981532ms
+2025-05-14 14:27:01.470 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=15 in 181.27915499988012ms
+2025-05-14 14:27:02.001 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=19 in 184.82564399996772ms
+2025-05-14 14:27:03.725 [info] Handled visible editors change in 0.22130400012247264ms
+2025-05-14 14:27:03.739 [info] Handled visible editors change in 0.9159249998629093ms
+2025-05-14 14:27:05.581 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:27:05.980 [info] Fetched fsConfig in 398.66311500011943ms
+2025-05-14 14:27:05.980 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:27:05.980 [info] File sync enabled status: true
+2025-05-14 14:27:05.980 [info] Starting sync of visible tabs
+2025-05-14 14:27:05.980 [info] Synced all visible tabs in 0.06360899982973933ms
+2025-05-14 14:27:24.388 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=20 in 181.19907599990256ms
+2025-05-14 14:27:29.696 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=21 in 181.71628700010478ms
+2025-05-14 14:28:30.464 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=22 in 181.99914400000125ms
+2025-05-14 14:28:31.823 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:28:32.219 [info] Fetched fsConfig in 396.02143599977717ms
+2025-05-14 14:28:32.219 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:28:32.219 [info] File sync enabled status: true
+2025-05-14 14:28:32.219 [info] Starting sync of visible tabs
+2025-05-14 14:28:32.219 [info] Synced all visible tabs in 0.1043150001205504ms
+2025-05-14 14:29:15.267 [info] Handled visible editors change in 0.3535119998268783ms
+2025-05-14 14:29:15.549 [info] Uploaded file app/src/modules/orders/orders.service.ts modelVersion=1 in 186.19117299979553ms
+2025-05-14 14:29:15.549 [info] Handled visible editors change in 251.5450420002453ms
+2025-05-14 14:29:21.601 [info] Handled visible editors change in 0.27154800016433ms
+2025-05-14 14:29:21.612 [info] Handled visible editors change in 0.8478380003944039ms
+2025-05-14 14:29:40.616 [info] Handled visible editors change in 0.18998600030317903ms
+2025-05-14 14:29:40.632 [info] Handled visible editors change in 0.8689680001698434ms
+2025-05-14 14:29:42.386 [info] Handled visible editors change in 0.22201599972322583ms
+2025-05-14 14:29:42.397 [info] Handled visible editors change in 0.8914290000684559ms
+2025-05-14 14:29:47.331 [info] Handled visible editors change in 0.20881099998950958ms
+2025-05-14 14:29:47.343 [info] Handled visible editors change in 0.8923920001834631ms
+2025-05-14 14:30:09.502 [info] Handled visible editors change in 0.3217830001376569ms
+2025-05-14 14:30:09.514 [info] Handled visible editors change in 0.804285999853164ms
+2025-05-14 14:32:03.610 [info] Handled visible editors change in 0.13338899984955788ms
+2025-05-14 14:32:03.628 [info] Handled visible editors change in 0.7703229999169707ms
+2025-05-14 14:32:08.494 [info] Handled visible editors change in 0.24869600031524897ms
+2025-05-14 14:32:08.507 [info] Handled visible editors change in 1.0758250001817942ms
+2025-05-14 14:32:45.773 [info] Handled visible editors change in 0.1984620001167059ms
+2025-05-14 14:32:46.394 [info] Uploaded file app/src/modules/pricing/pricing.module.ts modelVersion=1 in 551.9332879995927ms
+2025-05-14 14:32:46.394 [info] Handled visible editors change in 596.9215560001321ms
+2025-05-14 14:32:46.500 [info] Handled visible editors change in 0.1151350000873208ms
+2025-05-14 14:32:46.749 [info] Uploaded file app/src/modules/pricing/pricing.controller.ts modelVersion=1 in 192.86147599993274ms
+2025-05-14 14:32:46.749 [info] Handled visible editors change in 226.89253900013864ms
+2025-05-14 14:32:50.200 [info] Handled visible editors change in 0.1463640001602471ms
+2025-05-14 14:32:50.464 [info] Uploaded file app/src/modules/pricing/pricing.service.ts modelVersion=1 in 193.09413299988955ms
+2025-05-14 14:32:50.464 [info] Handled visible editors change in 240.53637599991634ms
+2025-05-14 14:32:53.339 [info] Handled visible editors change in 0.14709499990567565ms
+2025-05-14 14:32:53.363 [info] Handled visible editors change in 0.6303810002282262ms
+2025-05-14 14:33:01.865 [info] Handled visible editors change in 0.12284000031650066ms
+2025-05-14 14:33:01.888 [info] Handled visible editors change in 0.8972809999249876ms
+2025-05-14 14:33:04.404 [info] Handled visible editors change in 0.14494100026786327ms
+2025-05-14 14:33:04.427 [info] Handled visible editors change in 0.9208249999210238ms
+2025-05-14 14:33:11.287 [info] Handled visible editors change in 0.2514909999445081ms
+2025-05-14 14:33:11.311 [info] Handled visible editors change in 0.5783130000345409ms
+2025-05-14 14:33:25.320 [info] Handled visible editors change in 0.16157200001180172ms
+2025-05-14 14:33:25.343 [info] Handled visible editors change in 0.8627659999765456ms
+2025-05-14 14:33:25.929 [info] Handled visible editors change in 0.13143600011244416ms
+2025-05-14 14:33:25.951 [info] Handled visible editors change in 0.8134139999747276ms
+2025-05-14 14:33:36.855 [info] Handled visible editors change in 0.1293529998511076ms
+2025-05-14 14:33:37.148 [info] Uploaded file app/src/modules/pricing/entities/pricing.entity.ts modelVersion=1 in 182.8234769999981ms
+2025-05-14 14:33:37.148 [info] Handled visible editors change in 254.7422409998253ms
+2025-05-14 14:33:41.017 [info] Handled visible editors change in 0.13517299992963672ms
+2025-05-14 14:33:41.039 [info] Handled visible editors change in 0.8809299999848008ms
+2025-05-14 14:33:46.588 [info] Handled visible editors change in 0.1301540001295507ms
+2025-05-14 14:33:46.867 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=1 in 183.66444399999455ms
+2025-05-14 14:33:46.867 [info] Handled visible editors change in 253.19567700009793ms
+2025-05-14 14:33:51.865 [info] Handled visible editors change in 0.18653000006452203ms
+2025-05-14 14:33:51.899 [info] Handled visible editors change in 0.6009859996847808ms
+2025-05-14 14:34:52.385 [info] Handled visible editors change in 0.11449400009587407ms
+2025-05-14 14:34:53.246 [info] Uploaded file app/src/modules/trades/trades.controller.ts modelVersion=1 in 784.354348000139ms
+2025-05-14 14:34:53.246 [info] Handled visible editors change in 824.6692470000125ms
+2025-05-14 14:36:06.987 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=2 in 218.95765799982473ms
+2025-05-14 14:36:08.435 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:36:08.834 [info] Fetched fsConfig in 399.161718999967ms
+2025-05-14 14:36:08.834 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:36:08.834 [info] File sync enabled status: true
+2025-05-14 14:36:08.834 [info] Starting sync of visible tabs
+2025-05-14 14:36:08.834 [info] Synced all visible tabs in 0.06019299989566207ms
+2025-05-14 14:36:50.751 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=4 in 184.1431370000355ms
+2025-05-14 14:36:52.235 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=8 in 183.69746300019324ms
+2025-05-14 14:37:45.220 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=10 in 184.20038200030103ms
+2025-05-14 14:37:47.353 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=14 in 186.44340500002727ms
+2025-05-14 14:40:40.024 [info] Handled visible editors change in 0.11871200008317828ms
+2025-05-14 14:40:40.876 [info] Uploaded file app/src/modules/pricing/pricing.controller.ts modelVersion=1 in 785.3148469999433ms
+2025-05-14 14:40:40.876 [info] Handled visible editors change in 824.5208610002883ms
+2025-05-14 14:40:54.898 [info] Handled visible editors change in 0.22058399999514222ms
+2025-05-14 14:40:55.231 [info] Uploaded file app/src/modules/holdings/holdings.controller.ts modelVersion=1 in 192.4470460000448ms
+2025-05-14 14:40:55.231 [info] Handled visible editors change in 263.47955800034106ms
+2025-05-14 14:41:21.234 [info] Handled visible editors change in 0.12574599962681532ms
+2025-05-14 14:41:21.503 [info] Uploaded file app/src/modules/trading-pairs/trading-pairs.controller.ts modelVersion=1 in 187.0835500000976ms
+2025-05-14 14:41:21.503 [info] Handled visible editors change in 239.44098400045186ms
+2025-05-14 14:42:05.874 [info] Handled visible editors change in 0.21292899968102574ms
+2025-05-14 14:42:06.130 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=1 in 182.8888249997981ms
+2025-05-14 14:42:06.131 [info] Handled visible editors change in 226.41602700017393ms
+2025-05-14 14:43:23.449 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=2 in 181.91142999986187ms
+2025-05-14 14:43:24.651 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:43:25.052 [info] Fetched fsConfig in 400.5940649998374ms
+2025-05-14 14:43:25.052 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:43:25.052 [info] File sync enabled status: true
+2025-05-14 14:43:25.052 [info] Starting sync of visible tabs
+2025-05-14 14:43:25.052 [info] Synced all visible tabs in 0.10140000004321337ms
+2025-05-14 14:50:50.602 [info] Handled visible editors change in 0.24935699999332428ms
+2025-05-14 14:50:51.524 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=1 in 769.58328899974ms
+2025-05-14 14:50:51.524 [info] Handled visible editors change in 846.7593149999157ms
+2025-05-14 14:52:33.706 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=3 in 190.16528999991715ms
+2025-05-14 14:52:34.889 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:52:35.361 [info] Fetched fsConfig in 471.7187599996105ms
+2025-05-14 14:52:35.361 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:52:35.361 [info] File sync enabled status: true
+2025-05-14 14:52:35.361 [info] Starting sync of visible tabs
+2025-05-14 14:52:35.361 [info] Synced all visible tabs in 0.061916000209748745ms
+2025-05-14 14:53:09.139 [info] Handled visible editors change in 0.1264869999140501ms
+2025-05-14 14:53:09.460 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=2 in 225.32326800003648ms
+2025-05-14 14:53:09.460 [info] Handled visible editors change in 306.5528719997965ms
+2025-05-14 14:53:16.129 [info] Handled visible editors change in 0.24912700010463595ms
+2025-05-14 14:53:16.383 [info] Uploaded file app/src/modules/holdings/holdings.controller.ts modelVersion=1 in 197.89751999964938ms
+2025-05-14 14:53:16.383 [info] Handled visible editors change in 241.97481999965385ms
+2025-05-14 14:53:18.472 [info] Handled visible editors change in 0.3781179999932647ms
+2025-05-14 14:53:18.724 [info] Uploaded file app/src/modules/trades/trades.controller.ts modelVersion=14 in 184.42861300008371ms
+2025-05-14 14:53:18.724 [info] Handled visible editors change in 240.3747419998981ms
+2025-05-14 14:53:23.477 [info] Handled visible editors change in 0.26320300018414855ms
+2025-05-14 14:53:23.747 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=22 in 194.22712299972773ms
+2025-05-14 14:53:23.747 [info] Handled visible editors change in 257.3802359998226ms
+2025-05-14 14:53:28.466 [info] Handled visible editors change in 0.22996099991723895ms
+2025-05-14 14:53:28.731 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=149 in 193.97589199990034ms
+2025-05-14 14:53:28.731 [info] Handled visible editors change in 252.00487399986014ms
+2025-05-14 14:53:29.514 [info] Handled visible editors change in 0.21118499990552664ms
+2025-05-14 14:53:29.811 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=3 in 192.6091310000047ms
+2025-05-14 14:53:29.811 [info] Handled visible editors change in 284.1451869998127ms
+2025-05-14 14:54:08.967 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:54:09.365 [info] Fetched fsConfig in 397.7907330002636ms
+2025-05-14 14:54:09.365 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:54:09.365 [info] File sync enabled status: true
+2025-05-14 14:54:09.365 [info] Starting sync of visible tabs
+2025-05-14 14:54:09.365 [info] Synced all visible tabs in 0.1129409996792674ms
+2025-05-14 14:54:43.899 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=4 in 181.43658199999481ms
+2025-05-14 14:54:51.563 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=5 in 180.84552400000393ms
+2025-05-14 14:55:02.124 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=6 in 185.73308200016618ms
+2025-05-14 14:55:39.806 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:55:40.209 [info] Fetched fsConfig in 403.21012500021607ms
+2025-05-14 14:55:40.209 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:55:40.209 [info] File sync enabled status: true
+2025-05-14 14:55:40.209 [info] Starting sync of visible tabs
+2025-05-14 14:55:40.209 [info] Synced all visible tabs in 0.04481299966573715ms
+2025-05-14 14:56:20.041 [info] Handled visible editors change in 0.28616400016471744ms
+2025-05-14 14:56:20.537 [info] Uploaded file app/src/modules/upload/file/file.controller.ts modelVersion=1 in 412.4876270000823ms
+2025-05-14 14:56:20.537 [info] Handled visible editors change in 462.8927550003864ms
+2025-05-14 14:58:25.662 [info] Synced file app/src/modules/upload/file/file.controller.ts modelVersion=3 in 191.85103900032118ms
+2025-05-14 14:58:26.827 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:58:27.317 [info] Fetched fsConfig in 489.9658280001022ms
+2025-05-14 14:58:27.318 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:58:27.318 [info] File sync enabled status: true
+2025-05-14 14:58:27.318 [info] Starting sync of visible tabs
+2025-05-14 14:58:27.318 [info] Synced all visible tabs in 0.06089399987831712ms
+2025-05-14 14:59:30.481 [info] Synced file app/src/modules/upload/file/file.controller.ts modelVersion=5 in 179.0784340002574ms
+2025-05-14 14:59:30.709 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 14:59:31.109 [info] Fetched fsConfig in 399.65587899973616ms
+2025-05-14 14:59:31.109 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 14:59:31.109 [info] File sync enabled status: true
+2025-05-14 14:59:31.109 [info] Starting sync of visible tabs
+2025-05-14 14:59:31.109 [info] Synced all visible tabs in 0.0935550001449883ms
+2025-05-14 14:59:43.721 [info] Synced file app/src/modules/upload/file/file.controller.ts modelVersion=7 in 180.37384000001475ms
+2025-05-14 15:00:21.956 [info] Synced file app/src/modules/upload/file/file.controller.ts modelVersion=8 in 192.13661899976432ms
+2025-05-14 15:00:23.216 [info] Synced file app/src/modules/upload/file/file.controller.ts modelVersion=9 in 181.5203390000388ms
+2025-05-14 15:01:21.950 [info] Handled visible editors change in 0.13865900039672852ms
+2025-05-14 15:01:22.438 [info] Uploaded file app/src/modules/trades/trades.controller.ts modelVersion=14 in 406.90829299995676ms
+2025-05-14 15:01:22.438 [info] Handled visible editors change in 471.4429850000888ms
+2025-05-14 15:01:23.766 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:01:24.266 [info] Fetched fsConfig in 499.69311699969694ms
+2025-05-14 15:01:24.266 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:01:24.266 [info] File sync enabled status: true
+2025-05-14 15:01:24.266 [info] Starting sync of visible tabs
+2025-05-14 15:01:24.266 [info] Synced all visible tabs in 0.054822999984025955ms
+2025-05-14 15:01:30.095 [info] Handled visible editors change in 0.21322899963706732ms
+2025-05-14 15:01:30.402 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=22 in 189.93190700002015ms
+2025-05-14 15:01:30.402 [info] Handled visible editors change in 284.2128100004047ms
+2025-05-14 15:06:24.498 [info] Handled visible editors change in 0.13346900045871735ms
+2025-05-14 15:06:25.340 [info] Uploaded file app/src/main.ts modelVersion=1 in 761.9953730003908ms
+2025-05-14 15:06:25.340 [info] Handled visible editors change in 813.2436159998178ms
+2025-05-14 15:06:39.521 [info] Synced file app/src/main.ts modelVersion=2 in 179.04047899972647ms
+2025-05-14 15:06:40.713 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:06:41.113 [info] Fetched fsConfig in 400.03617100045085ms
+2025-05-14 15:06:41.113 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:06:41.113 [info] File sync enabled status: true
+2025-05-14 15:06:41.113 [info] Starting sync of visible tabs
+2025-05-14 15:06:41.114 [info] Synced all visible tabs in 0.06022199988365173ms
+2025-05-14 15:07:31.900 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=474 in 180.50766899995506ms
+2025-05-14 15:07:31.901 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=474 in 181.96602899953723ms
+2025-05-14 15:07:32.055 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=474 in 182.5432700002566ms
+2025-05-14 15:07:32.085 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=474 in 211.4502250002697ms
+2025-05-14 15:07:40.020 [info] Handled visible editors change in 0.1782039999961853ms
+2025-05-14 15:07:40.036 [info] Handled visible editors change in 0.7884359993040562ms
+2025-05-14 15:08:06.199 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=23 in 242.19167600013316ms
+2025-05-14 15:08:06.199 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=23 in 242.00008599925786ms
+2025-05-14 15:08:06.472 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=23 in 368.94550300017ms
+2025-05-14 15:08:06.473 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=23 in 370.07082000002265ms
+2025-05-14 15:08:16.982 [info] Handled visible editors change in 0.22323800064623356ms
+2025-05-14 15:08:16.993 [info] Handled visible editors change in 0.4989139996469021ms
+2025-05-14 15:08:18.891 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:08:19.290 [info] Fetched fsConfig in 398.3799409996718ms
+2025-05-14 15:08:19.290 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:08:19.290 [info] File sync enabled status: true
+2025-05-14 15:08:19.290 [info] Starting sync of visible tabs
+2025-05-14 15:08:19.290 [info] Synced all visible tabs in 0.05013300012797117ms
+2025-05-14 15:11:23.153 [info] Handled visible editors change in 0.24800499994307756ms
+2025-05-14 15:11:23.167 [info] Handled visible editors change in 0.7768949996680021ms
+2025-05-14 15:14:17.755 [info] Uploaded file app/src/main.ts modelVersion=3 in 767.4864599993452ms
+2025-05-14 15:14:17.761 [info] Uploaded file app/src/main.ts modelVersion=3 in 760.4202399998903ms
+2025-05-14 15:14:19.093 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:14:19.493 [info] Fetched fsConfig in 399.5823990004137ms
+2025-05-14 15:14:19.493 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:14:19.493 [info] File sync enabled status: true
+2025-05-14 15:14:19.493 [info] Starting sync of visible tabs
+2025-05-14 15:14:19.493 [info] Synced all visible tabs in 0.08753400016576052ms
+2025-05-14 15:14:31.427 [info] Synced file app/src/main.ts modelVersion=4 in 178.63529400061816ms
+2025-05-14 15:14:31.765 [info] Synced file app/src/main.ts modelVersion=5 in 184.1380479997024ms
+2025-05-14 15:14:32.445 [info] Synced file app/src/main.ts modelVersion=6 in 181.1591600002721ms
+2025-05-14 15:14:43.928 [info] Synced file app/src/main.ts modelVersion=9 in 184.6067979997024ms
+2025-05-14 15:14:44.903 [info] Synced file app/src/main.ts modelVersion=12 in 183.81066699977964ms
+2025-05-14 15:14:45.743 [info] Synced file app/src/main.ts modelVersion=16 in 183.58813999965787ms
+2025-05-14 15:14:46.404 [info] Synced file app/src/main.ts modelVersion=17 in 184.8923829998821ms
+2025-05-14 15:14:46.860 [info] Synced file app/src/main.ts modelVersion=18 in 180.94364900048822ms
+2025-05-14 15:14:47.986 [info] Synced file app/src/main.ts modelVersion=20 in 183.1089040003717ms
+2025-05-14 15:14:49.588 [info] Synced file app/src/main.ts modelVersion=23 in 183.0639500003308ms
+2025-05-14 15:14:50.691 [info] Synced file app/src/main.ts modelVersion=24 in 183.85739499982446ms
+2025-05-14 15:14:52.684 [info] Synced file app/src/main.ts modelVersion=26 in 179.33828399982303ms
+2025-05-14 15:14:53.898 [info] Synced file app/src/main.ts modelVersion=29 in 184.95822700019926ms
+2025-05-14 15:14:54.407 [info] Synced file app/src/main.ts modelVersion=31 in 180.81533099990338ms
+2025-05-14 15:14:56.089 [info] Synced file app/src/main.ts modelVersion=32 in 182.96722999960184ms
+2025-05-14 15:14:56.413 [info] Synced file app/src/main.ts modelVersion=33 in 181.7153560006991ms
+2025-05-14 15:14:57.140 [info] Synced file app/src/main.ts modelVersion=37 in 180.49601299967617ms
+2025-05-14 15:14:58.946 [info] Synced file app/src/main.ts modelVersion=49 in 179.3021280001849ms
+2025-05-14 15:15:00.840 [info] Synced file app/src/main.ts modelVersion=60 in 179.57290500029922ms
+2025-05-14 15:15:01.927 [info] Synced file app/src/main.ts modelVersion=68 in 180.9274920001626ms
+2025-05-14 15:15:02.368 [info] Synced file app/src/main.ts modelVersion=70 in 181.00685099978ms
+2025-05-14 15:15:04.526 [info] Synced file app/src/main.ts modelVersion=87 in 192.18538200017065ms
+2025-05-14 15:15:04.785 [info] Synced file app/src/main.ts modelVersion=88 in 180.03221600037068ms
+2025-05-14 15:15:05.156 [info] Synced file app/src/main.ts modelVersion=89 in 180.75132199935615ms
+2025-05-14 15:15:05.608 [info] Synced file app/src/main.ts modelVersion=91 in 184.69404600001872ms
+2025-05-14 15:15:06.601 [info] Synced file app/src/main.ts modelVersion=96 in 179.72068300005049ms
+2025-05-14 15:15:07.457 [info] Synced file app/src/main.ts modelVersion=100 in 180.11198600009084ms
+2025-05-14 15:15:08.183 [info] Synced file app/src/main.ts modelVersion=103 in 179.89683400001377ms
+2025-05-14 15:15:39.137 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:15:39.221 [info] Synced file app/src/main.ts modelVersion=104 in 181.5075249997899ms
+2025-05-14 15:15:39.536 [info] Fetched fsConfig in 398.61611299961805ms
+2025-05-14 15:15:39.536 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:15:39.536 [info] File sync enabled status: true
+2025-05-14 15:15:39.536 [info] Starting sync of visible tabs
+2025-05-14 15:15:39.690 [info] Synced file app/src/main.ts modelVersion=105 in 178.89024399966002ms
+2025-05-14 15:15:39.716 [info] Uploaded file app/src/main.ts modelVersion=105 in 179.2397680003196ms
+2025-05-14 15:15:39.716 [info] Synced all visible tabs in 179.89983499981463ms
+2025-05-14 15:15:41.705 [info] Synced file app/src/main.ts modelVersion=106 in 181.20904600061476ms
+2025-05-14 15:15:41.999 [info] Synced file app/src/main.ts modelVersion=107 in 181.38764999993145ms
+2025-05-14 15:15:50.882 [info] Synced file app/src/main.ts modelVersion=108 in 181.64120700024068ms
+2025-05-14 15:16:36.864 [info] Synced file app/src/main.ts modelVersion=109 in 180.44895200058818ms
+2025-05-14 15:16:39.103 [info] Synced file app/src/main.ts modelVersion=110 in 180.09148299973458ms
+2025-05-14 15:16:40.437 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:16:40.770 [info] Synced file app/src/main.ts modelVersion=116 in 178.65704700071365ms
+2025-05-14 15:16:40.835 [info] Fetched fsConfig in 397.93609200045466ms
+2025-05-14 15:16:40.836 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:16:40.836 [info] File sync enabled status: true
+2025-05-14 15:16:40.836 [info] Starting sync of visible tabs
+2025-05-14 15:16:41.018 [info] Uploaded file app/src/main.ts modelVersion=117 in 179.65430499985814ms
+2025-05-14 15:16:41.018 [info] Synced all visible tabs in 182.27447099983692ms
+2025-05-14 15:16:41.720 [info] Synced file app/src/main.ts modelVersion=121 in 179.77366800047457ms
+2025-05-14 15:17:01.008 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:17:01.407 [info] Fetched fsConfig in 398.99236699938774ms
+2025-05-14 15:17:01.407 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:17:01.407 [info] File sync enabled status: true
+2025-05-14 15:17:01.407 [info] Starting sync of visible tabs
+2025-05-14 15:17:01.407 [info] Synced all visible tabs in 0.11018600035458803ms
+2025-05-14 15:18:58.909 [info] Handled visible editors change in 0.12214899994432926ms
+2025-05-14 15:18:59.539 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=474 in 544.8173139998689ms
+2025-05-14 15:18:59.539 [info] Handled visible editors change in 614.7237660000101ms
+2025-05-14 15:20:09.352 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=23 in 773.2169850002974ms
+2025-05-14 15:20:19.849 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=25 in 184.30931000038981ms
+2025-05-14 15:20:19.850 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=476 in 184.413164999336ms
+2025-05-14 15:20:21.240 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:20:21.723 [info] Fetched fsConfig in 482.46198699995875ms
+2025-05-14 15:20:21.723 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:20:21.723 [info] File sync enabled status: true
+2025-05-14 15:20:21.723 [info] Starting sync of visible tabs
+2025-05-14 15:20:21.723 [info] Synced all visible tabs in 0.04442299995571375ms
+2025-05-14 15:20:31.515 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=477 in 179.32357500027865ms
+2025-05-14 15:20:33.634 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=27 in 183.01769199967384ms
+2025-05-14 15:20:35.802 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=28 in 179.29500100016594ms
+2025-05-14 15:20:36.200 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=32 in 185.34681499935687ms
+2025-05-14 15:20:40.300 [info] Handled visible editors change in 0.22493099980056286ms
+2025-05-14 15:20:40.313 [info] Handled visible editors change in 0.7531709996983409ms
+2025-05-14 15:20:42.848 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=33 in 181.6744979992509ms
+2025-05-14 15:21:25.218 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=35 in 181.83531299978495ms
+2025-05-14 15:21:26.800 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=39 in 190.642125999555ms
+2025-05-14 15:22:13.848 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:22:14.249 [info] Fetched fsConfig in 401.50247600022703ms
+2025-05-14 15:22:14.249 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:22:14.250 [info] File sync enabled status: true
+2025-05-14 15:22:14.250 [info] Starting sync of visible tabs
+2025-05-14 15:22:14.250 [info] Synced all visible tabs in 0.04823100008070469ms
+2025-05-14 15:23:01.468 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:23:01.870 [info] Fetched fsConfig in 401.79646399989724ms
+2025-05-14 15:23:01.870 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:23:01.870 [info] File sync enabled status: true
+2025-05-14 15:23:01.870 [info] Starting sync of visible tabs
+2025-05-14 15:23:01.870 [info] Synced all visible tabs in 0.12336099985986948ms
+2025-05-14 15:46:42.703 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=40 in 787.8033790001646ms
+2025-05-14 15:46:42.703 [info] Uploaded file app/src/main.ts modelVersion=122 in 765.1615130007267ms
+2025-05-14 15:46:43.842 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:46:44.245 [info] Fetched fsConfig in 402.61563999950886ms
+2025-05-14 15:46:44.245 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:46:44.245 [info] File sync enabled status: true
+2025-05-14 15:46:44.245 [info] Starting sync of visible tabs
+2025-05-14 15:46:44.245 [info] Synced all visible tabs in 0.06399900000542402ms
+2025-05-14 15:46:58.793 [info] Uploaded file app/src/modules/trades/trades.controller.ts modelVersion=15 in 184.54156299959868ms
+2025-05-14 15:46:58.793 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=478 in 186.85966600012034ms
+2025-05-14 15:46:58.794 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=150 in 186.02900000009686ms
+2025-05-14 15:46:58.797 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=3 in 187.8375270003453ms
+2025-05-14 15:46:58.798 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=7 in 187.59826900064945ms
+2025-05-14 15:46:59.041 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=41 in 182.69380300026387ms
+2025-05-14 15:50:43.621 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=4 in 306.4199040001258ms
+2025-05-14 15:50:43.621 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=479 in 320.6523499991745ms
+2025-05-14 15:50:43.623 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=151 in 321.67273099999875ms
+2025-05-14 15:50:43.624 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=8 in 308.57858700025827ms
+2025-05-14 15:50:43.624 [info] Uploaded file app/src/modules/trades/trades.controller.ts modelVersion=16 in 560.8038799995556ms
+2025-05-14 15:50:43.624 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=42 in 322.27927699964494ms
+2025-05-14 15:50:44.883 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:50:45.379 [info] Fetched fsConfig in 495.9739800002426ms
+2025-05-14 15:50:45.379 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:50:45.379 [info] File sync enabled status: true
+2025-05-14 15:50:45.379 [info] Starting sync of visible tabs
+2025-05-14 15:50:45.379 [info] Synced all visible tabs in 0.08430799935013056ms
+2025-05-14 15:50:47.825 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=5 in 183.94368800055236ms
+2025-05-14 15:50:48.074 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=480 in 183.97512699943036ms
+2025-05-14 15:50:48.075 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=17 in 183.9074810007587ms
+2025-05-14 15:50:48.077 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=43 in 186.14360800012946ms
+2025-05-14 15:50:48.077 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=9 in 184.82621099986136ms
+2025-05-14 15:50:48.080 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=152 in 190.06221699994057ms
+2025-05-14 15:51:23.248 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=6 in 180.39648499991745ms
+2025-05-14 15:51:23.505 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=153 in 190.3356400001794ms
+2025-05-14 15:51:23.506 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=481 in 191.42705400008708ms
+2025-05-14 15:51:23.511 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=10 in 193.52513300068676ms
+2025-05-14 15:51:23.511 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=18 in 194.38528499938548ms
+2025-05-14 15:51:23.512 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=44 in 196.06607299949974ms
+2025-05-14 15:51:35.923 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=7 in 192.59460099972785ms
+2025-05-14 15:51:36.161 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=154 in 181.64153700042516ms
+2025-05-14 15:51:36.161 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=11 in 180.74636000022292ms
+2025-05-14 15:51:36.162 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=45 in 182.34824100043625ms
+2025-05-14 15:51:36.163 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=19 in 182.94023900013417ms
+2025-05-14 15:51:36.164 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=482 in 185.3731559999287ms
+2025-05-14 15:52:53.467 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=46 in 515.6731890002266ms
+2025-05-14 15:52:53.469 [info] Uploaded file app/src/main.ts modelVersion=123 in 782.6627060007304ms
+2025-05-14 15:52:54.746 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:52:55.148 [info] Fetched fsConfig in 401.82819700054824ms
+2025-05-14 15:52:55.148 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:52:55.148 [info] File sync enabled status: true
+2025-05-14 15:52:55.148 [info] Starting sync of visible tabs
+2025-05-14 15:52:55.148 [info] Synced all visible tabs in 0.09709199983626604ms
+2025-05-14 15:53:24.349 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=47 in 180.66581099946052ms
+2025-05-14 15:53:26.068 [info] Handled visible editors change in 0.12312099989503622ms
+2025-05-14 15:53:26.244 [info] Handled visible editors change in 0.10211099963635206ms
+2025-05-14 15:53:26.253 [info] Handled visible editors change in 0.14378899987787008ms
+2025-05-14 15:53:26.259 [info] Handled visible editors change in 0.44526399951428175ms
+2025-05-14 15:53:34.815 [info] Handled visible editors change in 0.10849299933761358ms
+2025-05-14 15:53:34.819 [info] Handled visible editors change in 0.18641000054776669ms
+2025-05-14 15:53:34.822 [info] Handled visible editors change in 0.39909799955785275ms
+2025-05-14 15:53:34.838 [info] Handled visible editors change in 0.48866499960422516ms
+2025-05-14 15:54:17.540 [info] Handled visible editors change in 0.23640299960970879ms
+2025-05-14 15:54:17.837 [info] Uploaded file app/src/common/decorators/openapi-intercepted-response.decorator.ts modelVersion=1 in 183.3154939999804ms
+2025-05-14 15:54:17.837 [info] Handled visible editors change in 243.73209900036454ms
+2025-05-14 15:54:19.065 [info] Handled visible editors change in 0.1158069996163249ms
+2025-05-14 15:54:19.321 [info] Uploaded file app/src/common/decorators/partial-entity-type.decorator.ts modelVersion=1 in 192.40965699963272ms
+2025-05-14 15:54:19.321 [info] Handled visible editors change in 230.1227000001818ms
+2025-05-14 15:54:19.442 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:54:19.842 [info] Fetched fsConfig in 399.8057609992102ms
+2025-05-14 15:54:19.842 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:54:19.842 [info] File sync enabled status: true
+2025-05-14 15:54:19.842 [info] Starting sync of visible tabs
+2025-05-14 15:54:19.842 [info] Synced all visible tabs in 0.06157499924302101ms
+2025-05-14 15:55:31.593 [info] Handled visible editors change in 0.11007599998265505ms
+2025-05-14 15:55:31.700 [info] Handled visible editors change in 0.5132719995453954ms
+2025-05-14 15:55:31.704 [info] Handled visible editors change in 0.49833299964666367ms
+2025-05-14 15:55:34.994 [info] Handled visible editors change in 0.06972999963909388ms
+2025-05-14 15:55:34.999 [info] Handled visible editors change in 0.1815200001001358ms
+2025-05-14 15:55:35.088 [info] Handled visible editors change in 0.3769260002300143ms
+2025-05-14 15:55:35.092 [info] Handled visible editors change in 0.27315100003033876ms
+2025-05-14 15:57:44.255 [info] Handled visible editors change in 0.1782039999961853ms
+2025-05-14 15:57:44.261 [info] Handled visible editors change in 0.20744899939745665ms
+2025-05-14 15:57:44.282 [info] Handled visible editors change in 0.7108610002323985ms
+2025-05-14 15:58:32.156 [info] Handled visible editors change in 0.11455499939620495ms
+2025-05-14 15:58:33.001 [info] Uploaded file app/src/main.ts modelVersion=123 in 772.4413930000737ms
+2025-05-14 15:58:33.001 [info] Handled visible editors change in 828.0303370002657ms
+2025-05-14 15:59:04.057 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 15:59:04.532 [info] Fetched fsConfig in 474.9713759999722ms
+2025-05-14 15:59:04.532 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 15:59:04.532 [info] File sync enabled status: true
+2025-05-14 15:59:04.532 [info] Starting sync of visible tabs
+2025-05-14 15:59:04.532 [info] Synced all visible tabs in 0.07022199966013432ms
+2025-05-14 16:00:16.913 [info] Synced file app/src/main.ts modelVersion=124 in 358.231501000002ms
+2025-05-14 16:00:18.435 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:00:18.881 [info] Fetched fsConfig in 445.7090299995616ms
+2025-05-14 16:00:18.881 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:00:18.881 [info] File sync enabled status: true
+2025-05-14 16:00:18.881 [info] Starting sync of visible tabs
+2025-05-14 16:00:18.881 [info] Synced all visible tabs in 0.06104400008916855ms
+2025-05-14 16:00:19.167 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=48 in 181.50342299975455ms
+2025-05-14 16:00:26.641 [info] Handled visible editors change in 0.16685299947857857ms
+2025-05-14 16:00:26.658 [info] Handled visible editors change in 0.46687400061637163ms
+2025-05-14 16:00:46.550 [info] Handled visible editors change in 0.1124410005286336ms
+2025-05-14 16:00:46.807 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=11 in 198.84155600052327ms
+2025-05-14 16:00:46.807 [info] Handled visible editors change in 241.6760010002181ms
+2025-05-14 16:00:52.559 [info] Handled visible editors change in 0.21090499963611364ms
+2025-05-14 16:00:52.575 [info] Handled visible editors change in 0.6874379999935627ms
+2025-05-14 16:00:57.599 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=67 in 188.1122800000012ms
+2025-05-14 16:00:57.877 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=71 in 183.63087700027972ms
+2025-05-14 16:01:23.423 [info] Handled visible editors change in 0.2310730004683137ms
+2025-05-14 16:01:23.440 [info] Handled visible editors change in 0.7407970000058413ms
+2025-05-14 16:01:25.297 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:01:25.710 [info] Fetched fsConfig in 413.6098410002887ms
+2025-05-14 16:01:25.710 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:01:25.710 [info] File sync enabled status: true
+2025-05-14 16:01:25.710 [info] Starting sync of visible tabs
+2025-05-14 16:01:25.710 [info] Synced all visible tabs in 0.04369200021028519ms
+2025-05-14 16:02:23.963 [info] Handled visible editors change in 0.12713799998164177ms
+2025-05-14 16:02:24.220 [info] Uploaded file app/src/repl.ts modelVersion=1 in 194.84256399981678ms
+2025-05-14 16:02:24.220 [info] Handled visible editors change in 229.1110239997506ms
+2025-05-14 16:03:00.171 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:03:00.597 [info] Fetched fsConfig in 426.1329020000994ms
+2025-05-14 16:03:00.597 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:03:00.597 [info] File sync enabled status: true
+2025-05-14 16:03:00.597 [info] Starting sync of visible tabs
+2025-05-14 16:03:00.597 [info] Synced all visible tabs in 0.08038000017404556ms
+2025-05-14 16:04:48.289 [info] Handled visible editors change in 0.21532300021499395ms
+2025-05-14 16:04:49.158 [info] Uploaded file app/src/common/middlewares/logger.middleware.ts modelVersion=1 in 765.1490630004555ms
+2025-05-14 16:04:49.158 [info] Handled visible editors change in 818.9622760005295ms
+2025-05-14 16:05:21.306 [info] Handled visible editors change in 0.1223890008404851ms
+2025-05-14 16:05:21.579 [info] Uploaded file app/src/common/middlewares/redoc.middleware.ts modelVersion=1 in 195.91077699977905ms
+2025-05-14 16:05:21.579 [info] Handled visible editors change in 239.07192100025713ms
+2025-05-14 16:05:26.762 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=6 in 180.19933000020683ms
+2025-05-14 16:05:27.768 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:05:27.811 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=12 in 178.24703199975193ms
+2025-05-14 16:05:28.139 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=13 in 177.50686500035226ms
+2025-05-14 16:05:28.167 [info] Fetched fsConfig in 398.62458699941635ms
+2025-05-14 16:05:28.167 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:05:28.167 [info] File sync enabled status: true
+2025-05-14 16:05:28.167 [info] Starting sync of visible tabs
+2025-05-14 16:05:28.345 [info] Uploaded file app/src/common/middlewares/redoc.middleware.ts modelVersion=14 in 177.19531100057065ms
+2025-05-14 16:05:28.345 [info] Synced all visible tabs in 177.97560400050133ms
+2025-05-14 16:05:28.949 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=16 in 183.177670000121ms
+2025-05-14 16:05:30.027 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=20 in 193.3582330001518ms
+2025-05-14 16:05:31.875 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=21 in 179.37205999996513ms
+2025-05-14 16:05:32.711 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=27 in 178.94923700019717ms
+2025-05-14 16:05:33.342 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=28 in 180.53482700046152ms
+2025-05-14 16:05:34.785 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=29 in 181.34273099992424ms
+2025-05-14 16:05:36.748 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=36 in 178.55509799998254ms
+2025-05-14 16:05:38.360 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=37 in 179.0294359996915ms
+2025-05-14 16:05:39.439 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=42 in 177.93186999950558ms
+2025-05-14 16:05:40.793 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=48 in 180.72759699914604ms
+2025-05-14 16:07:27.982 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=49 in 178.6089730001986ms
+2025-05-14 16:07:28.362 [info] Synced file app/src/common/middlewares/redoc.middleware.ts modelVersion=50 in 179.3884829999879ms
+2025-05-14 16:07:28.905 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:07:29.433 [info] Fetched fsConfig in 527.9229900008067ms
+2025-05-14 16:07:29.433 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:07:29.433 [info] File sync enabled status: true
+2025-05-14 16:07:29.433 [info] Starting sync of visible tabs
+2025-05-14 16:07:29.433 [info] Synced all visible tabs in 0.04824999999254942ms
+2025-05-14 16:11:04.666 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:11:04.846 [info] Handled visible editors change in 0.37320899963378906ms
+2025-05-14 16:11:05.071 [info] Fetched fsConfig in 405.34919499978423ms
+2025-05-14 16:11:05.071 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:11:05.071 [info] File sync enabled status: true
+2025-05-14 16:11:05.071 [info] Starting sync of visible tabs
+2025-05-14 16:11:05.329 [info] Uploaded file app/src/common/middlewares/logger.middleware.ts modelVersion=1 in 406.0804040003568ms
+2025-05-14 16:11:05.329 [info] Handled visible editors change in 447.845513000153ms
+2025-05-14 16:11:05.479 [info] Uploaded file app/src/common/middlewares/logger.middleware.ts modelVersion=1 in 407.44030199944973ms
+2025-05-14 16:11:05.479 [info] Synced all visible tabs in 408.1476869992912ms
+2025-05-14 16:12:01.835 [info] Uploaded file app/src/main.ts modelVersion=125 in 178.87877099961042ms
+2025-05-14 16:12:01.839 [info] Uploaded file app/src/main.ts modelVersion=125 in 182.82490300014615ms
+2025-05-14 16:12:01.981 [info] Uploaded file app/src/main.ts modelVersion=125 in 179.31924599967897ms
+2025-05-14 16:12:01.982 [info] Uploaded file app/src/main.ts modelVersion=125 in 181.495683000423ms
+2025-05-14 16:12:09.820 [info] Uploaded file redocly.yaml modelVersion=2 in 180.68004499934614ms
+2025-05-14 16:12:09.820 [info] Uploaded file redocly.yaml modelVersion=2 in 181.869812999852ms
+2025-05-14 16:12:09.863 [info] Uploaded file redocly.yaml modelVersion=4 in 177.8725349996239ms
+2025-05-14 16:12:09.864 [info] Uploaded file redocly.yaml modelVersion=4 in 179.72457499988377ms
+2025-05-14 16:12:18.020 [info] Uploaded file package.json modelVersion=2 in 185.08911400008947ms
+2025-05-14 16:12:18.022 [info] Uploaded file package.json modelVersion=2 in 185.4766189996153ms
+2025-05-14 16:12:18.130 [info] Uploaded file package.json modelVersion=4 in 178.73231600038707ms
+2025-05-14 16:12:18.131 [info] Uploaded file package.json modelVersion=4 in 180.1672939993441ms
+2025-05-14 16:12:54.501 [info] Synced file app/src/main.ts modelVersion=127 in 180.8859769999981ms
+2025-05-14 16:12:55.836 [info] Synced file app/src/main.ts modelVersion=131 in 181.58811300061643ms
+2025-05-14 16:13:45.389 [info] Synced file app/src/main.ts modelVersion=133 in 180.612962000072ms
+2025-05-14 16:13:47.065 [info] Synced file app/src/main.ts modelVersion=137 in 184.86350500024855ms
+2025-05-14 16:14:04.093 [info] Handled visible editors change in 0.12409299984574318ms
+2025-05-14 16:14:04.112 [info] Handled visible editors change in 0.4093769993633032ms
+2025-05-14 16:14:07.344 [info] Handled visible editors change in 0.22245699912309647ms
+2025-05-14 16:14:07.358 [info] Handled visible editors change in 0.40629100054502487ms
+2025-05-14 16:14:14.173 [info] Handled visible editors change in 0.19839200004935265ms
+2025-05-14 16:14:14.188 [info] Handled visible editors change in 0.4246960002928972ms
+2025-05-14 16:14:15.391 [info] Handled visible editors change in 0.21298899874091148ms
+2025-05-14 16:14:15.405 [info] Handled visible editors change in 0.6139810010790825ms
+2025-05-14 16:14:18.204 [info] Handled visible editors change in 0.11095700040459633ms
+2025-05-14 16:14:18.221 [info] Handled visible editors change in 0.47057100012898445ms
+2025-05-14 16:14:19.820 [info] Handled visible editors change in 0.21713700145483017ms
+2025-05-14 16:14:19.894 [info] Handled visible editors change in 0.7636510003358126ms
+2025-05-14 16:14:20.301 [info] Synced file package.json modelVersion=6 in 236.78636599890888ms
+2025-05-14 16:14:21.060 [info] Handled visible editors change in 0.12984300032258034ms
+2025-05-14 16:14:21.061 [info] Handled visible editors change in 0.223709000274539ms
+2025-05-14 16:14:21.850 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:14:22.118 [info] Handled visible editors change in 0.11746999993920326ms
+2025-05-14 16:14:22.163 [info] Handled visible editors change in 0.8491009995341301ms
+2025-05-14 16:14:22.326 [info] Fetched fsConfig in 476.18852199986577ms
+2025-05-14 16:14:22.326 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:14:22.326 [info] File sync enabled status: true
+2025-05-14 16:14:22.326 [info] Starting sync of visible tabs
+2025-05-14 16:14:22.326 [info] Synced all visible tabs in 0.06221599876880646ms
+2025-05-14 16:14:22.595 [info] Synced file redocly.yaml modelVersion=6 in 242.0988270007074ms
+2025-05-14 16:14:45.262 [info] Synced file app/src/main.ts modelVersion=138 in 181.08350099995732ms
+2025-05-14 16:15:00.512 [info] Synced file app/src/main.ts modelVersion=139 in 182.19972099922597ms
+2025-05-14 16:18:59.505 [info] Synced file app/src/main.ts modelVersion=140 in 409.94516399875283ms
+2025-05-14 16:19:00.553 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:19:00.995 [info] Fetched fsConfig in 441.6739380005747ms
+2025-05-14 16:19:00.995 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:19:00.995 [info] File sync enabled status: true
+2025-05-14 16:19:00.995 [info] Starting sync of visible tabs
+2025-05-14 16:19:00.995 [info] Synced all visible tabs in 0.051235999912023544ms
+2025-05-14 16:19:22.117 [info] Synced file app/src/main.ts modelVersion=142 in 180.43384099937975ms
+2025-05-14 16:19:22.568 [info] Synced file app/src/main.ts modelVersion=144 in 187.98332300037146ms
+2025-05-14 16:19:23.742 [info] Synced file app/src/main.ts modelVersion=146 in 181.9406240005046ms
+2025-05-14 16:19:50.967 [info] Synced file app/src/main.ts modelVersion=147 in 180.3364580012858ms
+2025-05-14 16:20:17.454 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:20:17.854 [info] Fetched fsConfig in 399.849407998845ms
+2025-05-14 16:20:17.854 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:20:17.855 [info] File sync enabled status: true
+2025-05-14 16:20:17.855 [info] Starting sync of visible tabs
+2025-05-14 16:20:17.855 [info] Synced all visible tabs in 0.05248799920082092ms
+2025-05-14 16:21:17.803 [info] Synced file app/src/main.ts modelVersion=148 in 181.90085599943995ms
+2025-05-14 16:21:19.058 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:21:19.459 [info] Fetched fsConfig in 400.9243780001998ms
+2025-05-14 16:21:19.459 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:21:19.459 [info] File sync enabled status: true
+2025-05-14 16:21:19.459 [info] Starting sync of visible tabs
+2025-05-14 16:21:19.459 [info] Synced all visible tabs in 0.0726660005748272ms
+2025-05-14 16:23:34.947 [info] Synced file app/src/main.ts modelVersion=158 in 185.30563000030816ms
+2025-05-14 16:23:35.573 [info] Synced file app/src/main.ts modelVersion=159 in 179.80434500053525ms
+2025-05-14 16:23:35.656 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:23:35.942 [info] Synced file app/src/main.ts modelVersion=160 in 180.84764000028372ms
+2025-05-14 16:23:36.052 [info] Fetched fsConfig in 396.18249900080264ms
+2025-05-14 16:23:36.052 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:23:36.052 [info] File sync enabled status: true
+2025-05-14 16:23:36.052 [info] Starting sync of visible tabs
+2025-05-14 16:23:36.052 [info] Synced all visible tabs in 0.17855400033295155ms
+2025-05-14 16:23:36.913 [info] Synced file app/src/main.ts modelVersion=161 in 179.92266799882054ms
+2025-05-14 16:23:37.380 [info] Synced file app/src/main.ts modelVersion=162 in 179.85126299969852ms
+2025-05-14 16:23:37.827 [info] Synced file app/src/main.ts modelVersion=163 in 183.51874299906194ms
+2025-05-14 16:23:44.653 [info] Synced file app/src/main.ts modelVersion=164 in 181.00852099992335ms
+2025-05-14 16:24:06.270 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 16:24:06.667 [info] Fetched fsConfig in 397.1633150000125ms
+2025-05-14 16:24:06.668 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 16:24:06.668 [info] File sync enabled status: true
+2025-05-14 16:24:06.668 [info] Starting sync of visible tabs
+2025-05-14 16:24:06.668 [info] Synced all visible tabs in 0.0754110012203455ms
+2025-05-14 17:06:02.506 [info] Handled visible editors change in 0.2133289985358715ms
+2025-05-14 17:06:03.533 [info] Uploaded file app/src/common/decorators/openapi-intercepted-response.decorator.ts modelVersion=1 in 813.1347909998149ms
+2025-05-14 17:06:03.533 [info] Handled visible editors change in 999.5770750008523ms
+2025-05-14 17:06:14.847 [info] Handled visible editors change in 0.26191999949514866ms
+2025-05-14 17:06:21.467 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=482 in 180.3644529990852ms
+2025-05-14 17:06:21.467 [info] Handled visible editors change in 196.24301500059664ms
+2025-05-14 17:06:26.059 [info] Handled visible editors change in 0.16684200055897236ms
+2025-05-14 17:06:59.578 [info] Handled visible editors change in 0.5770200006663799ms
+2025-05-14 17:07:02.154 [info] Handled visible editors change in 0.11166900023818016ms
+2025-05-14 17:07:02.407 [info] Uploaded file app/src/main.ts modelVersion=164 in 201.95538299903274ms
+2025-05-14 17:07:02.407 [info] Handled visible editors change in 239.7004589997232ms
+2025-05-14 17:07:05.506 [info] Handled visible editors change in 0.11853200010955334ms
+2025-05-14 17:08:56.956 [info] Handled visible editors change in 0.2777700014412403ms
+2025-05-14 17:08:57.645 [info] Uploaded file app/src/common/decorators/custom-api-security.decorator.ts modelVersion=1 in 593.1694389991462ms
+2025-05-14 17:08:57.645 [info] Handled visible editors change in 651.2655319999903ms
+2025-05-14 17:08:59.115 [info] Synced file app/src/common/decorators/custom-api-security.decorator.ts modelVersion=2 in 374.86069999821484ms
+2025-05-14 17:08:59.981 [info] Synced file app/src/common/decorators/custom-api-security.decorator.ts modelVersion=3 in 179.2702600006014ms
+2025-05-14 17:09:00.364 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:09:00.768 [info] Fetched fsConfig in 403.8880029991269ms
+2025-05-14 17:09:00.768 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:09:00.768 [info] File sync enabled status: true
+2025-05-14 17:09:00.768 [info] Starting sync of visible tabs
+2025-05-14 17:09:00.768 [info] Synced all visible tabs in 0.08012000098824501ms
+2025-05-14 17:09:03.236 [info] Synced file app/src/common/decorators/custom-api-security.decorator.ts modelVersion=4 in 182.243436999619ms
+2025-05-14 17:18:29.445 [info] Handled visible editors change in 0.220422999933362ms
+2025-05-14 17:18:30.318 [info] Uploaded file app/src/main.ts modelVersion=164 in 774.9322459995747ms
+2025-05-14 17:18:30.318 [info] Handled visible editors change in 857.5035220012069ms
+2025-05-14 17:21:24.550 [info] Handled visible editors change in 0.14844800159335136ms
+2025-05-14 17:21:24.677 [info] Handled visible editors change in 0.39052100107073784ms
+2025-05-14 17:21:25.778 [info] Uploaded file app/package-lock.json modelVersion=1 in 919.6682830005884ms
+2025-05-14 17:21:25.778 [info] Handled visible editors change in 1072.3942080009729ms
+2025-05-14 17:21:26.829 [info] Handled visible editors change in 0.16274499893188477ms
+2025-05-14 17:21:26.832 [info] Handled visible editors change in 0.3326929993927479ms
+2025-05-14 17:21:26.911 [info] Handled visible editors change in 0.2624520007520914ms
+2025-05-14 17:21:27.198 [info] Uploaded file app/package.json modelVersion=1 in 185.35789399966598ms
+2025-05-14 17:21:27.199 [info] Handled visible editors change in 280.35875000059605ms
+2025-05-14 17:21:35.100 [info] Handled visible editors change in 0.13706599920988083ms
+2025-05-14 17:21:35.106 [info] Handled visible editors change in 0.23112300038337708ms
+2025-05-14 17:21:35.161 [info] Handled visible editors change in 0.2220660001039505ms
+2025-05-14 17:21:35.444 [info] Uploaded file /home/amy/Desktop/work/ecosystem/service/services-monolith/app/startpoint.sh modelVersion=1 in 181.89568899944425ms
+2025-05-14 17:21:35.444 [info] Handled visible editors change in 276.74992999993265ms
+2025-05-14 17:21:41.189 [info] Handled visible editors change in 0.12460299953818321ms
+2025-05-14 17:21:41.192 [info] Handled visible editors change in 0.17125100083649158ms
+2025-05-14 17:21:41.734 [info] Handled visible editors change in 0.15974000096321106ms
+2025-05-14 17:21:41.757 [info] Handled visible editors change in 0.39096200093626976ms
+2025-05-14 17:21:49.627 [info] Handled visible editors change in 0.17652100138366222ms
+2025-05-14 17:21:49.631 [info] Handled visible editors change in 0.1595890000462532ms
+2025-05-14 17:21:49.703 [info] Handled visible editors change in 0.2391780000180006ms
+2025-05-14 17:21:49.988 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=71 in 180.16323200054467ms
+2025-05-14 17:21:49.988 [info] Handled visible editors change in 280.20695200003684ms
+2025-05-14 17:21:51.613 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:21:52.010 [info] Fetched fsConfig in 397.7897920012474ms
+2025-05-14 17:21:52.010 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:21:52.011 [info] File sync enabled status: true
+2025-05-14 17:21:52.011 [info] Starting sync of visible tabs
+2025-05-14 17:21:52.011 [info] Synced all visible tabs in 0.052528999745845795ms
+2025-05-14 17:21:55.466 [info] Handled visible editors change in 0.12186799943447113ms
+2025-05-14 17:21:55.471 [info] Handled visible editors change in 0.23732499964535236ms
+2025-05-14 17:21:55.520 [info] Handled visible editors change in 0.2220859993249178ms
+2025-05-14 17:21:55.786 [info] Uploaded file app/src/common/decorators/custom-api-security.decorator.ts modelVersion=4 in 180.13809400051832ms
+2025-05-14 17:21:55.786 [info] Handled visible editors change in 255.8145049996674ms
+2025-05-14 17:21:57.259 [info] Handled visible editors change in 0.18443500064313412ms
+2025-05-14 17:21:57.261 [info] Handled visible editors change in 0.17567900009453297ms
+2025-05-14 17:21:57.313 [info] Handled visible editors change in 0.18590799905359745ms
+2025-05-14 17:21:57.660 [info] Uploaded file app/src/main.ts modelVersion=164 in 178.61299699917436ms
+2025-05-14 17:21:57.660 [info] Handled visible editors change in 343.85060399957ms
+2025-05-14 17:21:59.917 [info] Handled visible editors change in 0.12657699920237064ms
+2025-05-14 17:21:59.919 [info] Handled visible editors change in 0.20545499958097935ms
+2025-05-14 17:22:00.005 [info] Handled visible editors change in 0.3137670010328293ms
+2025-05-14 17:22:00.011 [info] Handled visible editors change in 0.9879109989851713ms
+2025-05-14 17:22:02.303 [info] Handled visible editors change in 0.11944400146603584ms
+2025-05-14 17:22:02.306 [info] Handled visible editors change in 0.24336599931120872ms
+2025-05-14 17:22:02.322 [info] Handled visible editors change in 0.4713129997253418ms
+2025-05-14 17:22:14.405 [info] Handled visible editors change in 0.12691800110042095ms
+2025-05-14 17:22:14.431 [info] Handled visible editors change in 0.20042600110173225ms
+2025-05-14 17:22:14.432 [info] Handled visible editors change in 0.38998099975287914ms
+2025-05-14 17:22:18.499 [info] Handled visible editors change in 0.23938899859786034ms
+2025-05-14 17:22:18.504 [info] Handled visible editors change in 0.23183399997651577ms
+2025-05-14 17:22:18.519 [info] Handled visible editors change in 0.4574870001524687ms
+2025-05-14 17:22:22.030 [info] Handled visible editors change in 0.19965399987995625ms
+2025-05-14 17:22:22.352 [info] Uploaded file app/src/modules/trades/trades.controller.ts modelVersion=19 in 178.36128400079906ms
+2025-05-14 17:22:22.352 [info] Handled visible editors change in 311.7861240003258ms
+2025-05-14 17:26:06.402 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=20 in 770.5781629998237ms
+2025-05-14 17:26:09.086 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:26:09.489 [info] Fetched fsConfig in 402.52572800032794ms
+2025-05-14 17:26:09.489 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:26:09.489 [info] File sync enabled status: true
+2025-05-14 17:26:09.489 [info] Starting sync of visible tabs
+2025-05-14 17:26:09.489 [info] Synced all visible tabs in 0.07160400040447712ms
+2025-05-14 17:26:11.874 [info] Synced file app/src/modules/trades/trades.controller.ts modelVersion=21 in 221.16318000108004ms
+2025-05-14 17:26:33.950 [info] Handled visible editors change in 0.209391999989748ms
+2025-05-14 17:26:33.965 [info] Handled visible editors change in 0.8170710001140833ms
+2025-05-14 17:26:36.404 [warning] Failed to sync changes for app/src/main.ts, version=166, retrying (attempt 1) [not_found] Version not found: VersionNotFound: Version not found for file with encrypted file name: "bda39644036efff3dfb4fab233d31cce758e3f38e083bd2e1ba29f831bf3c0"
+2025-05-14 17:26:36.608 [warning] Failed to sync changes for app/src/main.ts, version=166, retrying (attempt 2) [not_found] Version not found: VersionNotFound: Version not found for file with encrypted file name: "bda39644036efff3dfb4fab233d31cce758e3f38e083bd2e1ba29f831bf3c0"
+2025-05-14 17:26:36.709 [warning] Failed to sync changes for app/src/main.ts, version=167, retrying (attempt 1) [not_found] Version not found: VersionNotFound: Version not found for file with encrypted file name: "bda39644036efff3dfb4fab233d31cce758e3f38e083bd2e1ba29f831bf3c0"
+2025-05-14 17:26:36.830 [warning] Failed to sync changes for app/src/main.ts, version=166, retrying (attempt 3) [not_found] Version not found: VersionNotFound: Version not found for file with encrypted file name: "bda39644036efff3dfb4fab233d31cce758e3f38e083bd2e1ba29f831bf3c0"
+2025-05-14 17:26:36.831 [error] Failed to sync changes for app/src/main.ts, version=166, attempting full file sync [not_found] Version not found: VersionNotFound: Version not found for file with encrypted file name: "bda39644036efff3dfb4fab233d31cce758e3f38e083bd2e1ba29f831bf3c0"
+2025-05-14 17:26:36.914 [warning] Failed to sync changes for app/src/main.ts, version=167, retrying (attempt 2) [not_found] Version not found: VersionNotFound: Version not found for file with encrypted file name: "bda39644036efff3dfb4fab233d31cce758e3f38e083bd2e1ba29f831bf3c0"
+2025-05-14 17:26:37.025 [info] Uploaded file app/src/main.ts modelVersion=167 in 193.87349800020456ms
+2025-05-14 17:26:37.134 [info] Synced file app/src/main.ts modelVersion=167 in 179.71326700039208ms
+2025-05-14 17:26:37.656 [info] Synced file app/src/main.ts modelVersion=168 in 181.91766599938273ms
+2025-05-14 17:26:40.764 [info] Synced file app/src/main.ts modelVersion=169 in 178.54499899968505ms
+2025-05-14 17:26:41.423 [info] Synced file app/src/main.ts modelVersion=170 in 183.39861000142992ms
+2025-05-14 17:26:41.970 [info] Synced file app/src/main.ts modelVersion=171 in 180.70102700032294ms
+2025-05-14 17:26:45.546 [info] Synced file app/src/main.ts modelVersion=172 in 179.3956130016595ms
+2025-05-14 17:26:45.891 [info] Synced file app/src/main.ts modelVersion=173 in 183.17882800102234ms
+2025-05-14 17:26:48.228 [info] Synced file app/src/main.ts modelVersion=174 in 183.30410199984908ms
+2025-05-14 17:26:53.928 [info] Handled visible editors change in 0.20312099903821945ms
+2025-05-14 17:26:54.184 [info] Uploaded file app/src/modules/holdings/holdings.controller.ts modelVersion=1 in 191.97839800082147ms
+2025-05-14 17:26:54.184 [info] Handled visible editors change in 242.85512299835682ms
+2025-05-14 17:27:16.725 [info] Synced file app/src/modules/holdings/holdings.controller.ts modelVersion=2 in 185.80814100056887ms
+2025-05-14 17:27:17.788 [info] Synced file app/src/modules/holdings/holdings.controller.ts modelVersion=8 in 180.08660499937832ms
+2025-05-14 17:27:18.094 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:27:18.493 [info] Fetched fsConfig in 398.5993460007012ms
+2025-05-14 17:27:18.493 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:27:18.493 [info] File sync enabled status: true
+2025-05-14 17:27:18.493 [info] Starting sync of visible tabs
+2025-05-14 17:27:18.493 [info] Synced all visible tabs in 0.15547100082039833ms
+2025-05-14 17:27:19.832 [info] Synced file app/src/modules/holdings/holdings.controller.ts modelVersion=10 in 180.17682399973273ms
+2025-05-14 17:27:20.363 [info] Synced file app/src/modules/holdings/holdings.controller.ts modelVersion=11 in 179.30349799990654ms
+2025-05-14 17:27:24.964 [info] Handled visible editors change in 0.2663889992982149ms
+2025-05-14 17:27:24.983 [info] Handled visible editors change in 0.9128890000283718ms
+2025-05-14 17:27:25.815 [info] Handled visible editors change in 0.2786419987678528ms
+2025-05-14 17:27:26.097 [info] Uploaded file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=7 in 180.74743200093508ms
+2025-05-14 17:27:26.098 [info] Handled visible editors change in 261.63452100008726ms
+2025-05-14 17:27:38.145 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=8 in 183.39786499924958ms
+2025-05-14 17:27:38.592 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=9 in 178.43719500117004ms
+2025-05-14 17:27:39.338 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=14 in 185.57751699909568ms
+2025-05-14 17:27:40.190 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=17 in 179.1537959985435ms
+2025-05-14 17:27:40.459 [info] Synced file app/src/modules/pricing-history/pricing-history.controller.ts modelVersion=19 in 181.06950400024652ms
+2025-05-14 17:27:42.953 [info] Handled visible editors change in 0.2464620005339384ms
+2025-05-14 17:27:42.966 [info] Handled visible editors change in 0.9087220001965761ms
+2025-05-14 17:27:48.665 [info] Handled visible editors change in 0.17651099897921085ms
+2025-05-14 17:27:48.960 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=71 in 193.87894400022924ms
+2025-05-14 17:27:48.960 [info] Handled visible editors change in 284.40596600063145ms
+2025-05-14 17:27:53.435 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=72 in 244.87615299969912ms
+2025-05-14 17:27:53.987 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=75 in 179.47745200060308ms
+2025-05-14 17:27:55.189 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=82 in 180.55213500000536ms
+2025-05-14 17:27:56.014 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=85 in 179.03371100127697ms
+2025-05-14 17:27:56.433 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=86 in 181.3771800007671ms
+2025-05-14 17:28:01.382 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=87 in 183.8371780011803ms
+2025-05-14 17:28:06.396 [info] Handled visible editors change in 0.22878899984061718ms
+2025-05-14 17:28:06.410 [info] Handled visible editors change in 0.7270219996571541ms
+2025-05-14 17:28:07.834 [info] Handled visible editors change in 0.22818799875676632ms
+2025-05-14 17:28:08.088 [info] Uploaded file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=154 in 195.02336599864066ms
+2025-05-14 17:28:08.088 [info] Handled visible editors change in 242.89402999915183ms
+2025-05-14 17:28:12.977 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=155 in 182.10759699903429ms
+2025-05-14 17:28:13.267 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=156 in 179.76245499961078ms
+2025-05-14 17:28:13.980 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=161 in 180.2081899996847ms
+2025-05-14 17:28:15.320 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=164 in 179.84496900066733ms
+2025-05-14 17:28:15.888 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=166 in 178.16223799996078ms
+2025-05-14 17:28:20.557 [info] Handled visible editors change in 0.22587299905717373ms
+2025-05-14 17:28:20.571 [info] Handled visible editors change in 0.7444540001451969ms
+2025-05-14 17:28:21.625 [info] Handled visible editors change in 0.28749899938702583ms
+2025-05-14 17:28:21.862 [info] Uploaded file app/src/modules/auth/auth.controller.ts modelVersion=482 in 181.4424709994346ms
+2025-05-14 17:28:21.862 [info] Handled visible editors change in 225.77194299921393ms
+2025-05-14 17:28:22.347 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:28:22.745 [info] Fetched fsConfig in 397.84313300065696ms
+2025-05-14 17:28:22.745 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:28:22.745 [info] File sync enabled status: true
+2025-05-14 17:28:22.745 [info] Starting sync of visible tabs
+2025-05-14 17:28:22.745 [info] Synced all visible tabs in 0.04949299991130829ms
+2025-05-14 17:28:58.028 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=483 in 178.80096299946308ms
+2025-05-14 17:28:58.419 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=484 in 181.41487799957395ms
+2025-05-14 17:29:00.007 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=491 in 178.18198299966753ms
+2025-05-14 17:29:00.614 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=494 in 181.81626899912953ms
+2025-05-14 17:29:01.140 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=495 in 178.72606199979782ms
+2025-05-14 17:29:01.405 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=496 in 184.22288700006902ms
+2025-05-14 17:29:08.045 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=497 in 183.05458899959922ms
+2025-05-14 17:29:10.084 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=498 in 179.430972000584ms
+2025-05-14 17:29:27.896 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:29:28.292 [info] Fetched fsConfig in 395.97490799985826ms
+2025-05-14 17:29:28.292 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:29:28.292 [info] File sync enabled status: true
+2025-05-14 17:29:28.292 [info] Starting sync of visible tabs
+2025-05-14 17:29:28.292 [info] Synced all visible tabs in 0.10648899897933006ms
+2025-05-14 17:29:28.868 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=499 in 183.58665399998426ms
+2025-05-14 17:29:31.166 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=500 in 179.73285700008273ms
+2025-05-14 17:29:32.196 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=501 in 179.0286779999733ms
+2025-05-14 17:29:34.343 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=503 in 179.3965470008552ms
+2025-05-14 17:29:54.868 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=505 in 227.96203899942338ms
+2025-05-14 17:29:55.289 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=506 in 181.2866450008005ms
+2025-05-14 17:29:56.928 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=518 in 180.945727000013ms
+2025-05-14 17:29:58.063 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=521 in 238.2406990006566ms
+2025-05-14 17:29:58.540 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=523 in 184.61253399960697ms
+2025-05-14 17:30:00.461 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=533 in 182.1444610003382ms
+2025-05-14 17:30:01.170 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=536 in 183.94619600102305ms
+2025-05-14 17:30:01.533 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=538 in 180.3227800000459ms
+2025-05-14 17:30:01.856 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=539 in 180.11859800107777ms
+2025-05-14 17:30:02.648 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=540 in 180.90551199950278ms
+2025-05-14 17:30:15.275 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=541 in 180.50680399872363ms
+2025-05-14 17:30:15.898 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=544 in 182.02237199991941ms
+2025-05-14 17:30:17.296 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=553 in 187.2149970009923ms
+2025-05-14 17:30:35.186 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:30:35.587 [info] Fetched fsConfig in 401.60710999928415ms
+2025-05-14 17:30:35.587 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:30:35.587 [info] File sync enabled status: true
+2025-05-14 17:30:35.587 [info] Starting sync of visible tabs
+2025-05-14 17:30:35.587 [info] Synced all visible tabs in 0.08346600085496902ms
+2025-05-14 17:30:49.523 [info] Handled visible editors change in 0.21927999891340733ms
+2025-05-14 17:30:49.798 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=11 in 182.3374509997666ms
+2025-05-14 17:30:49.798 [info] Handled visible editors change in 262.29134899936616ms
+2025-05-14 17:30:55.167 [info] Handled visible editors change in 0.22514200024306774ms
+2025-05-14 17:30:55.181 [info] Handled visible editors change in 0.9212750010192394ms
+2025-05-14 17:31:02.385 [info] Handled visible editors change in 0.11985400132834911ms
+2025-05-14 17:31:02.641 [info] Uploaded file app/src/modules/auth/auth.module.ts modelVersion=1 in 192.12422999925911ms
+2025-05-14 17:31:02.641 [info] Handled visible editors change in 229.57473700121045ms
+2025-05-14 17:31:04.564 [info] Handled visible editors change in 0.12767899967730045ms
+2025-05-14 17:31:04.579 [info] Handled visible editors change in 0.6337369997054338ms
+2025-05-14 17:31:24.941 [info] Handled visible editors change in 0.2099430002272129ms
+2025-05-14 17:31:25.028 [info] Handled visible editors change in 0.16697200015187263ms
+2025-05-14 17:31:25.029 [info] Handled visible editors change in 0.07935800030827522ms
+2025-05-14 17:32:13.993 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=167 in 519.7439270000905ms
+2025-05-14 17:32:13.997 [info] Uploaded file app/src/main.ts modelVersion=175 in 774.8346170000732ms
+2025-05-14 17:32:13.998 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=554 in 525.8255180008709ms
+2025-05-14 17:33:40.004 [info] Synced file app/src/main.ts modelVersion=176 in 665.2067900002003ms
+2025-05-14 17:33:47.506 [info] Handled visible editors change in 0.590336000546813ms
+2025-05-14 17:34:08.864 [info] Handled visible editors change in 0.28495300002396107ms
+2025-05-14 17:34:09.123 [info] Uploaded file app/src/modules/orders/orders.controller.ts modelVersion=1 in 185.46876999922097ms
+2025-05-14 17:34:09.123 [info] Handled visible editors change in 232.07431099936366ms
+2025-05-14 17:34:13.350 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=2 in 182.1442340016365ms
+2025-05-14 17:34:14.780 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:34:15.182 [info] Fetched fsConfig in 402.1933639999479ms
+2025-05-14 17:34:15.182 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:34:15.182 [info] File sync enabled status: true
+2025-05-14 17:34:15.182 [info] Starting sync of visible tabs
+2025-05-14 17:34:15.182 [info] Synced all visible tabs in 0.10878399945795536ms
+2025-05-14 17:34:23.432 [info] Handled visible editors change in 0.16825499944388866ms
+2025-05-14 17:34:23.574 [info] Handled visible editors change in 0.1403329987078905ms
+2025-05-14 17:34:23.579 [info] Handled visible editors change in 0.09184199944138527ms
+2025-05-14 17:34:23.583 [info] Handled visible editors change in 0.4418269991874695ms
+2025-05-14 17:34:24.352 [info] Handled visible editors change in 0.11867199838161469ms
+2025-05-14 17:34:24.356 [info] Handled visible editors change in 0.12969299964606762ms
+2025-05-14 17:34:24.358 [info] Handled visible editors change in 0.2783010005950928ms
+2025-05-14 17:34:24.373 [info] Handled visible editors change in 0.4225110001862049ms
+2025-05-14 17:35:08.054 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=3 in 183.06209200061858ms
+2025-05-14 17:35:08.054 [info] Synced file app/src/main.ts modelVersion=177 in 184.474896999076ms
+2025-05-14 17:35:18.203 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=12 in 194.37920599989593ms
+2025-05-14 17:35:18.419 [info] Synced file app/src/modules/auth/auth.controller.ts modelVersion=555 in 182.1815620008856ms
+2025-05-14 17:35:18.442 [info] Synced file app/src/modules/jobs/import-orders/import-job.controller.ts modelVersion=168 in 185.29368099942803ms
+2025-05-14 17:35:18.459 [info] Synced file app/src/modules/orders/orders.controller.ts modelVersion=4 in 200.1343230009079ms
+2025-05-14 17:35:19.861 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:35:20.265 [info] Fetched fsConfig in 403.55303700082004ms
+2025-05-14 17:35:20.265 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:35:20.265 [info] File sync enabled status: true
+2025-05-14 17:35:20.265 [info] Starting sync of visible tabs
+2025-05-14 17:35:20.265 [info] Synced all visible tabs in 0.08091200143098831ms
+2025-05-14 17:35:23.199 [info] Handled visible editors change in 0.2792830001562834ms
+2025-05-14 17:35:23.214 [info] Handled visible editors change in 0.6942200008779764ms
+2025-05-14 17:35:24.900 [info] Handled visible editors change in 0.21284900046885014ms
+2025-05-14 17:35:25.015 [info] Handled visible editors change in 0.09175200015306473ms
+2025-05-14 17:35:25.020 [info] Handled visible editors change in 0.16658199951052666ms
+2025-05-14 17:35:25.259 [info] Uploaded file app/src/modules/notices/notices.controller.ts modelVersion=13 in 185.9324169997126ms
+2025-05-14 17:35:25.259 [info] Handled visible editors change in 234.0706680007279ms
+2025-05-14 17:35:25.443 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=13 in 184.1739029996097ms
+2025-05-14 17:35:34.216 [info] Synced file app/src/modules/notices/notices.controller.ts modelVersion=14 in 182.84152800031006ms
+2025-05-14 17:35:38.587 [info] Handled visible editors change in 0.12764899991452694ms
+2025-05-14 17:35:38.590 [info] Handled visible editors change in 0.15255600027740002ms
+2025-05-14 17:35:38.593 [info] Handled visible editors change in 0.27440400049090385ms
+2025-05-14 17:35:38.608 [info] Handled visible editors change in 0.6400089990347624ms
+2025-05-14 17:35:43.244 [info] Handled visible editors change in 0.1424270011484623ms
+2025-05-14 17:35:43.289 [info] Handled visible editors change in 0.31241500005126ms
+2025-05-14 17:35:43.537 [info] Uploaded file app/src/common/decorators/custom-api-security.decorator.ts modelVersion=4 in 181.837567999959ms
+2025-05-14 17:35:43.537 [info] Handled visible editors change in 244.7916449997574ms
+2025-05-14 17:35:56.734 [info] Handled visible editors change in 0.21773800067603588ms
+2025-05-14 17:35:56.738 [info] Handled visible editors change in 0.258585000410676ms
+2025-05-14 17:35:56.758 [info] Handled visible editors change in 0.7629090007394552ms
+2025-05-14 17:36:13.358 [info] Handled visible editors change in 0.16422699950635433ms
+2025-05-14 17:36:13.740 [info] Uploaded file app/src/main.ts modelVersion=177 in 267.7917680013925ms
+2025-05-14 17:36:13.740 [info] Handled visible editors change in 367.4471979998052ms
+2025-05-14 17:36:20.521 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:36:20.924 [info] Fetched fsConfig in 402.08997500129044ms
+2025-05-14 17:36:20.924 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-14 17:36:20.924 [info] File sync enabled status: true
+2025-05-14 17:36:20.924 [info] Starting sync of visible tabs
+2025-05-14 17:36:20.924 [info] Synced all visible tabs in 0.05314900167286396ms
+2025-05-14 17:36:24.791 [info] Synced file app/src/main.ts modelVersion=178 in 181.8579249996692ms
+2025-05-14 17:36:25.090 [info] Synced file app/src/main.ts modelVersion=179 in 185.86327499896288ms
+2025-05-14 17:36:26.092 [info] Synced file app/src/main.ts modelVersion=182 in 182.83123700134456ms
+2025-05-14 17:36:26.522 [info] Synced file app/src/main.ts modelVersion=183 in 181.5587349999696ms
+2025-05-14 17:36:27.012 [info] Synced file app/src/main.ts modelVersion=184 in 189.36118599958718ms
+2025-05-14 17:36:27.727 [info] Synced file app/src/main.ts modelVersion=185 in 182.82294199988246ms
+2025-05-14 17:36:28.058 [info] Synced file app/src/main.ts modelVersion=186 in 183.46147699840367ms
+2025-05-14 17:36:56.552 [info] Synced file app/src/main.ts modelVersion=190 in 183.14545500092208ms
+2025-05-14 17:36:57.086 [info] Synced file app/src/main.ts modelVersion=191 in 181.88914299942553ms
+2025-05-14 17:36:58.546 [info] Synced file app/src/main.ts modelVersion=192 in 181.1317740008235ms
+2025-05-14 17:37:14.638 [info] Handled visible editors change in 0.28920100070536137ms
+2025-05-14 17:37:14.652 [info] Handled visible editors change in 0.8187229987233877ms
+2025-05-14 17:37:22.561 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-14 17:37:22.562 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 17:37:22.562 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-14 17:37:22.562 [info] File sync enabled status: false

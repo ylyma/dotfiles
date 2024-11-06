@@ -1,0 +1,132 @@
+{
+<<<<<<< HEAD
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8ab2a3ea10be69fd7c81b0267721e361ae4cebdf6ef1231519f9d8f6acf8f5a5",
+    "telemetry.macMachineId": "b6aec2dc3cd779bd77d7576d71d7cda896905e1a7c83f4309f9bcc19fd8ef1b2",
+    "telemetry.devDeviceId": "50e684de-0603-49ef-9071-a035dfa8e2fb",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/amy/dotfiles"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1747846456345"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/amy/Desktop/work/ecosystem/service/a-prime": "__default__profile__",
+            "file:///home/amy/Desktop/work/ecosystem/service/exchange-monolith": "__default__profile__",
+            "file:///home/amy/Desktop/work/ecosystem/service": "__default__profile__",
+            "file:///home/amy/dotfiles": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/amy/dotfiles",
+            "backupPath": "/home/amy/.config/Cursor/Backups/feb8cbb73584af11abff579a457ff7b0",
+            "uiState": {
+                "mode": 1,
+                "x": 9,
+                "y": 45,
+                "width": 1902,
+                "height": 1146
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#1e2127",
+=======
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/amy/.cursor-tutor": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1731581056210": "__default__profile__",
+            "1732514581286": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "b6aec2dc3cd779bd77d7576d71d7cda896905e1a7c83f4309f9bcc19fd8ef1b2",
+    "telemetry.machineId": "8ab2a3ea10be69fd7c81b0267721e361ae4cebdf6ef1231519f9d8f6acf8f5a5",
+    "telemetry.devDeviceId": "50e684de-0603-49ef-9071-a035dfa8e2fb",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1732514581286"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#181818",
+>>>>>>> 3000f69 (add)
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+<<<<<<< HEAD
+            "foreground": "#7b88a1",
+            "background": "#1e2127",
+            "editorBackground": "#1e2127",
+            "titleBarBackground": "#191c22",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#191c22",
+            "sideBarBackground": "#191c22",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#191c22",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#191c22"
+=======
+            "foreground": "#d6d6dd",
+            "background": "#181818",
+            "editorBackground": "#181818",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#181818"
+>>>>>>> 3000f69 (add)
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+<<<<<<< HEAD
+            "sideBarWidth": 353,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+=======
+            "sideBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/amy/.config/Cursor/Backups/1732514581286",
+            "uiState": {
+                "mode": 1,
+                "x": 1929,
+                "y": 45,
+                "width": 1062,
+                "height": 926
+            }
+        },
+        "openedWindows": []
+>>>>>>> 3000f69 (add)
+    }
+}

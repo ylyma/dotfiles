@@ -1,0 +1,24 @@
+00:00:00.206806 VirtualBox GUI VM Selector Window 7.1.6 r167084 linux.amd64 (Jan 27 2025 07:52:25) release log
+00:00:00.206807 Log opened 2025-04-24T03:50:31.680191000Z
+00:00:00.206807 Build Type: release
+00:00:00.206808 OS Product: Linux
+00:00:00.206809 OS Release: 6.13.6-arch1-1
+00:00:00.206809 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 07 Mar 2025 20:19:00 +0000
+00:00:00.206831 DMI Product Name: ROG Zephyrus G14 GA402RK_GA402RK
+00:00:00.206839 DMI Product Version: 1.0       
+00:00:00.206844 Firmware type: UEFI
+00:00:00.207019 Secure Boot: Disabled
+00:00:00.207054 Host RAM: 15209MB (14.8GB) total, 8376MB (8.1GB) available
+00:00:00.207056 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.207056 Process ID: 11530
+00:00:00.207056 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.207076 Qt version: 6.8.2
+00:00:00.207492 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.213048 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.709760 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.736198 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 2879x599 x 800x800
+00:00:00.738289 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 2 work area is actually resized to: 2459x959 x 800x800
+00:00:04.930680 GUI: UIInvisibleWindow::sltFallback: Move event missing. Screen: 1, work area: 3199x719 x 800x800
+00:00:04.930750 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 3199x719 x 800x800
+00:00:09.663340 GUI: UICommon: Handling aboutToQuit request..
+00:00:10.362292 GUI: UICommon: aboutToQuit request handled!

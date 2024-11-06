@@ -1,0 +1,28 @@
+00:00:00.234230 VirtualBox GUI VM Selector Window 7.1.6 r167084 linux.amd64 (Jan 27 2025 07:52:25) release log
+00:00:00.234231 Log opened 2025-04-11T10:29:48.660622000Z
+00:00:00.234231 Build Type: release
+00:00:00.234233 OS Product: Linux
+00:00:00.234233 OS Release: 6.13.6-arch1-1
+00:00:00.234234 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 07 Mar 2025 20:19:00 +0000
+00:00:00.234252 DMI Product Name: ROG Zephyrus G14 GA402RK_GA402RK
+00:00:00.234261 DMI Product Version: 1.0       
+00:00:00.234265 Firmware type: UEFI
+00:00:00.234358 Secure Boot: Disabled
+00:00:00.234389 Host RAM: 15209MB (14.8GB) total, 5877MB (5.7GB) available
+00:00:00.234391 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.234391 Process ID: 100655
+00:00:00.234391 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.234412 Qt version: 6.8.2
+00:00:00.234846 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.240964 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.699184 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.721623 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 3959x599 x 800x800
+00:00:00.728092 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 3539x959 x 800x800
+00:00:05.027315 GUI: UIInvisibleWindow::sltFallback: Move event missing. Screen: 2, work area: 4279x719 x 800x800
+00:00:05.027372 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 2 work area is actually resized to: 4279x719 x 800x800
+00:00:08.179878 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:09.267546 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:35.476339 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:36.655300 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:38.440717 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:15.149569 VirtualBoxClient: detected unresponsive VBoxSVC (hrc=NS_ERROR_ABORT)

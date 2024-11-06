@@ -11,3 +11,7 @@
 .config/pavucontrol.ini
 .config/xfce4/
 .config/gtk-3.0/
+.config/systemd/
+.config/bytertc/
+.config/pavucontrol.ini
+.config/mimeapps.list

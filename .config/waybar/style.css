@@ -11,12 +11,23 @@ window#waybar {
     color: white;
 }
 
+#window {
+	background-color: rgba(43, 48, 59, 0.5);
+	margin: 5px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding: 4px 10px 4px 10px;
+	border-radius: 12px;
+  color: #c0caf5;
+}
+
 #workspaces {
 	background-color: #24283b;
 	margin: 5px;
 	margin-left: 10px;
 	border-radius: 5px;
 }
+
 #workspaces button {
     padding: 5px 10px;
     color: #c0caf5;
@@ -34,7 +45,7 @@ window#waybar {
 	border-radius: 5px;
 }
 
-#custom-date, #clock, #battery, #pulseaudio, #network {
+#custom-date, #clock, #battery, #pulseaudio, #network, #cpu, #memory {
 	background-color: #24283b;
 	padding: 5px 10px;
 	margin: 5px 0px;
@@ -69,6 +80,15 @@ window#waybar {
     color: #b48ead;
     border-radius: 0px 5px 5px 0px;
     margin-right: 8px;
+}
+
+#cpu {
+	color: #8ABEB7;
+}
+
+#memory {
+	color: #B294BB;
+
 }
 
 #battery {

@@ -1,7 +1,6 @@
-export NNN_PLUG='j:autojump;o:fzopen;p:preview-tui;d:diffs;t:nmount'
-export NNN_PLUG_COMMANDS='g:-!git diff;l:-!git log;x:!chmod +x "$nnn"'
+export NNN_PLUG='j:autojump;o:fzopen;p:preview-tui;d:diffs;t:nmount;g:-!git diff;l:-!git log;x:!chmod +x "$nnn";s:!readlink -f "$nnn"|wl-copy*'
 export NNN_FCOLORS="0B0B04060006060009060B06"
-alias ls="nnn -de"
+alias ls="n -de"
 
 set --export NNN_FIFO "/tmp/nnn.fifo"
 
@@ -39,6 +38,6 @@ function n --wraps nnn --description 'support nnn quit and change directory'
 
     if test -e $NNN_TMPFILE
         source $NNN_TMPFILE
-        rm -- $NNN_TMPFILE
+        rm -f -- $NNN_TMPFILE
     end
 end

@@ -132,9 +132,9 @@ ls.add_snippets('tex', {
 
 ls.add_snippets('tex', {
   s('tabx', {
-    t { '\\begin{tabular}{\\textwidth}{ | >{\\raggedright\\arraybackslash}X | >{\\raggedright\\arraybackslash}X | }', '' },
+    t { '\\begin{tabularx}{\\textwidth}{ | >{\\raggedright\\arraybackslash}X | >{\\raggedright\\arraybackslash}X | }', '' },
     i(1),
-    t { ' ', '\\end{tabular}' },
+    t { ' ', '\\end{tabularx}' },
   }),
 })
 
@@ -148,8 +148,8 @@ ls.add_snippets('tex', {
 
 ls.add_snippets('tex', {
   s('eqn', {
-    t { '\\[', '' },
+    t '\\[',
     i(1),
-    t { ' ', '\\]' },
+    t '\\]',
   }),
 })

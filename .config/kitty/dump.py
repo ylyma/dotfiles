@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/bin/python3
 """
 this tool is used to convert Kitty session dump to Kitty session file which can be loaded by Kitty
 """
@@ -53,8 +53,6 @@ def convert(session):
             print(f"new_tab {tab['title']}")
             # print('enabled_layouts *)
             print(f"layout {tab['layout']}")
-            # This is a bit of a kludge to set cwd for the tab, as
-            # setting it in the launch command didn't work, for some reason?
             if tab["windows"]:
                 print(f"cd {tab['windows'][0]['cwd']}")
 

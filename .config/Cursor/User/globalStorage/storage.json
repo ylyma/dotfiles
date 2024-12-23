@@ -1,0 +1,65 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/amy/.cursor-tutor": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1731581056210": "__default__profile__",
+            "1732514581286": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "b6aec2dc3cd779bd77d7576d71d7cda896905e1a7c83f4309f9bcc19fd8ef1b2",
+    "telemetry.machineId": "8ab2a3ea10be69fd7c81b0267721e361ae4cebdf6ef1231519f9d8f6acf8f5a5",
+    "telemetry.devDeviceId": "50e684de-0603-49ef-9071-a035dfa8e2fb",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1732514581286"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#181818",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d6d6dd",
+            "background": "#181818",
+            "editorBackground": "#181818",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#181818"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/amy/.config/Cursor/Backups/1732514581286",
+            "uiState": {
+                "mode": 1,
+                "x": 1929,
+                "y": 45,
+                "width": 1062,
+                "height": 926
+            }
+        },
+        "openedWindows": []
+    }
+}

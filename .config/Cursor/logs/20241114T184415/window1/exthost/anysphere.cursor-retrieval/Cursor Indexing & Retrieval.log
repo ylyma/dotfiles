@@ -1,0 +1,442 @@
+2024-11-14 18:44:18.330 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:519:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:338:12)
+2024-11-14 18:44:18.560 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-11-14 18:45:11.063 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-11-14 18:45:11.063 [error] NoWorkspaceUriError
+2024-11-14 18:45:12.899 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-11-14 18:45:12.899 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:519:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:338:12)
+2024-11-14 18:45:13.122 [info] Creating merkle client.
+2024-11-14 18:45:13.122 [info] Done creating merkle client.
+2024-11-14 18:45:13.122 [info] Doing a startup handshake.
+2024-11-14 18:45:13.137 [info] Finished initializing merkle tree in 9.700456999999915 ms.
+2024-11-14 18:45:13.137 [info] Doing the initial handshake with hash: 
+2024-11-14 18:45:13.140 [info] Handshake start
+2024-11-14 18:45:13.140 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/amy/.config/Cursor/User/workspaceStorage/61ed98947c661d2137f4c3ea4d5d0ecd/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-11-14 18:45:13.900 [info] Handshake timing: 761.9701030000001
+2024-11-14 18:45:13.900 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 18:45:13.900 [info] Starting fast remote sync.
+2024-11-14 18:45:13.901 [info] Total num embeddable files: 0
+2024-11-14 18:45:13.901 [info] Root hash: 
+2024-11-14 18:45:13.901 [info] Starting repository upload from scratch.
+2024-11-14 18:45:13.901 [info] Uploading 0 files.
+2024-11-14 18:45:14.157 [info] Finished indexing repository.
+2024-11-14 18:45:14.157 [info] Indexing job successfully done or aborted.
+2024-11-14 18:45:14.328 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-11-14 18:45:14.329 [info] Creating merkle client.
+2024-11-14 18:45:14.329 [info] Done creating merkle client.
+2024-11-14 18:45:14.329 [info] Doing a startup handshake.
+2024-11-14 18:45:14.332 [info] Finished initializing merkle tree in 0.3951480000000629 ms.
+2024-11-14 18:45:14.332 [info] Doing the initial handshake with hash: 
+2024-11-14 18:45:14.333 [info] Handshake start
+2024-11-14 18:45:15.049 [info] Handshake timing: 716.9091739999999
+2024-11-14 18:45:15.050 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 18:45:15.050 [info] Starting fast remote sync.
+2024-11-14 18:45:15.050 [info] Total num embeddable files: 0
+2024-11-14 18:45:15.050 [info] Root hash: 
+2024-11-14 18:45:15.050 [info] Starting repository upload from scratch.
+2024-11-14 18:45:15.050 [info] Uploading 0 files.
+2024-11-14 18:45:15.291 [info] Finished indexing repository.
+2024-11-14 18:45:15.291 [info] Indexing job successfully done or aborted.
+2024-11-14 18:46:47.912 [info] Search by message took 16.46649599999364ms for query ""
+2024-11-14 18:46:47.914 [info] Search by sha took 9.280893000002834ms for query ""
+2024-11-14 18:47:30.884 [info] Search by message took 15.942328000004636ms for query ""
+2024-11-14 18:47:30.886 [info] Search by sha took 10.246656000002986ms for query ""
+2024-11-14 18:48:00.904 [info] Search by message took 15.332148999994388ms for query ""
+2024-11-14 18:48:00.918 [info] Search by message took 14.115076999994926ms for query ""
+2024-11-14 18:48:00.918 [info] Search by sha took 21.39216000001761ms for query ""
+2024-11-14 18:48:00.920 [info] Search by sha took 9.627059999998892ms for query ""
+2024-11-14 18:49:40.259 [info] Search by message took 14.778374000045005ms for query ""
+2024-11-14 18:49:40.274 [info] Search by message took 14.302166000008583ms for query ""
+2024-11-14 18:49:40.274 [info] Search by sha took 21.469383999996353ms for query ""
+2024-11-14 18:49:40.276 [info] Search by sha took 10.561473999987356ms for query ""
+2024-11-14 18:51:33.428 [info] Search by message took 15.229206999996677ms for query ""
+2024-11-14 18:51:33.430 [info] Search by sha took 8.874795000010636ms for query ""
+2024-11-14 18:51:33.445 [info] Search by message took 13.733364000043366ms for query ""
+2024-11-14 18:51:33.447 [info] Search by sha took 9.804550999950152ms for query ""
+2024-11-14 18:53:35.146 [info] Search by message took 17.190047000010964ms for query ""
+2024-11-14 18:53:35.161 [info] Search by message took 15.096018000040203ms for query ""
+2024-11-14 18:53:35.161 [info] Search by sha took 23.892277999955695ms for query ""
+2024-11-14 18:53:35.163 [info] Search by sha took 9.699655000003986ms for query ""
+2024-11-14 18:54:01.861 [info] Search by message took 16.527911000070162ms for query ""
+2024-11-14 18:54:01.863 [info] Search by sha took 9.580132000031881ms for query ""
+2024-11-14 18:54:11.340 [info] Search by message took 18.383504000026733ms for query ""
+2024-11-14 18:54:11.342 [info] Search by sha took 10.684213000000454ms for query ""
+2024-11-14 18:54:56.198 [info] Search by message took 15.721664999960922ms for query ""
+2024-11-14 18:54:56.212 [info] Search by message took 13.83516400004737ms for query ""
+2024-11-14 18:54:56.212 [info] Search by sha took 21.02805000008084ms for query ""
+2024-11-14 18:54:56.214 [info] Search by sha took 8.928055000025779ms for query ""
+2024-11-14 18:55:14.331 [info] Creating merkle client.
+2024-11-14 18:55:14.331 [info] Done creating merkle client.
+2024-11-14 18:55:14.331 [info] Doing a startup handshake.
+2024-11-14 18:55:14.374 [info] Finished initializing merkle tree in 1.0640170000260696 ms.
+2024-11-14 18:55:14.374 [info] Doing the initial handshake with hash: dfaa90b9f1d0497f2836e7a73b6e332125ba378ff023382491970708da76b0d5
+2024-11-14 18:55:14.375 [info] Handshake start
+2024-11-14 18:55:15.111 [info] Handshake timing: 736.8602650000248
+2024-11-14 18:55:15.112 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 18:55:15.112 [info] Starting fast remote sync.
+2024-11-14 18:55:15.112 [info] Total num embeddable files: 1
+2024-11-14 18:55:15.112 [info] Root hash: dfaa90b9f1d0497f2836e7a73b6e332125ba378ff023382491970708da76b0d5
+2024-11-14 18:55:15.112 [info] Starting repository upload from scratch.
+2024-11-14 18:55:15.113 [info] Uploading 1 files.
+2024-11-14 18:55:16.449 [info] Finished indexing repository.
+2024-11-14 18:55:16.450 [info] Indexing job successfully done or aborted.
+2024-11-14 18:56:11.234 [info] Search by message took 17.265778000000864ms for query ""
+2024-11-14 18:56:11.236 [info] Search by sha took 10.050740999984555ms for query ""
+2024-11-14 18:57:31.530 [info] Search by message took 16.99485200003255ms for query ""
+2024-11-14 18:57:31.533 [info] Search by sha took 10.852437000023201ms for query ""
+2024-11-14 18:57:33.569 [info] Search by message took 16.171395000070333ms for query ""
+2024-11-14 18:57:33.571 [info] Search by sha took 10.136549999937415ms for query ""
+2024-11-14 18:58:07.386 [info] Search by message took 16.424537999904715ms for query ""
+2024-11-14 18:58:07.388 [info] Search by sha took 9.57545299991034ms for query ""
+2024-11-14 18:58:17.924 [info] Search by message took 18.10575600003358ms for query ""
+2024-11-14 18:58:17.926 [info] Search by sha took 10.865811999887228ms for query ""
+2024-11-14 18:59:43.809 [info] Search by message took 15.695767999975942ms for query ""
+2024-11-14 18:59:43.812 [info] Search by sha took 9.566917999996804ms for query ""
+2024-11-14 18:59:59.624 [info] Search by message took 14.63917500001844ms for query ""
+2024-11-14 18:59:59.627 [info] Search by sha took 9.928653000039048ms for query ""
+2024-11-14 19:00:03.774 [info] Search by message took 18.84278099995572ms for query ""
+2024-11-14 19:00:03.776 [info] Search by sha took 10.96185099997092ms for query ""
+2024-11-14 19:00:25.548 [info] Search by message took 16.16481400001794ms for query ""
+2024-11-14 19:00:25.550 [info] Search by sha took 10.212341999984346ms for query ""
+2024-11-14 19:00:27.595 [info] Search by message took 16.490491000004113ms for query ""
+2024-11-14 19:00:27.597 [info] Search by sha took 10.003182000014931ms for query ""
+2024-11-14 19:01:50.750 [info] Search by message took 17.20829199999571ms for query ""
+2024-11-14 19:01:50.752 [info] Search by sha took 10.242759000044316ms for query ""
+2024-11-14 19:02:07.215 [info] Search by message took 18.47761000005994ms for query ""
+2024-11-14 19:02:07.218 [info] Search by sha took 12.59557100001257ms for query ""
+2024-11-14 19:02:28.151 [info] Search by message took 15.255795000004582ms for query ""
+2024-11-14 19:02:28.153 [info] Search by sha took 9.38044900004752ms for query ""
+2024-11-14 19:02:38.338 [info] Search by message took 17.72076699999161ms for query ""
+2024-11-14 19:02:38.340 [info] Search by sha took 10.395653999992646ms for query ""
+2024-11-14 19:03:24.853 [info] Search by message took 21.516571999993175ms for query ""
+2024-11-14 19:03:24.856 [info] Search by sha took 13.45769999991171ms for query ""
+2024-11-14 19:03:30.374 [info] Search by message took 20.19519599992782ms for query ""
+2024-11-14 19:03:30.377 [info] Search by sha took 13.225666999816895ms for query ""
+2024-11-14 19:03:37.001 [info] Search by message took 18.585350999841467ms for query ""
+2024-11-14 19:03:37.005 [info] Search by sha took 12.722166999941692ms for query ""
+2024-11-14 19:03:40.682 [info] Search by message took 17.992243999848142ms for query ""
+2024-11-14 19:03:40.685 [info] Search by sha took 11.452265999978408ms for query ""
+2024-11-14 19:05:11.728 [info] Search by message took 15.625155999790877ms for query ""
+2024-11-14 19:05:11.730 [info] Search by sha took 10.020203999942169ms for query ""
+2024-11-14 19:05:14.332 [info] Creating merkle client.
+2024-11-14 19:05:14.332 [info] Done creating merkle client.
+2024-11-14 19:05:14.332 [info] Doing a startup handshake.
+2024-11-14 19:05:14.338 [info] Finished initializing merkle tree in 1.323460000101477 ms.
+2024-11-14 19:05:14.339 [info] Doing the initial handshake with hash: b8f0078d604896b76ec4a523b6ab0a83cf91235af5827f51afdf07079e1fa622
+2024-11-14 19:05:14.339 [info] Handshake start
+2024-11-14 19:05:15.082 [info] Handshake timing: 743.7020640000701
+2024-11-14 19:05:15.083 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 19:05:15.083 [info] Starting fast remote sync.
+2024-11-14 19:05:15.083 [info] Total num embeddable files: 1
+2024-11-14 19:05:15.084 [info] Root hash: b8f0078d604896b76ec4a523b6ab0a83cf91235af5827f51afdf07079e1fa622
+2024-11-14 19:05:15.084 [info] In the out of sync case.
+2024-11-14 19:05:15.084 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"b8f0078d604896b76ec4a523b6ab0a83cf91235af5827f51afdf07079e1fa622"}
+2024-11-14 19:05:15.085 [info] Waiting on semaphore to be released 1
+2024-11-14 19:05:15.285 [info] Waiting on semaphore to be released 1
+2024-11-14 19:05:15.486 [info] setting numJobsToGo to 1
+2024-11-14 19:05:15.487 [info] [startSync]: numJobs: 1
+2024-11-14 19:05:15.487 [info] Uploading 1 files.
+2024-11-14 19:05:17.447 [info] Finished indexing repository.
+2024-11-14 19:05:17.447 [info] Indexing job successfully done or aborted.
+2024-11-14 19:05:18.971 [info] Search by message took 17.84051000000909ms for query ""
+2024-11-14 19:05:18.974 [info] Search by sha took 10.559630000032485ms for query ""
+2024-11-14 19:06:00.294 [info] Search by message took 15.723970000166446ms for query ""
+2024-11-14 19:06:00.296 [info] Search by sha took 9.028181999921799ms for query ""
+2024-11-14 19:06:07.614 [info] Search by message took 16.560041000135243ms for query ""
+2024-11-14 19:06:07.617 [info] Search by sha took 9.428027000045404ms for query ""
+2024-11-14 19:06:09.665 [info] Search by message took 15.885192000074312ms for query ""
+2024-11-14 19:06:09.667 [info] Search by sha took 9.871065000072122ms for query ""
+2024-11-14 19:06:10.818 [info] Search by message took 16.281070000026375ms for query ""
+2024-11-14 19:06:10.820 [info] Search by sha took 9.382033000001684ms for query ""
+2024-11-14 19:06:20.933 [info] Search by message took 18.25685800006613ms for query ""
+2024-11-14 19:06:20.936 [info] Search by sha took 11.150392999872565ms for query ""
+2024-11-14 19:07:02.407 [info] Search by message took 19.204205999849364ms for query ""
+2024-11-14 19:07:02.428 [info] Search by message took 19.91766700008884ms for query ""
+2024-11-14 19:07:02.428 [info] Search by sha took 29.786268000025302ms for query ""
+2024-11-14 19:07:02.430 [info] Search by sha took 13.019642000086606ms for query ""
+2024-11-14 19:08:04.515 [info] Search by message took 14.717861999990419ms for query ""
+2024-11-14 19:08:04.517 [info] Search by sha took 9.007762999972329ms for query ""
+2024-11-14 19:08:08.808 [info] Search by message took 16.949377000099048ms for query ""
+2024-11-14 19:08:08.810 [info] Search by sha took 9.944842000026256ms for query ""
+2024-11-14 19:08:11.932 [info] Search by message took 17.12794000003487ms for query ""
+2024-11-14 19:08:11.935 [info] Search by sha took 11.8397699999623ms for query ""
+2024-11-14 19:10:34.969 [info] Search by message took 15.330154999857768ms for query ""
+2024-11-14 19:10:34.972 [info] Search by sha took 9.718990999972448ms for query ""
+2024-11-14 19:10:34.990 [info] Search by message took 15.760968999937177ms for query ""
+2024-11-14 19:10:34.992 [info] Search by sha took 10.543890999862924ms for query ""
+2024-11-14 19:12:01.385 [info] Search by message took 16.136139000067487ms for query ""
+2024-11-14 19:12:01.387 [info] Search by sha took 10.60501499986276ms for query ""
+2024-11-14 19:12:01.406 [info] Search by message took 15.467170999851078ms for query ""
+2024-11-14 19:12:01.409 [info] Search by sha took 10.000176999950781ms for query ""
+2024-11-14 19:13:11.616 [info] Search by message took 16.109901000047103ms for query ""
+2024-11-14 19:13:11.619 [info] Search by sha took 10.767057999968529ms for query ""
+2024-11-14 19:13:11.641 [info] Search by message took 14.850840999977663ms for query ""
+2024-11-14 19:13:11.644 [info] Search by sha took 9.82272500009276ms for query ""
+2024-11-14 19:14:16.306 [info] Search by message took 15.196165000088513ms for query ""
+2024-11-14 19:14:16.309 [info] Search by sha took 9.641135999932885ms for query ""
+2024-11-14 19:14:16.335 [info] Search by message took 14.728952000150457ms for query ""
+2024-11-14 19:14:16.338 [info] Search by sha took 10.339118999894708ms for query ""
+2024-11-14 19:15:14.334 [info] Creating merkle client.
+2024-11-14 19:15:14.334 [info] Done creating merkle client.
+2024-11-14 19:15:14.334 [info] Doing a startup handshake.
+2024-11-14 19:15:14.340 [info] Finished initializing merkle tree in 0.7825110000558197 ms.
+2024-11-14 19:15:14.340 [info] Doing the initial handshake with hash: 
+2024-11-14 19:15:14.341 [info] Handshake start
+2024-11-14 19:15:15.118 [info] Handshake timing: 778.2596199999098
+2024-11-14 19:15:15.119 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 19:15:15.119 [info] Starting fast remote sync.
+2024-11-14 19:15:15.119 [info] Total num embeddable files: 0
+2024-11-14 19:15:15.119 [info] Root hash: 
+2024-11-14 19:15:15.119 [info] In the out of sync case.
+2024-11-14 19:15:15.119 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 19:15:15.120 [info] Waiting on semaphore to be released 1
+2024-11-14 19:15:15.320 [info] Waiting on semaphore to be released 1
+2024-11-14 19:15:15.521 [info] setting numJobsToGo to 0
+2024-11-14 19:15:15.523 [info] [startSync]: numJobs: 0
+2024-11-14 19:15:17.997 [info] Search by message took 18.487287000054494ms for query ""
+2024-11-14 19:15:17.999 [info] Search by sha took 11.000643000006676ms for query ""
+2024-11-14 19:15:18.016 [info] Search by message took 14.846241999883205ms for query ""
+2024-11-14 19:15:18.018 [info] Search by sha took 10.197324000066146ms for query ""
+2024-11-14 19:15:35.794 [info] Uploading 0 files.
+2024-11-14 19:15:36.056 [info] Finished indexing repository.
+2024-11-14 19:15:36.056 [info] Indexing job successfully done or aborted.
+2024-11-14 19:18:29.242 [info] Search by message took 15.754968000110239ms for query ""
+2024-11-14 19:18:29.244 [info] Search by sha took 9.58419999992475ms for query ""
+2024-11-14 19:18:29.267 [info] Search by message took 15.546768999891356ms for query ""
+2024-11-14 19:18:29.270 [info] Search by sha took 10.557145999977365ms for query ""
+2024-11-14 19:20:26.564 [info] Search by message took 16.929831000044942ms for query ""
+2024-11-14 19:20:26.566 [info] Search by sha took 9.18929300038144ms for query ""
+2024-11-14 19:20:26.590 [info] Search by message took 15.479555000085384ms for query ""
+2024-11-14 19:20:26.592 [info] Search by sha took 10.773240000009537ms for query ""
+2024-11-14 19:21:59.962 [info] Search by message took 16.11208500014618ms for query ""
+2024-11-14 19:21:59.964 [info] Search by sha took 10.336633999831975ms for query ""
+2024-11-14 19:21:59.988 [info] Search by message took 16.994431000202894ms for query ""
+2024-11-14 19:21:59.991 [info] Search by sha took 11.169778999872506ms for query ""
+2024-11-14 19:23:28.080 [info] Search by message took 16.511649999767542ms for query ""
+2024-11-14 19:23:28.082 [info] Search by sha took 9.886172999627888ms for query ""
+2024-11-14 19:23:28.108 [info] Search by message took 15.365902000106871ms for query ""
+2024-11-14 19:23:28.111 [info] Search by sha took 10.746460000053048ms for query ""
+2024-11-14 19:24:39.019 [info] Search by message took 16.690242999698967ms for query ""
+2024-11-14 19:24:39.021 [info] Search by sha took 9.332649999763817ms for query ""
+2024-11-14 19:24:39.043 [info] Search by message took 13.938207000028342ms for query ""
+2024-11-14 19:24:39.045 [info] Search by sha took 8.982485999818891ms for query ""
+2024-11-14 19:25:14.333 [info] Creating merkle client.
+2024-11-14 19:25:14.333 [info] Done creating merkle client.
+2024-11-14 19:25:14.333 [info] Doing a startup handshake.
+2024-11-14 19:25:14.338 [info] Finished initializing merkle tree in 0.8199100000783801 ms.
+2024-11-14 19:25:14.338 [info] Doing the initial handshake with hash: 
+2024-11-14 19:25:14.339 [info] Handshake start
+2024-11-14 19:25:15.095 [info] Handshake timing: 756.978253999725
+2024-11-14 19:25:15.096 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 19:25:15.096 [info] Starting fast remote sync.
+2024-11-14 19:25:15.096 [info] Total num embeddable files: 0
+2024-11-14 19:25:15.096 [info] Root hash: 
+2024-11-14 19:25:15.096 [info] In the out of sync case.
+2024-11-14 19:25:15.096 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 19:25:15.096 [info] Waiting on semaphore to be released 1
+2024-11-14 19:25:15.297 [info] Waiting on semaphore to be released 1
+2024-11-14 19:25:15.499 [info] setting numJobsToGo to 0
+2024-11-14 19:25:15.499 [info] [startSync]: numJobs: 0
+2024-11-14 19:25:15.500 [info] Uploading 0 files.
+2024-11-14 19:25:15.778 [info] Finished indexing repository.
+2024-11-14 19:25:15.778 [info] Indexing job successfully done or aborted.
+2024-11-14 19:26:40.031 [info] Search by message took 15.337358000222594ms for query ""
+2024-11-14 19:26:40.033 [info] Search by sha took 9.161711000371724ms for query ""
+2024-11-14 19:26:40.059 [info] Search by message took 14.702343000099063ms for query ""
+2024-11-14 19:26:40.063 [info] Search by sha took 10.857946999836713ms for query ""
+2024-11-14 19:27:45.152 [info] Search by message took 15.929774000309408ms for query ""
+2024-11-14 19:27:45.153 [info] Search by sha took 9.400166000239551ms for query ""
+2024-11-14 19:27:45.187 [info] Search by message took 15.632819999940693ms for query ""
+2024-11-14 19:27:45.189 [info] Search by sha took 8.783433999866247ms for query ""
+2024-11-14 19:29:18.805 [info] Search by message took 15.590751000214368ms for query ""
+2024-11-14 19:29:18.807 [info] Search by sha took 9.987122000195086ms for query ""
+2024-11-14 19:29:18.836 [info] Search by message took 16.221298000309616ms for query ""
+2024-11-14 19:29:18.837 [info] Search by sha took 10.063764999620616ms for query ""
+2024-11-14 19:32:39.297 [info] Search by message took 18.3998239999637ms for query ""
+2024-11-14 19:32:39.299 [info] Search by sha took 10.867665000259876ms for query ""
+2024-11-14 19:32:39.329 [info] Search by message took 16.229433999862522ms for query ""
+2024-11-14 19:32:39.330 [info] Search by sha took 9.096197999548167ms for query ""
+2024-11-14 19:33:32.691 [info] Search by message took 16.24051500018686ms for query ""
+2024-11-14 19:33:32.693 [info] Search by sha took 9.274531000293791ms for query ""
+2024-11-14 19:33:32.723 [info] Search by message took 15.52407700009644ms for query ""
+2024-11-14 19:33:32.726 [info] Search by sha took 10.018451000098139ms for query ""
+2024-11-14 19:35:14.333 [info] Creating merkle client.
+2024-11-14 19:35:14.333 [info] Done creating merkle client.
+2024-11-14 19:35:14.333 [info] Doing a startup handshake.
+2024-11-14 19:35:14.337 [info] Finished initializing merkle tree in 0.7461929996497929 ms.
+2024-11-14 19:35:14.337 [info] Doing the initial handshake with hash: 
+2024-11-14 19:35:14.339 [info] Handshake start
+2024-11-14 19:35:15.109 [info] Handshake timing: 771.2939869998954
+2024-11-14 19:35:15.109 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 19:35:15.109 [info] Starting fast remote sync.
+2024-11-14 19:35:15.109 [info] Total num embeddable files: 0
+2024-11-14 19:35:15.110 [info] Root hash: 
+2024-11-14 19:35:15.110 [info] In the out of sync case.
+2024-11-14 19:35:15.110 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 19:35:15.110 [info] Waiting on semaphore to be released 1
+2024-11-14 19:35:15.311 [info] Waiting on semaphore to be released 1
+2024-11-14 19:35:15.512 [info] setting numJobsToGo to 0
+2024-11-14 19:35:15.512 [info] [startSync]: numJobs: 0
+2024-11-14 19:35:15.512 [info] Uploading 0 files.
+2024-11-14 19:35:15.758 [info] Finished indexing repository.
+2024-11-14 19:35:15.758 [info] Indexing job successfully done or aborted.
+2024-11-14 19:35:30.068 [info] Search by message took 15.780445999931544ms for query ""
+2024-11-14 19:35:30.070 [info] Search by sha took 8.956428000237793ms for query ""
+2024-11-14 19:35:30.101 [info] Search by message took 14.409535999875516ms for query ""
+2024-11-14 19:35:30.103 [info] Search by sha took 9.231020000297576ms for query ""
+2024-11-14 19:45:14.334 [info] Creating merkle client.
+2024-11-14 19:45:14.334 [info] Done creating merkle client.
+2024-11-14 19:45:14.334 [info] Doing a startup handshake.
+2024-11-14 19:45:14.337 [info] Finished initializing merkle tree in 0.5148109998553991 ms.
+2024-11-14 19:45:14.337 [info] Doing the initial handshake with hash: 
+2024-11-14 19:45:14.338 [info] Handshake start
+2024-11-14 19:45:15.080 [info] Handshake timing: 742.8404869996011
+2024-11-14 19:45:15.080 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 19:45:15.081 [info] Starting fast remote sync.
+2024-11-14 19:45:15.081 [info] Total num embeddable files: 0
+2024-11-14 19:45:15.081 [info] Root hash: 
+2024-11-14 19:45:15.081 [info] In the out of sync case.
+2024-11-14 19:45:15.082 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 19:45:15.082 [info] Waiting on semaphore to be released 1
+2024-11-14 19:45:15.282 [info] Waiting on semaphore to be released 1
+2024-11-14 19:45:15.483 [info] setting numJobsToGo to 0
+2024-11-14 19:45:15.483 [info] [startSync]: numJobs: 0
+2024-11-14 19:45:15.483 [info] Uploading 0 files.
+2024-11-14 19:45:15.736 [info] Finished indexing repository.
+2024-11-14 19:45:15.736 [info] Indexing job successfully done or aborted.
+2024-11-14 19:55:14.335 [info] Creating merkle client.
+2024-11-14 19:55:14.335 [info] Done creating merkle client.
+2024-11-14 19:55:14.335 [info] Doing a startup handshake.
+2024-11-14 19:55:14.338 [info] Finished initializing merkle tree in 0.6267200000584126 ms.
+2024-11-14 19:55:14.339 [info] Doing the initial handshake with hash: 
+2024-11-14 19:55:14.340 [info] Handshake start
+2024-11-14 19:55:15.559 [info] Handshake timing: 1220.3851720001549
+2024-11-14 19:55:15.559 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 19:55:15.559 [info] Starting fast remote sync.
+2024-11-14 19:55:15.560 [info] Total num embeddable files: 0
+2024-11-14 19:55:15.560 [info] Root hash: 
+2024-11-14 19:55:15.560 [info] In the out of sync case.
+2024-11-14 19:55:15.560 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 19:55:15.560 [info] Waiting on semaphore to be released 1
+2024-11-14 19:55:15.761 [info] Waiting on semaphore to be released 1
+2024-11-14 19:55:15.961 [info] setting numJobsToGo to 0
+2024-11-14 19:55:15.962 [info] [startSync]: numJobs: 0
+2024-11-14 19:55:15.962 [info] Uploading 0 files.
+2024-11-14 19:55:16.238 [info] Finished indexing repository.
+2024-11-14 19:55:16.238 [info] Indexing job successfully done or aborted.
+2024-11-14 19:56:47.706 [info] Search by message took 16.078953000716865ms for query ""
+2024-11-14 19:56:47.708 [info] Search by sha took 10.004002999514341ms for query ""
+2024-11-14 19:56:47.738 [info] Search by message took 15.818927000276744ms for query ""
+2024-11-14 19:56:47.741 [info] Search by sha took 10.72580000013113ms for query ""
+2024-11-14 19:57:05.022 [info] Search by message took 18.67715200036764ms for query ""
+2024-11-14 19:57:05.025 [info] Search by sha took 11.429955000057817ms for query ""
+2024-11-14 19:57:20.579 [info] Search by message took 17.926881999708712ms for query ""
+2024-11-14 19:57:20.582 [info] Search by sha took 12.036437000147998ms for query ""
+2024-11-14 19:57:21.757 [info] Search by message took 16.56899799965322ms for query ""
+2024-11-14 19:57:21.759 [info] Search by sha took 9.838814999908209ms for query ""
+2024-11-14 19:57:23.252 [info] Search by message took 23.914088000543416ms for query ""
+2024-11-14 19:57:23.254 [info] Search by sha took 15.296823000535369ms for query ""
+2024-11-14 19:57:24.670 [info] Search by message took 15.781146999448538ms for query ""
+2024-11-14 19:57:24.673 [info] Search by sha took 10.406574999913573ms for query ""
+2024-11-14 19:57:31.261 [info] Search by message took 16.808874999172986ms for query ""
+2024-11-14 19:57:31.264 [info] Search by sha took 10.816949999891222ms for query ""
+2024-11-14 19:57:31.289 [info] Search by message took 16.256242999807ms for query ""
+2024-11-14 19:57:31.292 [info] Search by sha took 10.177918000146747ms for query ""
+2024-11-14 19:58:09.723 [info] Search by message took 15.824687999673188ms for query ""
+2024-11-14 19:58:09.726 [info] Search by sha took 10.032255999743938ms for query ""
+2024-11-14 19:58:09.754 [info] Search by message took 16.095673999749124ms for query ""
+2024-11-14 19:58:09.757 [info] Search by sha took 10.285749000497162ms for query ""
+2024-11-14 19:58:31.172 [info] Search by message took 16.407676000148058ms for query ""
+2024-11-14 19:58:31.174 [info] Search by sha took 10.658315000124276ms for query ""
+2024-11-14 19:58:31.203 [info] Search by message took 16.746128000319004ms for query ""
+2024-11-14 19:58:31.206 [info] Search by sha took 10.205819999799132ms for query ""
+2024-11-14 19:59:19.398 [info] Search by message took 16.54815800022334ms for query ""
+2024-11-14 19:59:19.399 [info] Search by sha took 9.531480999663472ms for query ""
+2024-11-14 19:59:19.425 [info] Search by message took 15.176117000170052ms for query ""
+2024-11-14 19:59:19.428 [info] Search by sha took 10.279918000102043ms for query ""
+2024-11-14 20:05:14.336 [info] Creating merkle client.
+2024-11-14 20:05:14.336 [info] Done creating merkle client.
+2024-11-14 20:05:14.336 [info] Doing a startup handshake.
+2024-11-14 20:05:14.340 [info] Finished initializing merkle tree in 0.6288640005514026 ms.
+2024-11-14 20:05:14.340 [info] Doing the initial handshake with hash: 
+2024-11-14 20:05:14.341 [info] Handshake start
+2024-11-14 20:05:15.104 [info] Handshake timing: 763.8400020003319
+2024-11-14 20:05:15.105 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 20:05:15.105 [info] Starting fast remote sync.
+2024-11-14 20:05:15.105 [info] Total num embeddable files: 0
+2024-11-14 20:05:15.105 [info] Root hash: 
+2024-11-14 20:05:15.105 [info] In the out of sync case.
+2024-11-14 20:05:15.106 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 20:05:15.106 [info] Waiting on semaphore to be released 1
+2024-11-14 20:05:15.306 [info] Waiting on semaphore to be released 1
+2024-11-14 20:05:15.508 [info] setting numJobsToGo to 0
+2024-11-14 20:05:15.508 [info] [startSync]: numJobs: 0
+2024-11-14 20:05:15.508 [info] Uploading 0 files.
+2024-11-14 20:05:15.759 [info] Finished indexing repository.
+2024-11-14 20:05:15.759 [info] Indexing job successfully done or aborted.
+2024-11-14 20:15:14.336 [info] Creating merkle client.
+2024-11-14 20:15:14.336 [info] Done creating merkle client.
+2024-11-14 20:15:14.336 [info] Doing a startup handshake.
+2024-11-14 20:15:14.339 [info] Finished initializing merkle tree in 0.4899549996480346 ms.
+2024-11-14 20:15:14.339 [info] Doing the initial handshake with hash: 
+2024-11-14 20:15:14.340 [info] Handshake start
+2024-11-14 20:15:15.087 [info] Handshake timing: 747.41811100021
+2024-11-14 20:15:15.087 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 20:15:15.088 [info] Starting fast remote sync.
+2024-11-14 20:15:15.088 [info] Total num embeddable files: 0
+2024-11-14 20:15:15.088 [info] Root hash: 
+2024-11-14 20:15:15.088 [info] In the out of sync case.
+2024-11-14 20:15:15.088 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 20:15:15.089 [info] Waiting on semaphore to be released 1
+2024-11-14 20:15:15.289 [info] Waiting on semaphore to be released 1
+2024-11-14 20:15:15.490 [info] setting numJobsToGo to 0
+2024-11-14 20:15:15.490 [info] [startSync]: numJobs: 0
+2024-11-14 20:15:15.490 [info] Uploading 0 files.
+2024-11-14 20:15:15.738 [info] Finished indexing repository.
+2024-11-14 20:15:15.738 [info] Indexing job successfully done or aborted.
+2024-11-14 20:25:14.336 [info] Creating merkle client.
+2024-11-14 20:25:14.336 [info] Done creating merkle client.
+2024-11-14 20:25:14.336 [info] Doing a startup handshake.
+2024-11-14 20:25:14.339 [info] Finished initializing merkle tree in 0.45666200015693903 ms.
+2024-11-14 20:25:14.339 [info] Doing the initial handshake with hash: 
+2024-11-14 20:25:14.340 [info] Handshake start
+2024-11-14 20:25:15.077 [info] Handshake timing: 737.8500120006502
+2024-11-14 20:25:15.077 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"72bd0606-56f2-4439-b99a-379d8f71cc40"}
+2024-11-14 20:25:15.077 [info] Starting fast remote sync.
+2024-11-14 20:25:15.077 [info] Total num embeddable files: 0
+2024-11-14 20:25:15.077 [info] Root hash: 
+2024-11-14 20:25:15.077 [info] In the out of sync case.
+2024-11-14 20:25:15.078 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":""}
+2024-11-14 20:25:15.078 [info] Waiting on semaphore to be released 1
+2024-11-14 20:25:15.279 [info] Waiting on semaphore to be released 1
+2024-11-14 20:25:15.480 [info] setting numJobsToGo to 0
+2024-11-14 20:25:15.480 [info] [startSync]: numJobs: 0
+2024-11-14 20:25:15.480 [info] Uploading 0 files.
+2024-11-14 20:25:15.732 [info] Finished indexing repository.
+2024-11-14 20:25:15.732 [info] Indexing job successfully done or aborted.

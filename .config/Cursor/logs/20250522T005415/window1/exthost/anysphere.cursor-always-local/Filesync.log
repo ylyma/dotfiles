@@ -35,3 +35,8 @@
 2025-05-22 00:54:34.676 [info] Fetched fsConfig in 401.53934500000014ms
 2025-05-22 00:54:34.676 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
 2025-05-22 00:54:37.293 [info] Handled visible editors change in 0.19291200000043318ms
+2025-05-22 00:58:37.752 [info] Uploaded file .config/Cursor/TransportSecurity modelVersion=2 in 834.8898560000234ms
+2025-05-22 00:58:37.752 [info] Handled visible editors change in 884.242710999999ms
+2025-05-22 01:00:23.877 [info] Handled visible editors change in 0.2954640000243671ms
+2025-05-22 01:00:25.811 [info] Handled visible editors change in 0.12510399997700006ms
+2025-05-22 01:00:25.811 [info] Handled visible editors change in 0.3289869999862276ms

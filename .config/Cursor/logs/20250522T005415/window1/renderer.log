@@ -93,3 +93,4 @@
     at ChildProcess._handle.onexit (node:internal/child_process:285:19)
     at onErrorNT (node:internal/child_process:483:16)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) spawn linux ENOENT
+2025-05-22 01:00:48.471 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

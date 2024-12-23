@@ -52,3 +52,83 @@
 2025-05-22 00:55:08.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4403
 2025-05-22 00:55:19.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4403
 2025-05-22 00:55:58.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4403
+2025-05-22 00:57:52.668 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 00:57:58.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 394
+2025-05-22 00:58:04.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 00:58:09.893 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 00:58:15.630 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 00:58:21.354 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 00:58:23.480 [error] CodeExpectedError: cannot open file:///home/amy/dotfiles/.config/Cursor/Cookies. Detail: File seems to be binary and cannot be opened as text
+    at Jpi.$tryOpenDocument (vscode-file://vscode-app/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2743:8656) merge-conflict.accept.all-incoming {"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"}
+2025-05-22 00:58:27.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 00:58:28.950 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-22 00:58:28.960 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-22 00:58:28.971 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-05-22 00:58:29.016 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-05-22 00:58:32.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 402
+2025-05-22 00:58:33.830 [error] CodeExpectedError: cannot open file:///home/amy/dotfiles/.config/Cursor/SharedStorage. Detail: File seems to be binary and cannot be opened as text
+    at Jpi.$tryOpenDocument (vscode-file://vscode-app/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2743:8656) merge-conflict.accept.all-incoming {"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"}
+2025-05-22 00:58:38.599 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-05-22 00:58:44.363 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-05-22 00:58:50.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:58:53.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:58:55.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:58:56.720 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:58:57.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:58:59.047 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:00.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:03.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:04.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:08.309 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:09.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:11.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:13.430 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:14.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:16.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:16.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:19.117 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:20.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:21.564 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:32.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 00:59:39.351 [warning] [Decorations] CAPPING events from decorations provider vscode.git 406
+2025-05-22 00:59:40.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-05-22 00:59:45.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-05-22 00:59:46.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-05-22 01:00:00.508 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-05-22 01:00:01.910 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-05-22 01:00:06.167 [warning] [Decorations] CAPPING events from decorations provider vscode.git 404
+2025-05-22 01:00:07.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-05-22 01:00:08.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 402
+2025-05-22 01:00:09.141 [warning] [Decorations] CAPPING events from decorations provider vscode.git 401
+2025-05-22 01:00:10.303 [warning] [Decorations] CAPPING events from decorations provider vscode.git 400
+2025-05-22 01:00:11.680 [warning] [Decorations] CAPPING events from decorations provider vscode.git 399
+2025-05-22 01:00:13.377 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:14.416 [warning] [Decorations] CAPPING events from decorations provider vscode.git 397
+2025-05-22 01:00:15.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-22 01:00:16.384 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 01:00:17.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 394
+2025-05-22 01:00:19.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 394
+2025-05-22 01:00:25.865 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 01:00:31.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 01:00:37.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 01:00:39.333 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-22 01:00:41.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-22 01:00:43.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-22 01:00:45.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-22 01:00:47.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-22 01:00:49.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:50.427 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:52.669 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:54.879 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:56.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:57.342 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:58.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:00:59.759 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:01.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:02.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:04.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:05.282 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:09.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:16.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 399
+2025-05-22 01:01:16.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:21.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398

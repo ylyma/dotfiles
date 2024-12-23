@@ -1512,3 +1512,437 @@ fatal: path '.cursor/environment.json' does not exist in 'origin/main'
 2025-05-22 00:56:11.222 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
 fatal: path '.cursor/environment.json' does not exist in 'origin/main'
 
+2025-05-22 00:57:53.214 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:57:55.118 [info] Completed job unsuccessfully, will retry: ./.config/Cursor/logs/20250522T005032/window1/exthost/exthost.log error: Weird error: ConnectError: [deadline_exceeded] the operation timed out
+2025-05-22 00:57:55.118 [info] Completed 450 jobs for absoluteDirectoryPath: undefined
+2025-05-22 00:57:55.118 [info] fileQueue.length: 0
+2025-05-22 00:57:55.118 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 350 fileQueue.length: 0
+2025-05-22 00:57:55.627 [info] Completed job unsuccessfully, will retry: ./.config/Cursor/logs/20250522T005032/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Weird error: ConnectError: [deadline_exceeded] the operation timed out
+2025-05-22 00:57:55.627 [info] fileQueue.length: 0
+2025-05-22 00:57:55.627 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 350 fileQueue.length: 0
+2025-05-22 00:57:55.942 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005032/window1/exthost/exthost.log
+2025-05-22 00:57:55.942 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 350 fileQueue.length: 0
+2025-05-22 00:57:58.991 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:57:59.351 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005032/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-05-22 00:57:59.351 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 350 fileQueue.length: 0
+2025-05-22 00:57:59.613 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-05-22 00:58:00.199 [info] Finished indexing repository.
+2025-05-22 00:58:00.199 [info] Indexing job successfully done or aborted.
+2025-05-22 00:58:04.716 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:27.648 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:33.385 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:39.134 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:50.821 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:54.148 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:56.494 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:58.210 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:58:59.580 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:00.985 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:03.923 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:05.306 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:08.846 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:10.246 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:11.667 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:13.966 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:15.361 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:16.776 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:19.653 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:21.059 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:22.096 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:28.373 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:32.743 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:32.875 [info] multiCodebaseIndexingJob dispose
+2025-05-22 00:59:32.875 [info] Aborting indexing job.
+2025-05-22 00:59:32.875 [info] Setting global status from status tracker: synced
+2025-05-22 00:59:32.875 [info] Doing a startup handshake.
+2025-05-22 00:59:33.431 [info] Finished computing merkle tree in 472.0140029999893 ms.
+2025-05-22 00:59:33.432 [info] Doing the initial handshake with hash: a996b8d238c354e50b8de91fca66917c6cec85fa822c589b8ec8ce7e55c05ca7
+2025-05-22 00:59:33.439 [info] Computed simhash vector of length: 256
+2025-05-22 00:59:33.439 [info] Path key hash: a24e87bae7171580a27781ca4813e19765091bc232d3ba7d3dec24e6826ccf23
+2025-05-22 00:59:33.439 [info] Handshake start
+2025-05-22 00:59:33.711 [info] Handshake timing: 273.8634280000115, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"2ce8f165-ed62-4c5a-8d66-18e523921d23","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-05-22 00:59:33.712 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"2ce8f165-ed62-4c5a-8d66-18e523921d23","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-05-22 00:59:33.712 [info] Starting fast remote sync.
+2025-05-22 00:59:33.712 [info] Total num embeddable files: 4287
+2025-05-22 00:59:33.712 [info] Root hash: a996b8d238c354e50b8de91fca66917c6cec85fa822c589b8ec8ce7e55c05ca7
+2025-05-22 00:59:33.712 [info] In the out of sync case.
+2025-05-22 00:59:33.713 [info] Waiting on semaphore to be released 1
+2025-05-22 00:59:33.913 [info] Waiting on semaphore to be released 1
+2025-05-22 00:59:34.115 [info] Waiting on semaphore to be released 1
+2025-05-22 00:59:34.314 [info] Waiting on semaphore to be released 1
+2025-05-22 00:59:34.517 [info] Waiting on semaphore to be released 8
+2025-05-22 00:59:34.715 [info] Waiting on semaphore to be released 8
+2025-05-22 00:59:34.915 [info] Waiting on semaphore to be released 8
+2025-05-22 00:59:35.117 [info] Waiting on semaphore to be released 4
+2025-05-22 00:59:35.320 [info] Waiting on semaphore to be released 14
+2025-05-22 00:59:35.518 [info] Waiting on semaphore to be released 15
+2025-05-22 00:59:35.718 [info] Waiting on semaphore to be released 15
+2025-05-22 00:59:35.919 [info] Waiting on semaphore to be released 14
+2025-05-22 00:59:36.118 [info] Waiting on semaphore to be released 14
+2025-05-22 00:59:36.317 [info] Waiting on semaphore to be released 9
+2025-05-22 00:59:36.516 [info] Waiting on semaphore to be released 6
+2025-05-22 00:59:36.718 [info] Waiting on semaphore to be released 4
+2025-05-22 00:59:36.917 [info] Waiting on semaphore to be released 4
+2025-05-22 00:59:37.119 [info] Waiting on semaphore to be released 4
+2025-05-22 00:59:37.320 [info] Waiting on semaphore to be released 7
+2025-05-22 00:59:37.519 [info] Waiting on semaphore to be released 5
+2025-05-22 00:59:37.722 [info] setting numJobsToGo to 73
+2025-05-22 00:59:37.726 [info] [startSync]: numJobs: 73
+2025-05-22 00:59:39.894 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 00:59:46.317 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:01.045 [warning] Retrying fast update file (delete) with timeout 20000. Error:  [deadline_exceeded] the operation timed out
+2025-05-22 01:00:01.046 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:02.252 [warning] Retrying fast update file (delete) with timeout 20000. Error:  [deadline_exceeded] the operation timed out
+2025-05-22 01:00:02.445 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:02.628 [info] Uploading 73 files.
+2025-05-22 01:00:02.629 [info] Total number of files to embed: 4287
+2025-05-22 01:00:02.629 [info] Not aborted
+2025-05-22 01:00:02.629 [info] Starting while loop.
+2025-05-22 01:00:02.629 [info] fileQueue.length: 73
+2025-05-22 01:00:02.629 [info] fileQueue.length: 72
+2025-05-22 01:00:02.629 [info] fileQueue.length: 71
+2025-05-22 01:00:02.629 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 71
+2025-05-22 01:00:04.689 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lazy-lock.json
+2025-05-22 01:00:04.689 [info] fileQueue.length: 70
+2025-05-22 01:00:04.689 [info] fileQueue.length: 69
+2025-05-22 01:00:04.689 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 69
+2025-05-22 01:00:04.691 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/init.lua
+2025-05-22 01:00:04.691 [info] fileQueue.length: 68
+2025-05-22 01:00:04.691 [info] fileQueue.length: 67
+2025-05-22 01:00:04.691 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 67
+2025-05-22 01:00:04.694 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-22 01:00:04.694 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-22 01:00:06.626 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/kitty/kitty.conf
+2025-05-22 01:00:06.627 [info] fileQueue.length: 66
+2025-05-22 01:00:06.627 [info] fileQueue.length: 65
+2025-05-22 01:00:06.627 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 5 fileQueue.length: 65
+2025-05-22 01:00:06.710 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:07.659 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/kitty/splits.conf
+2025-05-22 01:00:07.659 [info] fileQueue.length: 64
+2025-05-22 01:00:07.659 [info] fileQueue.length: 63
+2025-05-22 01:00:07.659 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 6 fileQueue.length: 63
+2025-05-22 01:00:07.660 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/kitty/session.conf
+2025-05-22 01:00:07.660 [info] fileQueue.length: 62
+2025-05-22 01:00:07.660 [info] fileQueue.length: 61
+2025-05-22 01:00:07.660 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 7 fileQueue.length: 61
+2025-05-22 01:00:08.683 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/hyprland.conf
+2025-05-22 01:00:08.683 [info] fileQueue.length: 60
+2025-05-22 01:00:08.683 [info] fileQueue.length: 59
+2025-05-22 01:00:08.683 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 8 fileQueue.length: 59
+2025-05-22 01:00:08.684 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/waybar/style.css
+2025-05-22 01:00:08.684 [info] fileQueue.length: 58
+2025-05-22 01:00:08.684 [info] fileQueue.length: 57
+2025-05-22 01:00:08.684 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 9 fileQueue.length: 57
+2025-05-22 01:00:08.685 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/waybar/config
+2025-05-22 01:00:08.685 [info] fileQueue.length: 56
+2025-05-22 01:00:08.685 [info] fileQueue.length: 55
+2025-05-22 01:00:08.685 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 10 fileQueue.length: 55
+2025-05-22 01:00:08.729 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:09.604 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Network Persistent State
+2025-05-22 01:00:09.604 [info] fileQueue.length: 54
+2025-05-22 01:00:09.604 [info] fileQueue.length: 53
+2025-05-22 01:00:09.604 [info] Waiting for jobs to finish. currentIndexingJobs.length: 11 concurrentUploads.current: 11 fileQueue.length: 53
+2025-05-22 01:00:09.606 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/machineid
+2025-05-22 01:00:09.606 [info] fileQueue.length: 52
+2025-05-22 01:00:09.606 [info] fileQueue.length: 51
+2025-05-22 01:00:09.606 [info] Waiting for jobs to finish. currentIndexingJobs.length: 12 concurrentUploads.current: 12 fileQueue.length: 51
+2025-05-22 01:00:09.664 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/settings.json
+2025-05-22 01:00:09.664 [info] fileQueue.length: 50
+2025-05-22 01:00:09.664 [info] fileQueue.length: 49
+2025-05-22 01:00:09.664 [info] Waiting for jobs to finish. currentIndexingJobs.length: 13 concurrentUploads.current: 13 fileQueue.length: 49
+2025-05-22 01:00:09.817 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/TransportSecurity
+2025-05-22 01:00:09.817 [info] fileQueue.length: 48
+2025-05-22 01:00:09.817 [info] fileQueue.length: 47
+2025-05-22 01:00:09.817 [info] Waiting for jobs to finish. currentIndexingJobs.length: 14 concurrentUploads.current: 14 fileQueue.length: 47
+2025-05-22 01:00:09.986 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/History/-2554881c/41JI.ts
+2025-05-22 01:00:09.986 [info] fileQueue.length: 46
+2025-05-22 01:00:09.986 [info] fileQueue.length: 45
+2025-05-22 01:00:09.986 [info] Waiting for jobs to finish. currentIndexingJobs.length: 15 concurrentUploads.current: 15 fileQueue.length: 45
+2025-05-22 01:00:10.575 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/sentry/session.json
+2025-05-22 01:00:10.575 [info] fileQueue.length: 44
+2025-05-22 01:00:10.575 [info] fileQueue.length: 43
+2025-05-22 01:00:10.575 [info] Waiting for jobs to finish. currentIndexingJobs.length: 16 concurrentUploads.current: 16 fileQueue.length: 43
+2025-05-22 01:00:10.578 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Session Storage/LOG.old
+2025-05-22 01:00:10.578 [info] fileQueue.length: 42
+2025-05-22 01:00:10.578 [info] fileQueue.length: 41
+2025-05-22 01:00:10.578 [info] Waiting for jobs to finish. currentIndexingJobs.length: 17 concurrentUploads.current: 17 fileQueue.length: 41
+2025-05-22 01:00:10.580 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Session Storage/LOG
+2025-05-22 01:00:10.580 [info] fileQueue.length: 40
+2025-05-22 01:00:10.580 [info] fileQueue.length: 39
+2025-05-22 01:00:10.580 [info] Waiting for jobs to finish. currentIndexingJobs.length: 18 concurrentUploads.current: 18 fileQueue.length: 39
+2025-05-22 01:00:10.652 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Cache/Cache_Data/ea51f17a95d8812e_0
+2025-05-22 01:00:10.652 [info] fileQueue.length: 38
+2025-05-22 01:00:10.652 [info] fileQueue.length: 37
+2025-05-22 01:00:10.652 [info] Waiting for jobs to finish. currentIndexingJobs.length: 19 concurrentUploads.current: 19 fileQueue.length: 37
+2025-05-22 01:00:10.838 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/google-chrome/Default/GCM Store/Encryption/000003.log
+2025-05-22 01:00:10.838 [info] fileQueue.length: 36
+2025-05-22 01:00:10.838 [info] fileQueue.length: 35
+2025-05-22 01:00:10.838 [info] Waiting for jobs to finish. currentIndexingJobs.length: 20 concurrentUploads.current: 20 fileQueue.length: 35
+2025-05-22 01:00:10.841 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:10.846 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/workspaceStorage/cf8c776c5c57f82d8690d28874202f31/state.vscdb
+2025-05-22 01:00:10.846 [info] fileQueue.length: 34
+2025-05-22 01:00:10.846 [info] fileQueue.length: 33
+2025-05-22 01:00:10.846 [info] Waiting for jobs to finish. currentIndexingJobs.length: 21 concurrentUploads.current: 21 fileQueue.length: 33
+2025-05-22 01:00:10.850 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005032/window1/exthost/anysphere.cursor-always-local/Cursor Always Local.log
+2025-05-22 01:00:10.850 [info] fileQueue.length: 32
+2025-05-22 01:00:10.850 [info] fileQueue.length: 31
+2025-05-22 01:00:10.850 [info] Waiting for jobs to finish. currentIndexingJobs.length: 22 concurrentUploads.current: 22 fileQueue.length: 31
+2025-05-22 01:00:10.852 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005032/window1/exthost/vscode.git/Git.log
+2025-05-22 01:00:10.852 [info] fileQueue.length: 30
+2025-05-22 01:00:10.852 [info] fileQueue.length: 29
+2025-05-22 01:00:10.852 [info] Waiting for jobs to finish. currentIndexingJobs.length: 23 concurrentUploads.current: 23 fileQueue.length: 29
+2025-05-22 01:00:11.573 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/GPUCache/index
+2025-05-22 01:00:11.573 [info] fileQueue.length: 28
+2025-05-22 01:00:11.573 [info] fileQueue.length: 27
+2025-05-22 01:00:11.573 [info] Waiting for jobs to finish. currentIndexingJobs.length: 24 concurrentUploads.current: 24 fileQueue.length: 27
+2025-05-22 01:00:11.576 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/kickstart/plugins/lint.lua
+2025-05-22 01:00:11.576 [info] fileQueue.length: 26
+2025-05-22 01:00:11.576 [info] fileQueue.length: 25
+2025-05-22 01:00:11.576 [info] Waiting for jobs to finish. currentIndexingJobs.length: 25 concurrentUploads.current: 25 fileQueue.length: 25
+2025-05-22 01:00:11.579 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Local Storage/leveldb/LOG
+2025-05-22 01:00:11.579 [info] fileQueue.length: 24
+2025-05-22 01:00:11.579 [info] fileQueue.length: 23
+2025-05-22 01:00:11.579 [info] Waiting for jobs to finish. currentIndexingJobs.length: 26 concurrentUploads.current: 26 fileQueue.length: 23
+2025-05-22 01:00:11.586 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/custom/plugins/debugprint.lua
+2025-05-22 01:00:11.586 [info] fileQueue.length: 22
+2025-05-22 01:00:11.586 [info] fileQueue.length: 21
+2025-05-22 01:00:11.586 [info] Waiting for jobs to finish. currentIndexingJobs.length: 27 concurrentUploads.current: 27 fileQueue.length: 21
+2025-05-22 01:00:11.648 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/globalStorage/vscodevim.vim/.search_history
+2025-05-22 01:00:11.648 [info] fileQueue.length: 20
+2025-05-22 01:00:11.648 [info] fileQueue.length: 19
+2025-05-22 01:00:11.648 [info] Waiting for jobs to finish. currentIndexingJobs.length: 28 concurrentUploads.current: 28 fileQueue.length: 19
+2025-05-22 01:00:11.677 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/custom/luasnips/luasnip.lua
+2025-05-22 01:00:11.677 [info] fileQueue.length: 18
+2025-05-22 01:00:11.677 [info] fileQueue.length: 17
+2025-05-22 01:00:11.677 [info] Waiting for jobs to finish. currentIndexingJobs.length: 29 concurrentUploads.current: 29 fileQueue.length: 17
+2025-05-22 01:00:11.808 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Local Storage/leveldb/LOG.old
+2025-05-22 01:00:11.808 [info] fileQueue.length: 16
+2025-05-22 01:00:11.808 [info] fileQueue.length: 15
+2025-05-22 01:00:11.808 [info] Waiting for jobs to finish. currentIndexingJobs.length: 30 concurrentUploads.current: 30 fileQueue.length: 15
+2025-05-22 01:00:11.811 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/globalStorage/vscodevim.vim/.cmdline_history
+2025-05-22 01:00:11.811 [info] fileQueue.length: 14
+2025-05-22 01:00:11.811 [info] fileQueue.length: 13
+2025-05-22 01:00:11.811 [info] Waiting for jobs to finish. currentIndexingJobs.length: 31 concurrentUploads.current: 31 fileQueue.length: 13
+2025-05-22 01:00:12.215 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:12.609 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nekoray/config/groups/nekobox.json
+2025-05-22 01:00:12.609 [info] fileQueue.length: 12
+2025-05-22 01:00:12.609 [info] fileQueue.length: 11
+2025-05-22 01:00:12.609 [info] Waiting for jobs to finish. currentIndexingJobs.length: 32 concurrentUploads.current: 32 fileQueue.length: 11
+2025-05-22 01:00:12.611 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/exthost/exthost.log
+2025-05-22 01:00:12.611 [info] fileQueue.length: 10
+2025-05-22 01:00:12.611 [info] fileQueue.length: 9
+2025-05-22 01:00:12.611 [info] Waiting for jobs to finish. currentIndexingJobs.length: 33 concurrentUploads.current: 33 fileQueue.length: 9
+2025-05-22 01:00:12.612 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/custom/plugins/flash.lua
+2025-05-22 01:00:12.612 [info] fileQueue.length: 8
+2025-05-22 01:00:12.612 [info] fileQueue.length: 7
+2025-05-22 01:00:12.612 [info] Waiting for jobs to finish. currentIndexingJobs.length: 34 concurrentUploads.current: 34 fileQueue.length: 7
+2025-05-22 01:00:12.638 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/exthost/vscodevim.vim/Vim.log
+2025-05-22 01:00:12.638 [info] fileQueue.length: 6
+2025-05-22 01:00:12.638 [info] fileQueue.length: 5
+2025-05-22 01:00:12.638 [info] Waiting for jobs to finish. currentIndexingJobs.length: 35 concurrentUploads.current: 35 fileQueue.length: 5
+2025-05-22 01:00:12.639 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/CachedData/fc3e38722d374aeba23729a31220a4f0662e3c90/chrome/js/index-dir/the-real-index
+2025-05-22 01:00:12.639 [info] fileQueue.length: 4
+2025-05-22 01:00:12.639 [info] fileQueue.length: 3
+2025-05-22 01:00:12.639 [info] Waiting for jobs to finish. currentIndexingJobs.length: 36 concurrentUploads.current: 36 fileQueue.length: 3
+2025-05-22 01:00:12.641 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/custom/plugins/render-markdown.lua
+2025-05-22 01:00:12.641 [info] fileQueue.length: 2
+2025-05-22 01:00:12.641 [info] fileQueue.length: 1
+2025-05-22 01:00:12.641 [info] Waiting for jobs to finish. currentIndexingJobs.length: 37 concurrentUploads.current: 37 fileQueue.length: 1
+2025-05-22 01:00:12.673 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nekoray/config/neko.log
+2025-05-22 01:00:12.674 [info] fileQueue.length: 0
+2025-05-22 01:00:12.674 [info] Waiting for jobs to finish. currentIndexingJobs.length: 37 concurrentUploads.current: 38 fileQueue.length: 0
+2025-05-22 01:00:12.678 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/go/telemetry/local/asm@go1.23.4-go1.23.4-linux-amd64-2024-12-20.v1.count
+2025-05-22 01:00:12.678 [info] Waiting for jobs to finish. currentIndexingJobs.length: 36 concurrentUploads.current: 39 fileQueue.length: 0
+2025-05-22 01:00:12.679 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nekoray/config/groups/0.json
+2025-05-22 01:00:12.679 [info] Waiting for jobs to finish. currentIndexingJobs.length: 35 concurrentUploads.current: 40 fileQueue.length: 0
+2025-05-22 01:00:12.699 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/exthost/vscode.git/Git.log
+2025-05-22 01:00:12.699 [info] Waiting for jobs to finish. currentIndexingJobs.length: 34 concurrentUploads.current: 41 fileQueue.length: 0
+2025-05-22 01:00:12.702 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/workspaceStorage/95eccb7843f81b72c1bb775bc2c967f4/state.vscdb
+2025-05-22 01:00:12.702 [info] Waiting for jobs to finish. currentIndexingJobs.length: 33 concurrentUploads.current: 42 fileQueue.length: 0
+2025-05-22 01:00:12.819 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/custom/plugins/wiki.lua
+2025-05-22 01:00:12.819 [info] Waiting for jobs to finish. currentIndexingJobs.length: 32 concurrentUploads.current: 43 fileQueue.length: 0
+2025-05-22 01:00:12.822 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nekoray/config/routes_box/Default
+2025-05-22 01:00:12.822 [info] Waiting for jobs to finish. currentIndexingJobs.length: 31 concurrentUploads.current: 44 fileQueue.length: 0
+2025-05-22 01:00:12.828 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nvim/lua/custom/plugins/colorizer.lua
+2025-05-22 01:00:12.828 [info] Waiting for jobs to finish. currentIndexingJobs.length: 30 concurrentUploads.current: 45 fileQueue.length: 0
+2025-05-22 01:00:12.831 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nekoray/config/dashboard/index.html
+2025-05-22 01:00:12.831 [info] Waiting for jobs to finish. currentIndexingJobs.length: 29 concurrentUploads.current: 46 fileQueue.length: 0
+2025-05-22 01:00:12.834 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/renderer.log
+2025-05-22 01:00:12.835 [info] Waiting for jobs to finish. currentIndexingJobs.length: 28 concurrentUploads.current: 47 fileQueue.length: 0
+2025-05-22 01:00:12.925 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/CachedData/fc3e38722d374aeba23729a31220a4f0662e3c90/chrome/js/d5a836432c4a5cec_0
+2025-05-22 01:00:12.925 [info] Waiting for jobs to finish. currentIndexingJobs.length: 27 concurrentUploads.current: 48 fileQueue.length: 0
+2025-05-22 01:00:13.125 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/SharedStorage-wal
+2025-05-22 01:00:13.125 [info] Waiting for jobs to finish. currentIndexingJobs.length: 26 concurrentUploads.current: 49 fileQueue.length: 0
+2025-05-22 01:00:13.127 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/CachedData/fc3e38722d374aeba23729a31220a4f0662e3c90/chrome/js/74558b52d5d2b37d_0
+2025-05-22 01:00:13.127 [info] Waiting for jobs to finish. currentIndexingJobs.length: 25 concurrentUploads.current: 50 fileQueue.length: 0
+2025-05-22 01:00:13.130 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/keybinds.conf
+2025-05-22 01:00:13.130 [info] Waiting for jobs to finish. currentIndexingJobs.length: 24 concurrentUploads.current: 51 fileQueue.length: 0
+2025-05-22 01:00:13.700 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/go/telemetry/local/go@go1.23.4-go1.23.4-linux-amd64-2024-12-20.v1.count
+2025-05-22 01:00:13.700 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2025-05-22 01:00:13.700 [info] Waiting for jobs to finish. currentIndexingJobs.length: 23 concurrentUploads.current: 52 fileQueue.length: 0
+2025-05-22 01:00:13.701 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/workspaces.conf
+2025-05-22 01:00:13.701 [info] Waiting for jobs to finish. currentIndexingJobs.length: 22 concurrentUploads.current: 53 fileQueue.length: 0
+2025-05-22 01:00:13.704 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-05-22 01:00:13.704 [info] Waiting for jobs to finish. currentIndexingJobs.length: 21 concurrentUploads.current: 54 fileQueue.length: 0
+2025-05-22 01:00:13.705 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/keyboard.conf
+2025-05-22 01:00:13.705 [info] Waiting for jobs to finish. currentIndexingJobs.length: 20 concurrentUploads.current: 55 fileQueue.length: 0
+2025-05-22 01:00:13.706 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/autostart.conf
+2025-05-22 01:00:13.706 [info] Waiting for jobs to finish. currentIndexingJobs.length: 19 concurrentUploads.current: 56 fileQueue.length: 0
+2025-05-22 01:00:13.707 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/scripts/moveAll.sh
+2025-05-22 01:00:13.707 [info] Waiting for jobs to finish. currentIndexingJobs.length: 18 concurrentUploads.current: 57 fileQueue.length: 0
+2025-05-22 01:00:13.707 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Backups/feb8cbb73584af11abff579a457ff7b0/file/-609d5b23
+2025-05-22 01:00:13.707 [info] Waiting for jobs to finish. currentIndexingJobs.length: 17 concurrentUploads.current: 58 fileQueue.length: 0
+2025-05-22 01:00:13.708 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Backups/feb8cbb73584af11abff579a457ff7b0/file/-3392ad01
+2025-05-22 01:00:13.708 [info] Waiting for jobs to finish. currentIndexingJobs.length: 16 concurrentUploads.current: 59 fileQueue.length: 0
+2025-05-22 01:00:13.709 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/Backups/feb8cbb73584af11abff579a457ff7b0/file/-121f485c
+2025-05-22 01:00:13.710 [info] Waiting for jobs to finish. currentIndexingJobs.length: 15 concurrentUploads.current: 60 fileQueue.length: 0
+2025-05-22 01:00:13.726 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/exthost/anysphere.cursor-always-local/Filesync.log
+2025-05-22 01:00:13.726 [info] Waiting for jobs to finish. currentIndexingJobs.length: 14 concurrentUploads.current: 61 fileQueue.length: 0
+2025-05-22 01:00:13.732 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/nekoray/config/groups/pm.json
+2025-05-22 01:00:13.732 [info] Waiting for jobs to finish. currentIndexingJobs.length: 13 concurrentUploads.current: 62 fileQueue.length: 0
+2025-05-22 01:00:13.756 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/workspaceStorage/95eccb7843f81b72c1bb775bc2c967f4/anysphere.cursor-retrieval/embeddable_files.txt
+2025-05-22 01:00:13.756 [info] Waiting for jobs to finish. currentIndexingJobs.length: 12 concurrentUploads.current: 63 fileQueue.length: 0
+2025-05-22 01:00:13.829 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/layout.conf
+2025-05-22 01:00:13.829 [info] Waiting for jobs to finish. currentIndexingJobs.length: 11 concurrentUploads.current: 64 fileQueue.length: 0
+2025-05-22 01:00:13.830 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/misc.conf
+2025-05-22 01:00:13.830 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 65 fileQueue.length: 0
+2025-05-22 01:00:13.919 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:14.136 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/go/telemetry/local/link@go1.23.4-go1.23.4-linux-amd64-2024-12-20.v1.count
+2025-05-22 01:00:14.136 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 66 fileQueue.length: 0
+2025-05-22 01:00:14.235 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/windows.conf
+2025-05-22 01:00:14.235 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 67 fileQueue.length: 0
+2025-05-22 01:00:14.724 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/logs/20250522T005415/window1/exthost/vscode.json-language-features/JSON Language Server.log
+2025-05-22 01:00:14.724 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 68 fileQueue.length: 0
+2025-05-22 01:00:14.735 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/animations.conf
+2025-05-22 01:00:14.735 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 69 fileQueue.length: 0
+2025-05-22 01:00:14.833 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/go/telemetry/local/cgo@go1.23.4-go1.23.4-linux-amd64-2024-12-20.v1.count
+2025-05-22 01:00:14.833 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 70 fileQueue.length: 0
+2025-05-22 01:00:15.020 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/decorations.conf
+2025-05-22 01:00:15.020 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 71 fileQueue.length: 0
+2025-05-22 01:00:15.036 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:15.646 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/go/telemetry/local/compile@go1.23.4-go1.23.4-linux-amd64-2024-12-20.v1.count
+2025-05-22 01:00:15.646 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 72 fileQueue.length: 0
+2025-05-22 01:00:16.958 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:17.381 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/windowrules.conf
+2025-05-22 01:00:17.381 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 73 fileQueue.length: 0
+2025-05-22 01:00:21.995 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/Cursor/User/globalStorage/storage.json
+2025-05-22 01:00:21.995 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 74 fileQueue.length: 0
+2025-05-22 01:00:26.464 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:32.029 [info] Completed job successfully: 2ce8f165-ed62-4c5a-8d66-18e523921d23 ./.config/hypr/conf/monitors.conf
+2025-05-22 01:00:32.029 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 75 fileQueue.length: 0
+2025-05-22 01:00:32.296 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-05-22 01:00:34.283 [info] Finished indexing repository.
+2025-05-22 01:00:34.283 [info] Indexing job successfully done or aborted.
+2025-05-22 01:00:39.876 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:42.673 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:44.369 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:46.918 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:48.191 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:50.963 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:54.134 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:55.421 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:00:57.064 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:01:00.296 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:01:01.877 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:01:03.430 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-22 01:01:05.067 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+

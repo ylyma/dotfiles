@@ -1,0 +1,48 @@
+#!/bin/bash
+
+CONFIG="/etc/keyd/default.conf"
+NORMAL_CONFIG="/etc/keyd/backup/normal.conf"
+GAMING_CONFIG="/etc/keyd/backup/gaming.conf"
+
+sudo mkdir -p /etc/keyd/backup
+
+if [[ ! -f "$NORMAL_CONFIG" ]]; then
+    echo "creating normal config..."
+    cat << 'EOF' | sudo tee "$NORMAL_CONFIG" > /dev/null
+[ids]
+*
+
+[main]
+capslock = overload(ctrl_vim, esc)
+esc = `
+shift+esc = ~
+
+[ctrl_vim:C]
+space = swap(vim_mode)
+
+[vim_mode:C]
+h = left
+j = down
+k = up
+l = right
+w = C-right
+b = C-left
+EOF
+fi
+
+if [[ ! -f "$GAMING_CONFIG" ]]; then
+    echo "creating gaming config..."
+    sudo cp "$CONFIG" "$GAMING_CONFIG"
+fi
+
+if grep -q "ctrl_vim" "$CONFIG" 2>/dev/null; then
+    sudo cp "$GAMING_CONFIG" "$CONFIG"
+    echo "game yipee"
+		notify-send "keybinds config" "game yay"
+else
+    sudo cp "$NORMAL_CONFIG" "$CONFIG"
+    echo "byebye"
+		notify-send "keybinds config" "back to normal sad"
+fi
+
+sudo systemctl restart keyd

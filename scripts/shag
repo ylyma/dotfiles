@@ -1,0 +1,43 @@
+#!/bin/bash
+
+MONITORS_CONFIG_DIR="$HOME/.config/hypr/conf/monitors"
+MONITORS_LINK_FILE="$HOME/.config/hypr/conf/monitors.conf"
+WORKSPACES_CONFIG_DIR="$HOME/.config/hypr/conf/workspaces"
+WORKSPACES_LINK_FILE="$HOME/.config/hypr/conf/workspaces.conf"
+
+NEW_MODE=""
+ECHO=""
+
+if [ -L "$MONITORS_LINK_FILE" ]; then
+    CURRENT=$(readlink "$MONITORS_LINK_FILE")
+    if [[ "$CURRENT" == *"home.conf" ]]; then
+        ln -sf "$MONITORS_CONFIG_DIR/work.conf" "$MONITORS_LINK_FILE"
+				NEW_MODE="work"
+    else
+        ln -sf "$MONITORS_CONFIG_DIR/home.conf" "$MONITORS_LINK_FILE"
+			NEW_MODE="home"
+    fi
+else
+    ln -sf "$MONITORS_CONFIG_DIR/home.conf" "$MONITORS_LINK_FILE"
+		NEW_MODE="home"
+fi
+
+
+if [ -L "$WORKSPACES_LINK_FILE" ]; then
+    ln -sf "$WORKSPACES_CONFIG_DIR/$NEW_MODE.conf" "$WORKSPACES_LINK_FILE"
+else
+    ln -sf "$WORKSPACES_CONFIG_DIR/$NEW_MODE.conf" "$WORKSPACES_LINK_FILE"
+fi
+
+
+if [ "$NEW_MODE" == "work" ]; then
+    notify-send "hypr config" "work time reee"
+		ECHO="gg"
+else
+    notify-send "hypr config" "pangang"
+		ECHO="yay"
+fi
+
+
+hyprctl reload &> /dev/null
+echo $ECHO

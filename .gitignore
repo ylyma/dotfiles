@@ -3,7 +3,6 @@
 
 # But don't ignore these specific directories/files
 !.config/bat/
-!.config/darktable/
 !.config/dunst/
 !.config/fish/
 !.config/hypr/

@@ -133,3 +133,23 @@
 2025-05-22 01:02:57.905 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
 2025-05-22 01:02:57.905 [error] [storage state.vscdb] cursorDiskKVSet(inlineDiffs-95eccb7843f81b72c1bb775bc2c967f4): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
 2025-05-22 01:02:58.106 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.applicationUser Length: 18670
+2025-05-22 01:03:15.690 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:15.690 [error] [storage state.vscdb] cursorDiskKVSet(composerData:e1727833-5b77-4c6f-9aaa-c0516d47c2c3): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:15.690 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:15.690 [error] [storage state.vscdb] cursorDiskKVSet(inlineDiffs-95eccb7843f81b72c1bb775bc2c967f4): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:15.890 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.applicationUser Length: 18670
+2025-05-22 01:03:21.472 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:21.472 [error] [storage state.vscdb] cursorDiskKVSet(composerData:e1727833-5b77-4c6f-9aaa-c0516d47c2c3): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:21.472 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:21.473 [error] [storage state.vscdb] cursorDiskKVSet(inlineDiffs-95eccb7843f81b72c1bb775bc2c967f4): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:21.673 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.applicationUser Length: 18670
+2025-05-22 01:03:27.726 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:27.726 [error] [storage state.vscdb] cursorDiskKVSet(composerData:e1727833-5b77-4c6f-9aaa-c0516d47c2c3): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:27.726 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:27.726 [error] [storage state.vscdb] cursorDiskKVSet(inlineDiffs-95eccb7843f81b72c1bb775bc2c967f4): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:27.926 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.applicationUser Length: 18670
+2025-05-22 01:03:28.772 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:28.772 [error] [storage state.vscdb] cursorDiskKVSet(composerData:e1727833-5b77-4c6f-9aaa-c0516d47c2c3): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:28.772 [error] [storage state.vscdb] runParams(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:28.772 [error] [storage state.vscdb] cursorDiskKVSet(inlineDiffs-95eccb7843f81b72c1bb775bc2c967f4): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database
+2025-05-22 01:03:28.973 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.applicationUser Length: 18670

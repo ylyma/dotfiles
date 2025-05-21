@@ -1,6 +1,0 @@
-2025/05/09-10:46:54.624 10625 Reusing MANIFEST /home/amy/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/09-10:46:54.624 10625 Recovering log #6
-2025/05/09-10:46:54.636 10625 Reusing old log /home/amy/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000006.log 
-2025/05/09-10:47:03.357 10626 Level-0 table #12: started
-2025/05/09-10:47:03.408 10626 Level-0 table #12: 3051264 bytes OK
-2025/05/09-10:47:03.416 10626 Delete type=0 #6

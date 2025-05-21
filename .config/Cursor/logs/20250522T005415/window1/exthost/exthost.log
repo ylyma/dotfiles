@@ -135,3 +135,10 @@
 2025-05-22 01:01:44.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 456
 2025-05-22 01:02:02.994 [error] CodeExpectedError: cannot open file:///home/amy/dotfiles/.config/dconf/user. Detail: File seems to be binary and cannot be opened as text
     at Jpi.$tryOpenDocument (vscode-file://vscode-app/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2743:8656) merge-conflict.accept.all-incoming {"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"}
+2025-05-22 01:03:15.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3845
+2025-05-22 01:03:19.462 [error] CodeExpectedError: cannot open file:///home/amy/dotfiles/.config/dconf/user. Detail: File seems to be binary and cannot be opened as text
+    at Jpi.$tryOpenDocument (vscode-file://vscode-app/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2743:8656) merge-conflict.accept.all-incoming {"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"}
+2025-05-22 01:03:22.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3785
+2025-05-22 01:03:25.082 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3785
+2025-05-22 01:03:28.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3785
+2025-05-22 01:03:30.542 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3786

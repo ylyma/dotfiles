@@ -1,23 +1,16 @@
-.config/discord/
-.config/pulse/
-.config/QtProject.conf
-.config/libreoffice/4
-.config/LarkInternational/
-.config/unity3D/
-.config/htop/
-.config/FortiClient/
-.config/nnn/
-.config/mimeapps.list
-.config/pavucontrol.ini
-.config/xfce4/
-.config/systemd/
-.config/bytertc/
-.config/pavucontrol.ini
-.config/mimeapps.list
-.config/Cursor/
-.config/Thunar/
-.config/bugwarrior/
-.config/nekoray/
-.config/go/
+# Ignore everything in .config
+.config/*
 
-
+# But don't ignore these specific directories/files
+!.config/bat/
+!.config/darktable/
+!.config/dunst/
+!.config/fish/
+!.config/hypr/
+!.config/kitty/
+!.config/nvim/
+!.config/ranger/
+!.config/waybar/
+!.config/wofi/
+!.config/zathura/
+!.config/starship.toml

@@ -132,3 +132,6 @@
 2025-05-22 01:01:16.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 399
 2025-05-22 01:01:16.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
 2025-05-22 01:01:21.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 398
+2025-05-22 01:01:44.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 456
+2025-05-22 01:02:02.994 [error] CodeExpectedError: cannot open file:///home/amy/dotfiles/.config/dconf/user. Detail: File seems to be binary and cannot be opened as text
+    at Jpi.$tryOpenDocument (vscode-file://vscode-app/tmp/.mount_cursorIionqH/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2743:8656) merge-conflict.accept.all-incoming {"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"}

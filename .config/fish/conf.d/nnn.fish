@@ -1,6 +1,6 @@
 export NNN_PLUG='j:autojump;o:fzopen;p:preview-tui;d:diffs;t:nmount;g:-!git diff;l:-!git log;x:!chmod +x "$nnn";s:!readlink -f "$nnn"|wl-copy*'
 export NNN_FCOLORS="0B0B04060006060009060B06"
-alias ls="n -de"
+alias n="nn -de"
 
 set --export NNN_FIFO "/tmp/nnn.fifo"
 
@@ -9,7 +9,7 @@ set --export NNN_FIFO "/tmp/nnn.fifo"
 # e.g. ~/.config/fish/functions/n.fish
 # or, add the lines to the 'config.fish' file.
 
-function n --wraps nnn --description 'support nnn quit and change directory'
+function nn --wraps nnn --description 'support nnn quit and change directory'
     # Block nesting of nnn in subshells
     if test -n "$NNNLVL" -a "$NNNLVL" -ge 1
         echo "nnn is already running"

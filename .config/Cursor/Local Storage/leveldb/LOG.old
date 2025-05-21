@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-2025/05/22-00:50:32.529 31d8 Reusing MANIFEST /home/amy/.config/Cursor/Local Storage/leveldb/MANIFEST-000001
-2025/05/22-00:50:32.532 31d8 Recovering log #3
-2025/05/22-00:50:32.532 31d8 Reusing old log /home/amy/.config/Cursor/Local Storage/leveldb/000003.log 
-=======
-2024/11/25-14:02:44.211 57686 Reusing MANIFEST /home/amy/.config/Cursor/Local Storage/leveldb/MANIFEST-000001
-2024/11/25-14:02:44.249 57686 Recovering log #3
-2024/11/25-14:02:44.249 57686 Reusing old log /home/amy/.config/Cursor/Local Storage/leveldb/000003.log 
->>>>>>> 3000f69 (add)

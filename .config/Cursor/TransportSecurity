@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{"sts":[{"expiry":1779382470.555316,"host":"g+bbUJgBZnIZDPabJaZh0H/BBzHav+JJ7+bxxx4N3W4=","mode":"force-https","sts_include_subdomains":true,"sts_observed":1747846470.555319}],"version":2}
-=======
-{"sts":[{"expiry":1763117078.844239,"host":"AVzdoO7H7Iem9ls/tKRnL1gPCVc6JBe/tR9K2efR+SA=","mode":"force-https","sts_include_subdomains":true,"sts_observed":1731581078.844244},{"expiry":1763117117.064056,"host":"KafQWUdLGcbD/lyU4WfBBHb8azxHtOygy7WQ5b0rYB8=","mode":"force-https","sts_include_subdomains":true,"sts_observed":1731581117.064059},{"expiry":1763117057.408755,"host":"QlZAh0wfjOGROzMsa7SyI7705VysZSnSyYxonsO+EDI=","mode":"force-https","sts_include_subdomains":false,"sts_observed":1731581057.408757},{"expiry":1763117111.879799,"host":"sCCR1CQbBBpzVQPhmYW+Nc333MxRP79+Aq+8Obu03Do=","mode":"force-https","sts_include_subdomains":false,"sts_observed":1731581111.8798}],"version":2}
->>>>>>> 3000f69 (add)

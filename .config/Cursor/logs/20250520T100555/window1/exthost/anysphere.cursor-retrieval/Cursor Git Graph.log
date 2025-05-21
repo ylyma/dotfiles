@@ -1,3 +1,0 @@
-2025-05-20 10:06:00.055 [info] Using repo backend url https://repo42.cursor.sh
-2025-05-20 10:06:04.465 [info] Git graph is disabled. shouldIndex: true isEnabled: false
-2025-05-20 15:51:17.844 [error] Failed to check if git graph is enabled [unavailable] getaddrinfo EAI_AGAIN repo42.cursor.sh

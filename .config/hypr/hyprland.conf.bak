@@ -39,7 +39,6 @@ workspace=10,monitor:eDP-1
 #windowrulev2 = fakefullscreen,class:^(firefox)$,title:^(Picture-in-Picture)$
 
 # Telegram media viewer
-windowrulev2 = fullscreen,class:^(org.telegram.desktop)$,title:^(Media viewer)$
 
 windowrule = center,pavucontrol
 windowrule = float,pavucontrol

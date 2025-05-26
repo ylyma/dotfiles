@@ -3,7 +3,7 @@
     //"height": 30,
     "modules-left": ["hyprland/workspaces"],
 		"modules-center": ["hyprland/window"],
-    "modules-right": ["network", "pulseaudio","cpu", "memory", "battery", "custom/date", "clock", "custom/reboot", "custom/power"],
+    "modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "custom/date", "clock", "custom/reboot", "custom/power"],
     // Modules configuration
 
     "hyprland/workspaces" : {
@@ -73,7 +73,6 @@
         	"format-disconnected": "󰤮 Disconnected",
         	"format-alt": "{ifname}: {ipaddr}/{cidr}"
 	},
-
 	"cpu": {
 			"format": "  {usage}% ",
 	},

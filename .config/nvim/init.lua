@@ -1,6 +1,6 @@
 --[[
 
-=====================================================================
+j====================================================================
 ==================== READ THIS BEFORE CONTINUING ====================
 =====================================================================
 ========                                    .-----.          ========
@@ -178,8 +178,8 @@ vim.api.nvim_create_autocmd({ 'FileType' }, { pattern = 'tex', group = optional_
 vim.keymap.set('n', ']q', ':cn<Return>')
 vim.keymap.set('n', '[q', ':cp<Return>')
 -- Traverse loclist
-vim.keymap.set('n', ']l', ':lnext<Return>')
-vim.keymap.set('n', '[l', ':lprevious<Return>')
+vim.keymap.set('n', ']d', ':lnext<Return>')
+vim.keymap.set('n', '[d', ':lprevious<Return>')
 --  Open mini.files
 vim.keymap.set('n', '<leader>pv', ':lua MiniFiles.open()<Return>')
 --  Switch between buffers
@@ -195,7 +195,7 @@ vim.keymap.set('n', '<Tab>', '>>')
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+vim.keymap.set('n', '<leader>r', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -695,6 +695,7 @@ require('lazy').setup({
         gopls = {},
         pyright = {},
         rust_analyzer = {},
+        taplo = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:

@@ -44,7 +44,7 @@ return {
       use_default_opts = true,
       -- Keymaps to set for the quickfix buffer
       keys = {
-        -- { ">", "<cmd>lua require('quicker').expand()<CR>", desc = "Expand quickfix content" },
+        -- { '>', "<cmd>lua require('quicker').expand()<CR>", desc = 'Expand quickfix content' },
       },
       -- Callback function to run any custom logic or keymaps for the quickfix buffer
       on_qf = function(bufnr) end,

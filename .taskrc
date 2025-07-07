@@ -92,7 +92,7 @@ report.undone.columns=id,wait.remaining,scheduled.remaining,due.relative,depends
 report.undone.labels=ID,Wait,Schd,Due,Dep,Description,Urgent,P,Proj,Tag
 report.undone.sort=urgency-
 
-news.version=3.3.0
+news.version=3.4.1
 
 weekstart=Monday
 displayweeknumber=1

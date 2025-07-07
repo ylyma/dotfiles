@@ -17,10 +17,20 @@
     # will be ignored.
     follow = keyboard
 
-    width = 400
-    height = 300
-    origin = "top-right"
-    offset = "20x20"
+    width = (0,300)
+    height = (0,300)
+    origin = top-right
+    offset = (25,25)
+
+		scale=0
+
+		notification_limit = 0
+
+		progress_bar = true
+		progress_bar_height = 10
+		progress_bar_frame_width = 1
+		progress_bar_min_width = 150
+		progress_bar_max_width = 300
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -32,7 +42,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 15
+    transparency = 0
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -45,6 +55,7 @@
     # Horizontal padding.
     horizontal_padding = 8
 
+		text_icon_padding = 4
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
     frame_width = 3
@@ -125,7 +136,7 @@
     # Show age of message if message is older than show_age_threshold
     # seconds.
     # Set to -1 to disable.
-    show_age_threshold = 90
+    show_age_threshold = 60
 
     # Split notifications into multiple lines if they don't fit into
     # geometry.

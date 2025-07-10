@@ -1,6 +1,6 @@
 return {
   'lervag/wiki.vim',
-
+  enabled = vim.fn.isdirectory(vim.fn.expand '~/wiki') == 1,
   keys = {
     { '<leader>wl', '<cmd>WikiTags<cr>', desc = 'List wiki tags' },
     { '<leader>wp', '<cmd>WikiPages<cr>', desc = 'List wiki pages' },

@@ -26,8 +26,8 @@ function wifi_con
 end
 
 # vpn shortcut
-alias vpn-up="sudo wg-quick up wg0"
-alias vpn-down="sudo wg-quick down wg0"
+alias vup="sudo wg-quick up wg0 && sleep 1 && ping -c 2 8.8.8.8"
+alias vdown="sudo wg-quick down wg0"
 
 # ssh shortcuts
 alias uremote="fusermount -u /home/amy/mounts/remote"

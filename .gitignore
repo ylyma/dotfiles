@@ -12,4 +12,5 @@
 !.config/waybar/
 !.config/wofi/
 !.config/zathura/
+!.config/nnn/
 !.config/starship.toml

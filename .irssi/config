@@ -69,9 +69,8 @@ servers = (
     address = "irc.irchighway.net";
     chatnet = "IRCHighway";
     port = "6667";
-    use_tls = "no";
-    tls_verify = "yes";
-    autoconnect = "yes";
+    use_tls = "yes";
+    tls_verify = "no";
   }
 );
 
@@ -319,9 +318,9 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = "Unknown"; user_name = "amy"; nick = "amy"; };
+  core = { real_name = "Unknown"; user_name = "teapot"; nick = "teapot"; };
   "irc/dcc" = {
     dcc_autoget = "yes";
-    dcc_download_path = "/home/amy/books";
+    dcc_download_path = "/home/meepi/books";
   };
 };

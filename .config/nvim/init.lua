@@ -91,6 +91,10 @@ vim.api.nvim_create_autocmd({ 'FileType' }, {
   command = 'TSBufDisable highlight',
 })
 
+-- for everforest colorscheme
+vim.g.everforest_better_performance = 1
+vim.g.everforest_background = 'hard'
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 --  Traverse quickfix list
@@ -367,6 +371,7 @@ require('lazy').setup({
           -- },
         },
         opts = {},
+        fuzzy = { implementation = 'prefer_rust_with_warning' },
       },
       'folke/lazydev.nvim',
     },
@@ -483,7 +488,18 @@ require('lazy').setup({
       explorer = { enabled = true, replace_netrw = true },
       indent = { enabled = true },
       input = { enabled = true },
-      picker = { enabled = true },
+      picker = {
+        enabled = true,
+        sources = {
+          explorer = {
+            layout = {
+              layout = {
+                width = 30,
+              },
+            },
+          },
+        },
+      },
       notifier = { enabled = true },
       quickfile = { enabled = true },
       scope = { enabled = true },
@@ -890,6 +906,7 @@ require('lazy').setup({
     'echasnovski/mini.nvim',
     event = 'VeryLazy',
     config = function()
+      require('mini.pairs').setup()
       -- Better Around/Inside textobjects
       --
       -- Examples:
@@ -900,10 +917,22 @@ require('lazy').setup({
 
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
       --
-      -- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
-      -- - sd'   - [S]urround [D]elete [']quotes
-      -- - sr)'  - [S]urround [R]eplace [)] [']
-      require('mini.surround').setup()
+      -- - saiw) - [G][S]urround [A]dd [I]nner [W]ord [)]Paren
+      -- - sd'   - [G][S]urround [D]elete [']quotes
+      -- - sr)'  - [G][S]urround [R]eplace [)] [']
+      require('mini.surround').setup {
+        opts = {
+          mappings = {
+            add = 'gsa', -- Add surrounding
+            delete = 'gsd', -- Delete surrounding
+            find = 'gsf', -- Find surrounding (right)
+            find_left = 'gsF', -- Find surrounding (left)
+            highlight = 'gsh', -- Highlight surrounding
+            replace = 'gsr', -- Replace surrounding
+            update_n_lines = 'gsn', -- Update n_lines
+          },
+        },
+      }
 
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
@@ -927,7 +956,7 @@ require('lazy').setup({
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
-    opts = {
+    ots = {
       ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'vim', 'vimdoc' },
       -- Autoinstall languages that are not installed
       auto_install = true,

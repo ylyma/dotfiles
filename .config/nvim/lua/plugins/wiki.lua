@@ -8,10 +8,10 @@ return {
   init = function()
     vim.g.wiki_root = '~/wiki'
     vim.g.wiki_select_method = {
-      pages = require('wiki.telescope').pages,
-      tags = require('wiki.telescope').tags,
-      toc = require('wiki.telescope').toc,
-      links = require('wiki.telescope').links,
+      pages = require('wiki.ui_select').pages,
+      tags = require('wiki.ui_select').tags,
+      toc = require('wiki.ui_select').toc,
+      links = require('wiki.ui_select').links,
     }
   end,
 }

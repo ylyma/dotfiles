@@ -111,7 +111,7 @@ vim.keymap.set('n', '<leader>bd', ':bd<Return>')
 vim.keymap.set('n', '<S-Tab>', '<<')
 vim.keymap.set('n', '<Tab>', '>>')
 -- Keybind for :Explore
-vim.keymap.set('n', '<leader>pv', ':lua Snacks.explorer.open(opts)<Return>')
+vim.keymap.set('n', '<leader>pv', ':lua Snacks.explorer()<Return>')
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
@@ -434,7 +434,7 @@ require('lazy').setup({
       -- the rust implementation via `'prefer_rust_with_warning'`
       --
       -- See :h blink-cmp-config-fuzzy for more information
-      fuzzy = { implementation = 'lua' },
+      fuzzy = { implementation = 'prefer_rust_with_warning' },
 
       -- Shows a signature help window while you type arguments for a function
       signature = { enabled = true },
@@ -484,7 +484,16 @@ require('lazy').setup({
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
       bigfile = { enabled = true },
-      dashboard = { enabled = true },
+      dashboard = {
+        enabled = true,
+        sections = {
+          { section = 'header' },
+          { icon = ' ', title = 'Keymaps', section = 'keys', indent = 2, padding = 1 },
+          { icon = ' ', title = 'Recent Files', section = 'recent_files', indent = 2, padding = 1 },
+          { icon = ' ', title = 'Projects', section = 'projects', indent = 2, padding = 1 },
+          { section = 'startup' },
+        },
+      },
       explorer = { enabled = true, replace_netrw = true },
       indent = { enabled = true },
       input = { enabled = true },
@@ -503,12 +512,55 @@ require('lazy').setup({
       notifier = { enabled = true },
       quickfile = { enabled = true },
       scope = { enabled = true },
-      scroll = { enabled = true },
+      scroll = {
+        enabled = true,
+        animate_repeat = {
+          delay = 100, -- delay in ms before using the repeat animation
+          duration = { step = 5, total = 50 },
+          easing = 'linear',
+        },
+      },
       statuscolumn = { enabled = true },
       words = { enabled = true },
       lazygit = { enabled = true },
       rename = { enabled = true },
-      terminal = { enabled = true },
+      terminal = {
+        enabled = true,
+        bo = {
+          filetype = 'snacks_terminal',
+        },
+        wo = {},
+        keys = {
+          q = 'hide',
+          gf = function(self)
+            local f = vim.fn.findfile(vim.fn.expand '<cfile>', '**')
+            if f == '' then
+              Snacks.notify.warn 'No file under cursor'
+            else
+              self:hide()
+              vim.schedule(function()
+                vim.cmd('e ' .. f)
+              end)
+            end
+          end,
+          term_normal = {
+            '<esc>',
+            function(self)
+              self.esc_timer = self.esc_timer or (vim.uv or vim.loop).new_timer()
+              if self.esc_timer:is_active() then
+                self.esc_timer:stop()
+                vim.cmd 'stopinsert'
+              else
+                self.esc_timer:start(200, 0, function() end)
+                return '<esc>'
+              end
+            end,
+            mode = 't',
+            expr = true,
+            desc = 'Double escape to normal mode',
+          },
+        },
+      },
     },
     keys = {
       -- Top Pickers & Explorer
@@ -917,20 +969,18 @@ require('lazy').setup({
 
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
       --
-      -- - saiw) - [G][S]urround [A]dd [I]nner [W]ord [)]Paren
-      -- - sd'   - [G][S]urround [D]elete [']quotes
-      -- - sr)'  - [G][S]urround [R]eplace [)] [']
+      -- - gsaiw) - [G][S]urround [A]dd [I]nner [W]ord [)]Paren
+      -- - gsd'   - [G][S]urround [D]elete [']quotes
+      -- - gsr)'  - [G][S]urround [R]eplace [)] [']
       require('mini.surround').setup {
-        opts = {
-          mappings = {
-            add = 'gsa', -- Add surrounding
-            delete = 'gsd', -- Delete surrounding
-            find = 'gsf', -- Find surrounding (right)
-            find_left = 'gsF', -- Find surrounding (left)
-            highlight = 'gsh', -- Highlight surrounding
-            replace = 'gsr', -- Replace surrounding
-            update_n_lines = 'gsn', -- Update n_lines
-          },
+        mappings = {
+          add = 'gsa', -- Add surrounding
+          delete = 'gsd', -- Delete surrounding
+          find = 'gsf', -- Find surrounding (right)
+          find_left = 'gsF', -- Find surrounding (left)
+          highlight = 'gsh', -- Highlight surrounding
+          replace = 'gsr', -- Replace surrounding
+          update_n_lines = 'gsn', -- Update n_lines
         },
       }
 

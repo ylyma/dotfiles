@@ -81,11 +81,11 @@ end
 
 starship init fish | source
 
+zoxide init fish | source
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-
-zoxide init fish | source
 
 # BEGIN opam configuration
 # This is useful if you're using opam as it adds:

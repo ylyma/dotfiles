@@ -2,101 +2,61 @@ vim.diagnostic.config {
   virtual_text = false,
 }
 -- Set <space> as the leader key
--- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.hidden = true
+
 -- Set to true if you have a Nerd Font installed
 vim.g.have_nerd_font = true
+
 vim.opt.foldmethod = 'expr'
 vim.opt.foldenable = false
 vim.opt.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
 vim.opt.foldtext = 'v:lua.vim.treesitter.foldtext()'
+
 -- [[ Setting options ]]
--- See `:help vim.opt`
--- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
--- Make line numbers default
 vim.opt.number = true
--- You can also add relative line numbers, to help with jumping.
---  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
-
--- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
-
--- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
-
 -- Sync clipboard between OS and Neovim.
---  Remove this option if you want your OS clipboard to remain independent.
---  See `:help 'clipboard'`
 vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
-
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
-
 vim.opt.expandtab = true
-
 vim.opt.autoindent = true
--- Enable smart indent
 vim.opt.smartindent = true
-
--- Enable break indent
 vim.opt.breakindent = true
-
 -- Save undo history
 vim.opt.undofile = true
-
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-
 -- Keep signcolumn on by default
 vim.opt.signcolumn = 'yes'
-
 -- Decrease update time
 vim.opt.updatetime = 250
-
 -- Decrease mapped sequence wait time
 -- Displays which-key popup sooner
 vim.opt.timeoutlen = 1000
-
 -- Configure how new splits should be opened
 vim.opt.splitright = true
 vim.opt.splitbelow = true
-
 -- Sets how neovim will display certain whitespace characters in the editor.
---  See `:help 'list'`
---  and `:help 'listchars'`
 vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
-
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
-
 -- Show which line your cursor is on
 vim.opt.cursorline = true
-
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
--- Add this to your config
-
-vim.api.nvim_create_autocmd({ 'FileType' }, {
-  pattern = 'tex',
-  group = vim.api.nvim_create_augroup('tex-treesitter', { clear = true }),
-  command = 'TSBufDisable highlight',
-})
-
--- for everforest colorscheme
-vim.g.everforest_better_performance = 1
-vim.g.everforest_background = 'hard'
 
 -- [[ Basic Keymaps ]]
---  See `:help vim.keymap.set()`
 --  Traverse quickfix list
 vim.keymap.set('n', ']q', ':cn<Return>')
 vim.keymap.set('n', '[q', ':cp<Return>')
@@ -110,33 +70,51 @@ vim.keymap.set('n', '<leader>bd', ':bd<Return>')
 --  'Tab' tabs the entire line
 vim.keymap.set('n', '<S-Tab>', '<<')
 vim.keymap.set('n', '<Tab>', '>>')
--- Keybind for :Explore
-vim.keymap.set('n', '<leader>pv', ':lua Snacks.explorer()<Return>')
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
 vim.keymap.set('n', '<leader>r', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
--- Shortcuts for todo-comments
+-- Keymaps for mini.files
+local minifiles_toggle = function(...)
+  if not MiniFiles.close() then
+    MiniFiles.open(...)
+  end
+end
+vim.keymap.set('n', '<leader>e', function()
+  minifiles_toggle(vim.api.nvim_buf_get_name(0), false)
+end, { desc = 'Toggle mini.files (current file)' })
+
+vim.keymap.set('n', '<leader>E', function()
+  minifiles_toggle(nil, false)
+end, { desc = 'Toggle mini.files (cwd)' })
+-- Keymaps for todo-comments
 vim.keymap.set('n', ']t', function()
   require('todo-comments').jump_next()
 end, { desc = 'Next todo comment' })
-
 vim.keymap.set('n', '[t', function()
   require('todo-comments').jump_prev()
 end, { desc = 'Previous todo comment' })
 
---  See `:help wincmd` for a list of all window commands
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
 vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
 -- [[ Basic Autocommands ]]
---  See `:help lua-guide-autocommands`
+vim.api.nvim_create_autocmd('User', {
+  pattern = 'MiniFilesActionRename',
+  callback = function(event)
+    Snacks.rename.on_rename_file(event.data.from, event.data.to)
+  end,
+})
+vim.api.nvim_create_autocmd({ 'FileType' }, {
+  pattern = 'tex',
+  group = vim.api.nvim_create_augroup('tex-treesitter', { clear = true }),
+  command = 'TSBufDisable highlight',
+})
+
 -- Highlight when yanking (copying) text
---  Try it with `yap` in normal mode
---  See `:help vim.highlight.on_yank()`
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'json',
   callback = function()
@@ -168,36 +146,10 @@ local rtp = vim.opt.rtp
 rtp:prepend(lazypath)
 
 -- [[ Configure and install plugins ]]
---
---  To check the current status of your plugins, run
---    :Lazy
---
---  You can press `?` in this menu for help. Use `:q` to close the window
---
---  To update plugins you can run
---    :Lazy update
---
--- NOTE: Here is where you install your plugins.
 require('lazy').setup({
-  -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
-  -- NOTE: Plugins can also be added by using a table,
-  -- with the first argument being the link and the following
-  -- keys can be used to configure plugin behavior/loading/etc.
-  --
-  -- Use `opts = {}` to force a plugin to be loaded.
-  --
-  --  This is equivalent to:
-  --    require('Comment').setup({})
-
-  -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
-  -- Here is a more advanced example where we pass configuration
-  -- options to `gitsigns.nvim`. This is equivalent to the following Lua:
-  --    require('gitsigns').setup({ ... })
-  --
-  -- See `:help gitsigns` to understand what the configuration keys do
   { -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
     opts = {
@@ -210,22 +162,6 @@ require('lazy').setup({
       },
     },
   },
-
-  -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
-  --
-  -- This is often very useful to both group configuration, as well as handle
-  -- lazy loading plugins that don't need to be loaded immediately at startup.
-  --
-  -- For example, in the following configuration, we use:
-  --  event = 'VimEnter'
-  --
-  -- which loads which-key before all the UI elements are loaded. Events can be
-  -- normal autocommands events (`:help autocmd-events`).
-  --
-  -- Then, because we use the `config` key, the configuration only runs
-  -- after the plugin has been loaded:
-  --  config = function() ... end
-
   {
     'folke/which-key.nvim',
     event = 'VeryLazy',
@@ -278,14 +214,6 @@ require('lazy').setup({
       },
     },
   },
-
-  -- NOTE: Plugins can specify dependencies.
-  --
-  -- The dependencies are proper plugin specifications as well - anything
-  -- you do for a plugin at the top level, you can do for a dependency.
-  --
-  -- Use the `dependencies` key to specify the dependencies of a particular plugin
-
   {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins
     -- used for completion, annotations and signatures of Neovim apis
@@ -390,8 +318,6 @@ require('lazy').setup({
         -- For an understanding of why the 'default' preset is recommended,
         -- you will need to read `:help ins-completion`
         --
-        -- No, but seriously. Please read `:help ins-completion`, it is really good!
-        --
         -- All presets have the following mappings:
         -- <tab>/<s-tab>: move to right/left of your snippet expansion
         -- <c-space>: Open menu or open docs if already open
@@ -440,16 +366,16 @@ require('lazy').setup({
       signature = { enabled = true },
     },
   },
-  { -- You can easily change to a different colorscheme.
-    -- Change the name of the colorscheme plugin below, and then
-    -- change the command in the config to whatever the name of that colorscheme is.
-    --
+  {
     'sainnhe/everforest',
     lazy = false,
     priority = 1000,
     config = function()
       -- Optionally configure and load the colorscheme
       -- directly inside the plugin declaration.
+      --
+      vim.g.everforest_better_performance = 1
+      vim.g.everforest_background = 'hard'
       vim.g.everforest_enable_italic = true
       vim.cmd.colorscheme 'everforest'
     end,
@@ -494,20 +420,10 @@ require('lazy').setup({
           { section = 'startup' },
         },
       },
-      explorer = { enabled = true, replace_netrw = true },
       indent = { enabled = true },
       input = { enabled = true },
       picker = {
         enabled = true,
-        sources = {
-          explorer = {
-            layout = {
-              layout = {
-                width = 30,
-              },
-            },
-          },
-        },
       },
       notifier = { enabled = true },
       quickfile = { enabled = true },
@@ -563,7 +479,7 @@ require('lazy').setup({
       },
     },
     keys = {
-      -- Top Pickers & Explorer
+      -- Top Pickers
       {
         '<leader><space>',
         function()
@@ -598,13 +514,6 @@ require('lazy').setup({
           Snacks.picker.notifications()
         end,
         desc = 'Notification History',
-      },
-      {
-        '<leader>e',
-        function()
-          Snacks.explorer()
-        end,
-        desc = 'File Explorer',
       },
       -- find
       {
@@ -958,6 +867,7 @@ require('lazy').setup({
     'echasnovski/mini.nvim',
     event = 'VeryLazy',
     config = function()
+      require('mini.files').setup()
       require('mini.pairs').setup()
       -- Better Around/Inside textobjects
       --
@@ -999,7 +909,6 @@ require('lazy').setup({
         return '%2l:%-2v'
       end
 
-      -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
   },

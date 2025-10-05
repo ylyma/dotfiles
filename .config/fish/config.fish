@@ -14,15 +14,15 @@ alias buds="bluetoothctl connect 58:A6:39:21:D4:74 "
 
 # nmcli commands
 alias wifi-scan="nmcli device wifi list"
-function wifi_con
+function wifi-con
 	set username $arg[1]
 	set passwd $arg[2]
 	if test (count $argv) -ne 2
-		echo "Usage: wifi_con <network_name> <password>"
+		echo "Usage: wifi-con <network_name> <password>"
 		return 1
 	end
 	
-	nmcli device wifi connect $username password "$passwd"
+	nmcli device wifi connect $username password $passwd
 end
 
 # vpn shortcut

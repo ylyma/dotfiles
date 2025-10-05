@@ -1126,6 +1126,19 @@ vim.diagnostic.config {
   },
 }
 
+-- LSP CONFIGURATION
+
+vim.lsp.config('ts_ls', {
+  cmd = { 'typescript-language-server', '--stdio' },
+  filetypes = { 'javascript', 'javascriptreact', 'typescript', 'typescriptreact' },
+  root_markers = {
+    'package.json',
+    'tsconfig.json',
+    'jsconfig.json',
+    '.git',
+  },
+})
+
 vim.lsp.config('lua_ls', {
   cmd = { 'lua-language-server' },
   filetypes = { 'lua' },

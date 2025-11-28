@@ -37,6 +37,8 @@ alias scct="ssh rocky@scct.comp.nus.edu"
 alias wing1="ssh amyling@ecp.d2.comp.nus.edu.sg"
 alias wing2="ssh amyling@mce.d2.comp.nus.edu.sg"
 alias meepi="ssh meepi@10.0.0.1"
+alias tkr="ssh -A tkr@tkr-gate.ddns.comp.nus.edu"
+alias tkr-amy="ssh -A amy@tkr-gate.ddns.comp.nus.edu"
 
 # basic cli commands
 alias rm='rm -i'

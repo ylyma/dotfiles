@@ -7,9 +7,11 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.hidden = true
 
+vim.opt.termguicolors = true
+
 -- Set to true if you have a Nerd Font installed
 vim.g.have_nerd_font = true
-
+vim.opt.rtp = vim.opt.rtp + 'home/amy/.opam/default/share/ocp-indent/vim'
 -- [[ Setting options ]]
 --  For more options, you can see `:help option-list`
 vim.opt.foldmethod = 'expr'
@@ -56,12 +58,6 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- [[ Basic Keymaps ]]
---  Traverse quickfix list
-vim.keymap.set('n', ']q', ':cn<Return>')
-vim.keymap.set('n', '[q', ':cp<Return>')
--- Traverse loclist
-vim.keymap.set('n', ']d', ':lnext<Return>')
-vim.keymap.set('n', '[d', ':lprevious<Return>')
 --  Switch between buffers
 vim.keymap.set('n', '<leader>bn', ':bn<Return>')
 vim.keymap.set('n', '<leader>bp', ':bp<Return>')
@@ -72,8 +68,10 @@ vim.keymap.set('n', '<Tab>', '>>')
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
-vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
-vim.keymap.set('n', '<leader>r', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagnostic messages' })
+vim.keymap.set('n', '<leader>r', vim.diagnostic.setloclist, { desc = 'Open diagnostic loclist' })
+vim.keymap.set('n', ']q', ':lnext<Return>')
+vim.keymap.set('n', '[]q', ':lprev<Return>')
 -- Keymaps for mini.files
 local minifiles_toggle = function(...)
   if not MiniFiles.close() then
@@ -87,6 +85,7 @@ end, { desc = 'Toggle mini.files (current file)' })
 vim.keymap.set('n', '<leader>E', function()
   minifiles_toggle(nil, false)
 end, { desc = 'Toggle mini.files (cwd)' })
+
 -- Keymaps for todo-comments
 vim.keymap.set('n', ']t', function()
   require('todo-comments').jump_next()
@@ -121,6 +120,31 @@ vim.api.nvim_create_autocmd('FileType', {
   end,
 })
 
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = 'markdown',
+  callback = function()
+    vim.opt_local.foldmethod = 'marker'
+    vim.opt_local.foldmarker = '{{{,}}}'
+    vim.opt_local.foldlevel = 99
+
+    vim.opt_local.foldtext = 'v:lua.MarkdownDetailsFoldText()'
+  end,
+})
+
+_G.MarkdownDetailsFoldText = function()
+  local foldstart = vim.v.foldstart
+  local foldend = vim.v.foldend
+  local lines = vim.api.nvim_buf_get_lines(0, foldstart - 1, foldend, false)
+
+  for _, line in ipairs(lines) do
+    local summary = line:match '<summary>(.-)</summary>'
+    if summary then
+      return '▶ ' .. summary
+    end
+  end
+
+  return '▶ <details>'
+end
 -- Highlight when yanking (copying) text
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
@@ -130,7 +154,69 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
--- [[ Install `lazy.nvim` plugin manager ]]
+vim.api.nvim_create_autocmd('LspAttach', {
+  group = augroup,
+  callback = function(event)
+    local client = vim.lsp.get_client_by_id(event.data.client_id)
+
+    local map = function(keys, func, desc, mode)
+      mode = mode or 'n'
+      vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc })
+    end
+
+    -- Rename the variable under your cursor.
+    --  Most Language Servers support renaming across files, etc.
+    map('grn', vim.lsp.buf.rename, '[R]e[n]ame')
+
+    -- Execute a code action, usually your cursor needs to be on top of an error
+    -- or a suggestion from your LSP for this to activate.
+    map('gra', vim.lsp.buf.code_action, '[G]oto Code [A]ction', { 'n', 'x' })
+
+    ---@param client vim.lsp.Client
+    ---@param method string
+    ---@param bufnr? integer some lsp support methods only in specific files
+    ---@return boolean
+    local function client_supports_method(client, method, bufnr)
+      if vim.fn.has 'nvim-0.11' == 1 then
+        return client:supports_method(method, bufnr)
+      else
+        return client.supports_method(method, { bufnr = bufnr })
+      end
+    end
+
+    -- The following two autocommands are used to highlight references of the
+    -- word under your cursor when your cursor rests there for a little while.
+    --
+    -- When you move your cursor, the highlights will be cleared (the second autocommand).
+    if client and client_supports_method(client, 'textDocument/documentHighlight', event.buf) then
+      local highlight_augroup = vim.api.nvim_create_augroup('kickstart-lsp-highlight', { clear = false })
+      vim.api.nvim_create_autocmd({ 'CursorHold', 'CursorHoldI' }, {
+        buffer = event.buf,
+        group = highlight_augroup,
+        callback = vim.lsp.buf.document_highlight,
+      })
+
+      vim.api.nvim_create_autocmd({ 'CursorMoved', 'CursorMovedI' }, {
+        buffer = event.buf,
+        group = highlight_augroup,
+        callback = vim.lsp.buf.clear_references,
+      })
+
+      vim.api.nvim_create_autocmd('LspDetach', {
+        group = vim.api.nvim_create_augroup('kickstart-lsp-detach', { clear = true }),
+        callback = function(event2)
+          vim.lsp.buf.clear_references()
+          vim.api.nvim_clear_autocmds { group = 'kickstart-lsp-highlight', buffer = event2.buf }
+        end,
+      })
+    end
+  end,
+})
+
+vim.api.nvim_create_autocmd('LspDetach', {
+  group = augroup,
+  command = 'setl foldexpr<',
+})
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = 'https://github.com/folke/lazy.nvim.git'
@@ -144,9 +230,7 @@ end
 local rtp = vim.opt.rtp
 rtp:prepend(lazypath)
 
--- [[ Configure and install plugins ]]
 require('lazy').setup({
-  'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
   { 'numToStr/Comment.nvim', opts = {} },
   {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins
@@ -185,7 +269,7 @@ require('lazy').setup({
           return nil
         else
           return {
-            timeout_ms = 500,
+            timeout_ms = 3000,
             lsp_format = 'fallback',
           }
         end
@@ -200,6 +284,8 @@ require('lazy').setup({
         -- You can use 'stop_after_first' to run the first available formatter from the list
         javascript = { 'prettierd', 'prettier', stop_after_first = true },
         typescript = { 'prettierd', 'prettier', stop_after_first = true },
+        cpp = { 'clangd' },
+        ocaml = { 'ocamlformat' },
       },
     },
   },
@@ -232,6 +318,11 @@ require('lazy').setup({
           --   end,
           -- },
         },
+        config = function()
+          require('luasnip.loaders.from_lua').load {
+            paths = { './lua/luasnips' },
+          }
+        end,
         opts = {},
         fuzzy = { implementation = 'prefer_rust_with_warning' },
       },
@@ -359,19 +450,19 @@ require('lazy').setup({
       picker = {
         enabled = true,
       },
-      notifier = { enabled = true },
+      notifier = { enabled = false },
       quickfile = { enabled = true },
       scope = { enabled = true },
       scroll = {
         enabled = true,
         animate_repeat = {
-          delay = 100, -- delay in ms before using the repeat animation
+          delay = 50, -- delay in ms before using the repeat animation
           duration = { step = 5, total = 50 },
           easing = 'linear',
         },
       },
       statuscolumn = { enabled = true },
-      words = { enabled = true },
+      words = { enabled = false },
       lazygit = { enabled = true },
       rename = { enabled = true },
       terminal = {
@@ -917,12 +1008,12 @@ require('lazy').setup({
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     ots = {
-      ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'vim', 'vimdoc' },
+      ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'vim', 'vimdoc', 'latex' },
       -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
         enable = true,
-        disable = { 'latex' },
+        disable = {},
         -- Some languages depend on vim's regex highlighting system (such as Ruby) for indent rules.
         --  If you are experiencing weird indenting issues, add the language to
         --  the list of additional_vim_regex_highlighting and disabled languages for indent.
@@ -932,7 +1023,6 @@ require('lazy').setup({
     },
     config = function(_, opts)
       -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
-
       ---@diagnostic disable-next-line: missing-fields
       require('nvim-treesitter.configs').setup(opts)
       require('nvim-ts-autotag').setup()
@@ -970,9 +1060,7 @@ require('lazy').setup({
   },
 })
 
-local augroup = vim.api.nvim_create_augroup('modern-lsp', { clear = true })
-
--- Diagnostic Config (migrated from old version)
+-- Diagnostic Config
 -- See :help vim.diagnostic.Opts
 vim.diagnostic.config {
   severity_sort = true,
@@ -1000,70 +1088,6 @@ vim.diagnostic.config {
     end,
   },
 }
-vim.api.nvim_create_autocmd('LspAttach', {
-  group = augroup,
-  callback = function(event)
-    local client = vim.lsp.get_client_by_id(event.data.client_id)
-    local bufnr = event.buf
-
-    local map = function(keys, func, desc, mode)
-      mode = mode or 'n'
-      vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc })
-    end
-
-    -- Rename the variable under your cursor.
-    --  Most Language Servers support renaming across files, etc.
-    map('grn', vim.lsp.buf.rename, '[R]e[n]ame')
-
-    -- Execute a code action, usually your cursor needs to be on top of an error
-    -- or a suggestion from your LSP for this to activate.
-    map('gra', vim.lsp.buf.code_action, '[G]oto Code [A]ction', { 'n', 'x' })
-
-    ---@param client vim.lsp.Client
-    ---@param method string
-    ---@param bufnr? integer some lsp support methods only in specific files
-    ---@return boolean
-    local function client_supports_method(client, method, bufnr)
-      if vim.fn.has 'nvim-0.11' == 1 then
-        return client:supports_method(method, bufnr)
-      else
-        return client.supports_method(method, { bufnr = bufnr })
-      end
-    end
-
-    -- The following two autocommands are used to highlight references of the
-    -- word under your cursor when your cursor rests there for a little while.
-    --
-    -- When you move your cursor, the highlights will be cleared (the second autocommand).
-    if client and client_supports_method(client, 'textDocument/documentHighlight', event.buf) then
-      local highlight_augroup = vim.api.nvim_create_augroup('kickstart-lsp-highlight', { clear = false })
-      vim.api.nvim_create_autocmd({ 'CursorHold', 'CursorHoldI' }, {
-        buffer = event.buf,
-        group = highlight_augroup,
-        callback = vim.lsp.buf.document_highlight,
-      })
-
-      vim.api.nvim_create_autocmd({ 'CursorMoved', 'CursorMovedI' }, {
-        buffer = event.buf,
-        group = highlight_augroup,
-        callback = vim.lsp.buf.clear_references,
-      })
-
-      vim.api.nvim_create_autocmd('LspDetach', {
-        group = vim.api.nvim_create_augroup('kickstart-lsp-detach', { clear = true }),
-        callback = function(event2)
-          vim.lsp.buf.clear_references()
-          vim.api.nvim_clear_autocmds { group = 'kickstart-lsp-highlight', buffer = event2.buf }
-        end,
-      })
-    end
-  end,
-})
-
-vim.api.nvim_create_autocmd('LspDetach', {
-  group = augroup,
-  command = 'setl foldexpr<',
-})
 
 vim.lsp.config('lua_ls', {
   cmd = { 'lua-language-server' },
@@ -1131,12 +1155,26 @@ vim.lsp.config('pylsp', {
   root_markers = { 'pyproject.toml', 'setup.py', 'setup.cfg', 'requirements.txt', '.git' },
 })
 
--- Enable language servers
+vim.lsp.config('ocamllsp', {
+  cmd = { 'ocamllsp' },
+  filetypes = { 'ocaml', 'ocaml.menhir', 'ocaml.interface', 'ocaml.ocmllex', 'reason', 'dune' },
+  root_markers = { '.opam', 'esy.json', 'package.json', '.git', 'dune-project', 'dune-workspace' },
+  capabilities = {
+    textDocument = {
+      completion = {
+        snippetSupport = true,
+        resolveSupport = { properties = { 'documentation', 'detail', 'additionalTextEdits' } },
+      },
+    },
+  },
+})
+
 vim.lsp.enable {
   'lua_ls',
   'clangd',
   'marksman',
   'pylsp',
+  'ocamllsp',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`

@@ -1219,12 +1219,19 @@ vim.lsp.config('ocamllsp', {
   },
 })
 
+vim.lsp.config('hls', {
+  cmd = { 'haskell-language-server-wrapper', '--lsp' },
+  filetypes = { 'haskell', 'lhaskell' },
+  root_markers = { 'hie.yaml', 'stack.yaml', 'cabal.project', '*.cabal', 'package.yaml' },
+})
+
 vim.lsp.enable {
   'lua_ls',
   'clangd',
   'marksman',
   'pylsp',
   'ocamllsp',
+  'hls',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`

@@ -17,12 +17,16 @@ alias wifi-scan="nmcli device wifi list"
 function wifi-con
 	set username $arg[1]
 	set passwd $arg[2]
-	if test (count $argv) -ne 2
-		echo "Usage: wifi-con <network_name> <password>"
+	if test (count $argv) -lt 2
+		echo "Usage: wifi-con <network_name> [password]"
 		return 1
 	end
 	
-	nmcli device wifi connect $username password $passwd
+  if test (count $argv) -ge 2
+    nmcli device wifi connect $username password $passwd
+  else
+    nmcli device wifi connect $network
+  end
 end
 
 # vpn shortcut
@@ -96,3 +100,5 @@ end
 # This section can be safely removed at any time if needed.
 test -r '/home/amy/.opam/opam-init/init.fish' && source '/home/amy/.opam/opam-init/init.fish' > /dev/null 2> /dev/null; or true
 # END opam configuration
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/amy/.ghcup/bin $PATH # ghcup-env

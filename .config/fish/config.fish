@@ -1,4 +1,5 @@
 ﻿export EDITOR="nvim"
+fish_add_path ~/.local/bin
 
 # editor commands
 alias panmd2pdf='pandoc --from=markdown --to=pdf -V fonsize=12t -V colorlinks -V indent=true -V documentclass=amsart -V linestretch=1.5'
@@ -32,6 +33,7 @@ end
 # vpn shortcut
 alias vup="sudo wg-quick up wg0 && sleep 1 && ping -c 2 8.8.8.8"
 alias vdown="sudo wg-quick down wg0"
+alias nus="sudo openfortivpn webvpn.comp.nus.edu.sg:443 --saml-login"
 
 # ssh shortcuts
 alias uremote="fusermount -u /home/amy/mounts/remote"
